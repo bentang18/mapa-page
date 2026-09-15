@@ -4,6 +4,6 @@
 
 Ben Tang, Zachary Spalding, Gregory B. Cogan · Duke University
 
-[Code and checkpoints](https://github.com/bentang18/MAPA)
+[Paper](https://arxiv.org/abs/2609.13507) · [Code and checkpoints](https://github.com/bentang18/MAPA)
 
-Static site served by GitHub Pages from the main branch. The Paper button currently opens the bundled preprint PDF. The arXiv link and citation will be updated when available.
+Static site served by GitHub Pages from the main branch. The Paper link opens arXiv:2609.13507; the page includes the verified arXiv citation.
