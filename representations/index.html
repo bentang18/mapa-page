@@ -70,7 +70,8 @@ function draw(){
 }
 function stop(){playing=false;cancelAnimationFrame(raf);$('play').textContent='▶ Play';$('play').setAttribute('aria-pressed','false');}
 function tick(now){if(!playing)return;if(now-lastTime>=80){frame=(frame+Math.floor((now-lastTime)/80))%64;lastTime=now;draw();}raf=requestAnimationFrame(tick);}
-$('play').addEventListener('click',()=>{if(playing){stop();return;}playing=true;lastTime=performance.now();$('play').textContent='Ⅱ Pause';$('play').setAttribute('aria-pressed','true');raf=requestAnimationFrame(tick);});
+function start(){if(playing)return;playing=true;lastTime=performance.now();$('play').textContent='Ⅱ Pause';$('play').setAttribute('aria-pressed','true');raf=requestAnimationFrame(tick);}
+$('play').addEventListener('click',()=>playing?stop():start());
 $('layer').addEventListener('input',prepare);$('task').addEventListener('change',()=>{frame=0;lastTime=performance.now();prepare();});
-document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});new ResizeObserver(draw).observe(canvas);prepare();
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});new ResizeObserver(draw).observe(canvas);prepare();start();
 </script></body></html>
