@@ -8,10 +8,14 @@ button {font:inherit;cursor:pointer}
 a:focus-visible,button:focus-visible,summary:focus-visible {outline:2px solid #555;outline-offset:4px}
 .skip {position:fixed;top:-80px;left:20px;padding:12px;background:white;z-index:10}
 .skip:focus {top:10px}
-.intro {max-width:1060px;margin:auto;padding:66px 24px 20px;text-align:center}
-.title {font-size:clamp(28px,3.4vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:500;margin:0 0 26px}
+.intro {max-width:1060px;margin:auto;padding:46px 24px 10px;text-align:center}
+.title {font-size:clamp(28px,3.4vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:500;margin:0 0 20px}
 .authors {font-size:16px;line-height:1.7;margin:0 0 6px}
 .affil {font-size:14px;line-height:1.6;color:#666;margin:0}
+.venue {font-size:16px;line-height:1.6;font-weight:600;color:#262626;margin:10px 0 0}
+.venue a {text-decoration:none}
+.venue a:hover {text-decoration:underline}
+.venue + .links {margin-top:14px}
 .links {display:flex;justify-content:center;gap:26px;margin-top:24px;font-size:15px}
 .links a {color:var(--accent);font-weight:500;text-decoration-thickness:1px}
 .links a:hover {text-decoration-thickness:2px}
