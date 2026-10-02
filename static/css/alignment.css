@@ -1,0 +1,21 @@
+/* Five measured layers, with a shared legend and event-time control. */
+.alignment-figure,.alignment-details {max-width:44rem;margin-left:auto;margin-right:auto}
+.alignment-layout {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 18px;align-items:start}
+.alignment-grid {display:contents}
+.alignment-panel {min-width:0}
+.alignment-panel-head {display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:0 6px}
+.alignment-panel h3 {font-size:15px;font-weight:600;letter-spacing:0;margin:0;color:#191919}
+.alignment-score {font-size:12px;color:#777;margin:0;font-variant-numeric:tabular-nums;white-space:nowrap}
+.alignment-panel canvas {display:block;width:100%;aspect-ratio:1}
+.alignment-console {align-self:center;text-align:center;padding:6px 18px}
+.alignment-event {font-size:14px;color:#555}
+.alignment-event output {display:block;font-size:26px;line-height:1.35;letter-spacing:-.025em;font-variant-numeric:tabular-nums;color:#262626;margin-top:3px}
+.alignment-legend {display:grid;grid-template-columns:repeat(2,max-content);justify-content:center;gap:9px 25px;font-size:12px;color:#555;margin:16px 0}
+.alignment-legend span {display:flex;align-items:center;gap:7px}
+.alignment-legend i {display:inline-block;width:7px;height:7px;border-radius:50%}
+.alignment-controls {display:flex;align-items:center;gap:12px;margin:8px auto 0;max-width:220px}
+.alignment-controls button {font-size:12px;border:1px solid #ddd;border-radius:5px;background:white;color:#333;padding:6px 10px;min-width:58px;min-height:36px}
+.alignment-controls button:hover {background:#f7f7f7}
+.alignment-controls input {accent-color:#333;min-width:0;width:100%;height:24px;cursor:pointer}
+.alignment-details {margin-top:16px}
+@media(max-width:600px){.alignment-layout {display:block}.alignment-grid {display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:18px;padding:4px 0 12px}.alignment-panel {flex:0 0 85%;scroll-snap-align:center}.alignment-console {margin-top:8px;padding:0}.alignment-event output {display:inline-block;font-size:20px;margin:0 0 0 12px;min-width:80px;text-align:left}.alignment-legend {display:flex;flex-wrap:wrap;gap:12px 18px;margin:14px 0}.alignment-controls {max-width:270px;margin-top:12px}.alignment-panel-head {padding:0 18px}}
