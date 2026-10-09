@@ -22,7 +22,7 @@
 
 <link rel="preload" href="static/fonts/ManropeVariable.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="static/css/project.css?v=31">
-<link rel="stylesheet" href="static/css/alignment.css?v=2">
+<link rel="stylesheet" href="static/css/alignment.css?v=4">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
 
@@ -53,6 +53,8 @@
 <h2>Latent trajectories align across subjects</h2>
 <p>Does cross-subject decoding come with shared neural representations? Around speech onset, subjects’ latent trajectories become <strong>more similarly shaped through the encoder</strong>.</p>
 <figure class="alignment-figure" aria-label="Speech-onset trajectories through five encoder layers">
+<div class="alignment-projection"><label for="alignment-projection">PCA basis</label><select id="alignment-projection"><option value="global">All layers together</option><option value="depth">Each layer separately</option></select></div>
+<p id="alignment-projection-note" aria-live="polite">One basis shared across all layers and subjects. Zoom varies by panel.</p>
 <div class="alignment-layout"><div class="alignment-grid" id="alignment-grid"></div>
 <div class="alignment-console"><div class="alignment-event">Speech onset<output id="alignment-time">−0.50 s</output></div>
 <div class="alignment-legend" id="alignment-legend" aria-label="Subject colors"></div>
@@ -61,7 +63,7 @@
 <noscript><p><a href="representations/">Open the representation explorer</a> (JavaScript required).</p></noscript>
 </figure>
 <details class="alignment-details"><summary>Projection and analysis details</summary>
-<p>These are trial-averaged word-onset responses minus nonverbal responses, pooled over temporal-lobe contacts, from −0.5 to +1.5 seconds. One PCA basis is shared across all subjects, tasks, and layers. The first two PCs are shown, with each curve centered on its pre-event mean. Zoom changes between panels; horizontal and vertical scales remain equal within each panel. This global PCA captures early-layer variation poorly, so the projected shapes alone do not establish the increase in similarity.</p>
+<p>These are trial-averaged word-onset responses minus nonverbal responses, pooled over temporal-lobe contacts, from −0.5 to +1.5 seconds. Choose one PCA basis across all 13 layers, or a separate basis at each layer. Both options pool all 12 sessions, all three tasks, and all 64 timepoints, using unscaled class contrasts. PCA is fitted before pre-event centering; no subject-specific PCA is fitted. The first two PCs are shown, with each curve centered on its pre-event mean. Zoom changes between panels; horizontal and vertical scales remain equal within each panel. The all-layer PCA can miss early-layer variation; per-layer PCA changes axes between layers. Projected shapes alone do not establish the increase in similarity. CKA is computed in the full representation and is unchanged by the PCA selection.</p>
 <p>Eleven of twelve sessions are displayed: S3 session 1 is hidden for readability, but remains in the PCA and all CKA measurements. CKA uses all 384 features, with temporal mean centering and equal-session averaging within each of six subjects, then averages the fifteen subject-pair similarities. It is a whole-window measure, not the similarity at the moving dots. No alignment transform is fitted. Similarity rises overall, but not at every layer.</p>
 <p>This is an exploratory, descriptive analysis of the MAPA iid75 ViT-S/384 checkpoint at step 55,000. Condition averages include all selected trials, not just held-out test trials. Layer 0 is the projected encoder input; later layers are encoder block outputs before readout normalization. These contextual representations are not causal estimates of neural responses.</p>
 <p><a href="representations/">Explore all layers and three tasks →</a></p>
@@ -92,4 +94,4 @@
 <p>We thank Geeling Chau, Christopher Wang, Shivashriganesh P. Mahato, Saba Hashemi, and Andrii Zahorodnii for helpful discussions.</p></details></div></section></main>
 <footer class="page-footer"><a href="#top" class="wordmark">MAPA</a><p>Contact: <a href="mailto:ben.tang@duke.edu">ben.tang@duke.edu</a><br>Code and checkpoints: <a href="https://github.com/bentang18/MAPA/blob/main/LICENSE">Apache 2.0</a><br>Pretraining data: <a href="https://braintreebank.dev">Brain Treebank</a> · Evaluation: <a href="https://github.com/insight-neuro/neuroprobe">Neuroprobe</a></p><a href="#top">Back to top</a></footer>
 <dialog id="figure-viewer" aria-labelledby="figure-title"><div class="figure-toolbar"><span id="figure-title">Figure</span><button type="button" id="figure-zoom" aria-pressed="false">Zoom in</button><button type="button" id="figure-close" autofocus>Close</button></div><div class="figure-viewport" tabindex="0" role="region" aria-label="Enlarged figure, scroll to explore when zoomed"><img id="figure-image" alt=""></div></dialog>
-<script src="static/js/section-nav.js?v=1"></script><script src="static/js/sample-efficiency.js?v=1"></script><script src="static/js/figure-viewer.js?v=1"></script><script src="static/js/project.js?v=2"></script><script src="static/js/hero-visibility-v63.js"></script><script src="static/js/alignment.js?v=3"></script></body></html>
+<script src="static/js/section-nav.js?v=1"></script><script src="static/js/sample-efficiency.js?v=1"></script><script src="static/js/figure-viewer.js?v=1"></script><script src="static/js/project.js?v=2"></script><script src="static/js/hero-visibility-v63.js"></script><script src="static/js/alignment.js?v=4"></script></body></html>

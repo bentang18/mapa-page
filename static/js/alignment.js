@@ -2,7 +2,8 @@
 'use strict';
 const root=document.getElementById('alignment');if(!root)return;
 const grid=document.getElementById('alignment-grid'),button=document.getElementById('alignment-play'),slider=document.getElementById('alignment-scrub'),time=document.getElementById('alignment-time');
-let D;try{const r=await fetch('static/data/alignment.json');if(!r.ok)throw Error(r.status);D=await r.json();}catch(e){grid.textContent='The trajectories could not load. Please reload the page.';button.disabled=true;slider.disabled=true;return;}
+let D;try{const r=await fetch('static/data/alignment.json?v=4');if(!r.ok)throw Error(r.status);D=await r.json();}catch(e){grid.textContent='The trajectories could not load. Please reload the page.';button.disabled=true;slider.disabled=true;return;}
+const projection=document.getElementById('alignment-projection');
 const visible=D.sessions.map((_,i)=>i).filter(i=>!(D.sessions[i].subject===3&&D.sessions[i].session===1));
 let frame=0,playing=true,inView=false,last=0,raf=0;
 const panels=D.layers.map((layer,li)=>{
@@ -10,11 +11,22 @@ const panels=D.layers.map((layer,li)=>{
  const canvas=document.createElement('canvas');canvas.setAttribute('role','img');canvas.setAttribute('aria-label',`Layer ${layer}: speech-onset trajectories from six subjects in a shared PCA projection.`);
  const title=document.createElement('h3');title.textContent=`Layer ${layer}`;
  const score=document.createElement('p');score.className='alignment-score';score.textContent=`CKA = ${D.cka[li].toFixed(3)}`;
- const head=document.createElement('div');head.className='alignment-panel-head';head.append(title,score);panel.append(head,canvas);grid.append(panel);
+ const head=document.createElement('div');head.className='alignment-panel-head';head.append(title);const plot=document.createElement('div');plot.className='alignment-canvas';plot.append(canvas,score);panel.append(head,plot);grid.append(panel);
  const curves=visible.map(si=>{const pts=D.coords[si][li],b=[0,1].map(k=>pts.slice(0,16).reduce((s,p)=>s+p[k],0)/16);return pts.map(p=>[p[0]-b[0],p[1]-b[1]]);});
  return {canvas,ctx:canvas.getContext('2d'),curves,limit:Math.max(1e-8,...curves.flat(2).map(Math.abs))*1.1};
 });
 const seen=new Set();for(const s of D.sessions){if(seen.has(s.subject))continue;seen.add(s.subject);const item=document.createElement('span'),dot=document.createElement('i');dot.style.background=s.color;item.append(dot,document.createTextNode(`S${s.subject}`));document.getElementById('alignment-legend').append(item);}
+function prepareProjection(){
+ const shared=projection.value==='global',coords=shared?D.coords:D.coords_by_layer;
+ panels.forEach((p,li)=>{
+  p.curves=visible.map(si=>{const pts=coords[si][li],b=[0,1].map(k=>pts.slice(0,16).reduce((s,v)=>s+v[k],0)/16);return pts.map(v=>[v[0]-b[0],v[1]-b[1]]);});
+  p.limit=Math.max(1e-8,...p.curves.flat(2).map(Math.abs))*1.1;
+  p.canvas.setAttribute('aria-label',`Layer ${D.layers[li]}: speech-onset trajectories from six subjects in ${shared?'all-layer':'per-layer'} PCA.`);
+ });
+ document.getElementById('alignment-projection-note').textContent=shared?'One basis shared across all layers and subjects. Zoom varies by panel.':'A separate basis at each layer, shared across subjects. Axes and zoom vary by panel.';
+ draw();
+}
+projection.addEventListener('change',prepareProjection);
 function drawPanel({canvas,ctx,curves,limit}){
  const w=canvas.getBoundingClientRect().width;if(!w)return;const dpr=window.devicePixelRatio||1;canvas.width=Math.round(w*dpr);canvas.height=canvas.width;ctx.setTransform(dpr,0,0,dpr,0,0);
  const m=26,size=w-2*m,xy=p=>[m+(p[0]+limit)*size/(2*limit),w-m-(p[1]+limit)*size/(2*limit)];
