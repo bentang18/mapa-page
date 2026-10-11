@@ -1059,7 +1059,7 @@
           "snapshot": "sources/mapa-models-varlen.py.html"
         }
       ],
-      "figure": "figure-ref-throughput-76-1"
+      "figure": "figure-ref-throughput-82-1"
     },
     {
       "section": "throughput",
@@ -1076,7 +1076,86 @@
           "snapshot": "sources/training-src-speech_decoding-experiments-dispatch_v3.py-L876-L876.html"
         }
       ],
-      "figure": "figure-ref-throughput-77-1"
+      "figure": "figure-ref-throughput-83-1"
+    },
+    {
+      "section": "throughput",
+      "title": "Microbatch to optimizer step",
+      "target": "throughput-code-3",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+          "start": 144,
+          "end": 146,
+          "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+          "excerpt_sha256": "49e2a8984b468b1f97994cec975781020b76586ea86f92b71b269f809e27d98a",
+          "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L144-L146.html"
+        },
+        {
+          "repository": "training",
+          "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+          "start": 292,
+          "end": 293,
+          "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+          "excerpt_sha256": "e449c836fbb3126b4c2ad4a88a34e04c5073f0c4f36f8966c21bce0d2239db89",
+          "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L292-L293.html"
+        }
+      ],
+      "figure": "figure-ref-throughput-76-1"
+    },
+    {
+      "section": "throughput",
+      "title": "Final-run learning-rate schedule",
+      "target": "throughput-code-4",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+          "start": 288,
+          "end": 289,
+          "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+          "excerpt_sha256": "cdc0106db7c14a07ab9176ad4696af762f629f474712f42306c520b002b2b0d4",
+          "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L288-L289.html"
+        },
+        {
+          "repository": "training",
+          "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+          "start": 301,
+          "end": 301,
+          "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+          "excerpt_sha256": "106c9c46654191665e9deb1e5ec45a94cd76a5cbc0579d213cce90a6292e82ff",
+          "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L301-L301.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/experiments/dispatch_v3.py",
+          "start": 572,
+          "end": 572,
+          "sha256": "aa1e7a514327cfdcd72dcc506971535fc59d22b753ddf92d51a8949c19119f84",
+          "excerpt_sha256": "b656c578010d8d93da8ab8a8aaa66950dbb5392099f6516587eaa46407b0845d",
+          "snapshot": "sources/training-src-speech_decoding-experiments-dispatch_v3.py-L572-L572.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/experiments/lr_schedule.py",
+          "start": 81,
+          "end": 81,
+          "sha256": "a3170db42088b3fdc9563ed9acc9178e6211b9e43eb0f61fabe14d3c3746633e",
+          "excerpt_sha256": "6f2967542262e990cb496eee3da8beab23316ea168c60444f2d288c4c964097e",
+          "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L81-L81.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/experiments/lr_schedule.py",
+          "start": 83,
+          "end": 95,
+          "sha256": "a3170db42088b3fdc9563ed9acc9178e6211b9e43eb0f61fabe14d3c3746633e",
+          "excerpt_sha256": "c659e9b3f980d504cd4e1a6a25da5185fa0bba0611c93fda30a5514c5c4aa956",
+          "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L83-L95.html"
+        }
+      ],
+      "figure": "figure-ref-throughput-78-1"
     }
   ],
   "figure_links": [
@@ -1538,15 +1617,51 @@
     },
     {
       "section": "throughput",
+      "label": "Per GPU microbatch",
+      "target": "throughput-code-3",
+      "figure": "figure-ref-throughput-76-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Per optimizer step",
+      "target": "throughput-code-3",
+      "figure": "figure-ref-throughput-76-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Final run \u00b7 2 H100 GPUs \u00b7 55,000 optimizer steps",
+      "target": "throughput-code-4",
+      "figure": "figure-ref-throughput-78-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Warmup",
+      "target": "throughput-code-4",
+      "figure": "figure-ref-throughput-78-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Constant",
+      "target": "throughput-code-4",
+      "figure": "figure-ref-throughput-78-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Cooldown",
+      "target": "throughput-code-4",
+      "figure": "figure-ref-throughput-78-1"
+    },
+    {
+      "section": "throughput",
       "label": "Packed GPU attention",
       "target": "throughput-code-1",
-      "figure": "figure-ref-throughput-76-1"
+      "figure": "figure-ref-throughput-82-1"
     },
     {
       "section": "throughput",
       "label": "dynamic compilation",
       "target": "throughput-code-2",
-      "figure": "figure-ref-throughput-77-1"
+      "figure": "figure-ref-throughput-83-1"
     },
     {
       "section": "throughput",

@@ -60,3 +60,5 @@ nav{gap:20px}
 .block-detail-heading{font-size:16px;font-weight:500;margin:20px 0 14px}
 
 .figure-return{display:block;text-align:right;font-size:12px;color:#777;margin:0 0 8px}.figure-caption .figure-code-link,.axis-split .figure-code-link{color:inherit;text-decoration:underline;text-decoration-color:#ccc;text-underline-offset:3px}
+
+.training-schedule{margin-top:28px;padding-top:22px;border-top:1px solid #eee}
