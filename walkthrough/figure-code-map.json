@@ -625,10 +625,19 @@
         {
           "repository": "MAPA",
           "path": "evals/neuroprobe/readout.py",
-          "start": 115,
+          "start": 119,
           "end": 130,
           "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-          "excerpt_sha256": "92b73c8735978b9da97d57e2709b2dd7a779463424ceabf9a03ff96fa1ecaca1",
+          "excerpt_sha256": "3f90cb919ed3b98983428e361ddf5eb8be4bbaa14eefbb56249471326fe31fc7",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 115,
+          "end": 118,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "8e50274e23c4eab63036bfae08fd9f60b91fae1a1ef32a8a29147096f2aacb57",
           "snapshot": "sources/evals-neuroprobe-readout.py.html"
         }
       ],
@@ -678,9 +687,45 @@
           "repository": "MAPA",
           "path": "evals/neuroprobe/readout.py",
           "start": 209,
+          "end": 209,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "566182eef64a56f703fbbe124e7b722e81c8a968dd5d48ce35e6b29c27e6226a",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 213,
+          "end": 213,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "fa50e97c5ce1f8903e9837ffacb79dbc9b26f36730a0f9147291ce924ce541de",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 216,
+          "end": 217,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "fbdc7c295300ea8392b524601183885d71e38a0958c23520d294a993d3e2b824",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 210,
+          "end": 212,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "a01b7e36b1a5862dd72c58f999dfcaeb8e5c0db67606776076bf79265e537acc",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 218,
           "end": 221,
           "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-          "excerpt_sha256": "f7ebc5924d329c4f074887ae8c8face1d493565bc7e6663af1fc2e5f1638edcf",
+          "excerpt_sha256": "c429f672089bcf4414b47fc148a22cfc0ae91083a19c51489121752e85d8bf8c",
           "snapshot": "sources/evals-neuroprobe-readout.py.html"
         }
       ],
@@ -1017,21 +1062,21 @@
         },
         {
           "repository": "training",
-          "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
-          "start": 318,
-          "end": 332,
-          "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
-          "excerpt_sha256": "54b43ad28a5748e35085772644973ca4225ba2091ea81d3a5396227e3361900a",
-          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L318-L332.html"
-        },
-        {
-          "repository": "training",
           "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
           "start": 604,
           "end": 610,
           "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
           "excerpt_sha256": "6216a1c696ba9f51755fd7d4547c98db3997a61a3c7251a8fa16d5618ff3c30a",
           "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L604-L610.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
+          "start": 318,
+          "end": 332,
+          "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
+          "excerpt_sha256": "54b43ad28a5748e35085772644973ca4225ba2091ea81d3a5396227e3361900a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L318-L332.html"
         }
       ],
       "figure": "figure-ref-training-71-1"

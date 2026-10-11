@@ -204,3 +204,14 @@ document.querySelectorAll('[data-figure-target]').forEach(link=>{
   target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
  });
 });
+
+// Shared snippet URLs must reveal the tab before the browser scrolls to it.
+function revealLinkedSnippet(){
+ const panel=document.getElementById(location.hash.slice(1));
+ if(!panel?.classList.contains('snippet')) return;
+ document.getElementById(panel.id+'-tab').click();
+ requestAnimationFrame(()=>panel.closest('.snippets').scrollIntoView({behavior:'instant',block:'start'}));
+}
+window.addEventListener('hashchange',revealLinkedSnippet);
+window.addEventListener('pageshow',()=>document.fonts.ready.then(revealLinkedSnippet));
+revealLinkedSnippet();

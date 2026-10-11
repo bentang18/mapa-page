@@ -8,15 +8,16 @@ button {font:inherit;cursor:pointer}
 a:focus-visible,button:focus-visible,summary:focus-visible {outline:2px solid #555;outline-offset:4px}
 .skip {position:fixed;top:-80px;left:20px;padding:12px;background:white;z-index:10}
 .skip:focus {top:10px}
-.intro {max-width:1060px;margin:auto;padding:46px 24px 10px;text-align:center}
-.title {font-size:clamp(28px,3.4vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:500;margin:0 0 20px}
+.intro {max-width:1060px;margin:auto;padding:24px 24px 10px;text-align:center}
+.title {font-size:clamp(28px,3.4vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:500;margin:0 0 14px}
 .authors {font-size:16px;line-height:1.7;margin:0 0 6px}
 .affil {font-size:14px;line-height:1.6;color:#666;margin:0}
 .venue {font-size:16px;line-height:1.6;font-weight:600;color:#262626;margin:10px 0 0}
 .venue a {text-decoration:none}
 .venue a:hover {text-decoration:underline}
 .venue + .links {margin-top:14px}
-.links {display:flex;justify-content:center;gap:26px;margin-top:24px;font-size:15px}
+.links {display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:24px;font-size:15px;line-height:20px}
+.links-row {display:flex;justify-content:center;gap:26px}
 .links a {color:var(--accent);font-weight:500;text-decoration-thickness:1px}
 .links a:hover {text-decoration-thickness:2px}
 .hero {max-width:968px;margin:0 auto 38px;padding:0 24px}
@@ -71,7 +72,7 @@ details p {font-size:14px;line-height:1.75}
 .page-footer p {line-height:1.7;margin:0}
 .wordmark {font-size:16px;text-decoration:none;color:#333}
 @media(max-width:700px) {
- .intro {padding:42px 22px 16px}
+ .intro {padding:24px 22px 16px}
  .title {font-size:clamp(19px,5.3vw,34px)}
  .authors {font-size:14px}
  .affil {font-size:13px}
