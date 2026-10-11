@@ -1059,7 +1059,7 @@
           "snapshot": "sources/mapa-models-varlen.py.html"
         }
       ],
-      "figure": "figure-ref-throughput-85-1"
+      "figure": "figure-ref-throughput-84-1"
     },
     {
       "section": "throughput",
@@ -1076,11 +1076,11 @@
           "snapshot": "sources/training-src-speech_decoding-experiments-dispatch_v3.py-L876-L876.html"
         }
       ],
-      "figure": "figure-ref-throughput-86-1"
+      "figure": "figure-ref-throughput-85-1"
     },
     {
       "section": "throughput",
-      "title": "Microbatch to optimizer step",
+      "title": "Effective batch per optimizer step",
       "target": "throughput-code-3",
       "sources": [
         {
@@ -1155,7 +1155,7 @@
           "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L83-L95.html"
         }
       ],
-      "figure": "figure-ref-throughput-81-1"
+      "figure": "figure-ref-throughput-80-1"
     },
     {
       "section": "throughput",
@@ -1705,12 +1705,6 @@
     },
     {
       "section": "throughput",
-      "label": "Per GPU microbatch",
-      "target": "throughput-code-3",
-      "figure": "figure-ref-throughput-79-1"
-    },
-    {
-      "section": "throughput",
       "label": "Per optimizer step",
       "target": "throughput-code-3",
       "figure": "figure-ref-throughput-79-1"
@@ -1719,41 +1713,41 @@
       "section": "throughput",
       "label": "Final run \u00b7 2 H100 GPUs \u00b7 55,000 optimizer steps",
       "target": "throughput-code-4",
-      "figure": "figure-ref-throughput-81-1"
+      "figure": "figure-ref-throughput-80-1"
     },
     {
       "section": "throughput",
       "label": "Warmup",
       "target": "throughput-code-4",
-      "figure": "figure-ref-throughput-81-1"
+      "figure": "figure-ref-throughput-80-1"
     },
     {
       "section": "throughput",
       "label": "Constant",
       "target": "throughput-code-4",
-      "figure": "figure-ref-throughput-81-1"
+      "figure": "figure-ref-throughput-80-1"
     },
     {
       "section": "throughput",
       "label": "Cooldown",
       "target": "throughput-code-4",
-      "figure": "figure-ref-throughput-81-1"
+      "figure": "figure-ref-throughput-80-1"
     },
     {
       "section": "throughput",
       "label": "Packed GPU attention",
       "target": "throughput-code-1",
-      "figure": "figure-ref-throughput-85-1"
+      "figure": "figure-ref-throughput-84-1"
     },
     {
       "section": "throughput",
       "label": "dynamic compilation",
       "target": "throughput-code-2",
-      "figure": "figure-ref-throughput-86-1"
+      "figure": "figure-ref-throughput-85-1"
     },
     {
       "section": "throughput",
-      "label": "75% masking \u2192 214,500 visible tokens",
+      "label": "75% masking \u2192 1,716,000 visible tokens",
       "target": "training-code-0",
       "figure": "figure-ref-training-59-1"
     }
