@@ -1,13 +1,13 @@
 {
   "code_commit": "a76904dd45235b9d3b9480fa374f839521929feb",
   "files": {
-    "figure-code-map.json": "721f7affe804aa0ef11d3cc8a5c6d8fa530c635349f83fd62ffaf2586df3da45",
-    "guide.css": "6fa38913a2b506cc24cdb028f78f20d5960c8a66c51d44e705bc34e6d0f1e1b2",
+    "figure-code-map.json": "8ac8e8f8730c7b97625c459d281c76499540e83b4274c8698ecfe6726c42fbd3",
+    "guide.css": "c45578f300b57e44e67180b79957153d41a7363cc7024d94c454deae7dbd1db9",
     "guide.js": "073ed8877afd4e5389b47c3170af5dc2f8d4523407e0a2b4be577798fa133436",
-    "index.html": "cd3f01a3c83b36c0264a405298e9618eedebcae3d00d0a4440f6713ad0f9e765",
+    "index.html": "2f982f73bd289e57902a94284bcea6c102a5d3e4560998d904355b1d116cf536",
     "overview-data.json": "dabec86bee8cf35f734d02664da1f9fd91816abea9cbcf18b9348c28b156b836",
     "recorded-trace.json": "82ace7a5901db63968aaf435674259dd9bc7eb7aa66bf18f4a986930a777fe76",
-    "sources.json": "2fbf84f73ac310568f78b3be2c1b2dd82de291ff3deb83a502452ffbd0198cac",
+    "sources.json": "ea10dfcd48f40edd454c5e5d5485995ab06da2293390abb3beb1c74493d18413",
     "sources/evals-neuroprobe-encode.py.html": "b3d0d7c2c683d49b9a8f04f90c7591283f2f8ae27e17d4c516ea9975ccddcdb1",
     "sources/evals-neuroprobe-readout.py.html": "0a623e9b047b266d25475a1e8cc343f6b431fd1dcf53b6c6c9ea1631267746a7",
     "sources/mapa-data-normalize.py.html": "4d1c16d8565751730d23bd499e075f94299c0aa2d88554563ecc1bfa8c68d7df",
