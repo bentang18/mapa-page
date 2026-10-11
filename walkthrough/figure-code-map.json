@@ -1,0 +1,1558 @@
+{
+  "panels": [
+    {
+      "section": "prediction",
+      "title": "Three STFT windows",
+      "target": "prediction-code-0",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 31,
+          "end": 36,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "837321e1ed64270b7006f4e17008adfe9f8d89cb6b975b01c351a451276712d6",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/stft.py",
+          "start": 28,
+          "end": 28,
+          "sha256": "e6745c9d5a9dab45edfc6fd77fd2c47825fc11b56d66cbbc1891eb302cff8490",
+          "excerpt_sha256": "178e4401e4ee44ae5c17af80be668abd7de25ea77e549e782eeae19c5d062927",
+          "snapshot": "sources/mapa-preprocessing-stft.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/stft.py",
+          "start": 35,
+          "end": 45,
+          "sha256": "e6745c9d5a9dab45edfc6fd77fd2c47825fc11b56d66cbbc1891eb302cff8490",
+          "excerpt_sha256": "38b2ca95c131b38aa173ff0e870765aca5871cc245d3b1b50f28fd744832dc52",
+          "snapshot": "sources/mapa-preprocessing-stft.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/stft.py",
+          "start": 51,
+          "end": 51,
+          "sha256": "e6745c9d5a9dab45edfc6fd77fd2c47825fc11b56d66cbbc1891eb302cff8490",
+          "excerpt_sha256": "7d435a592c4dad6c400e40e196be93cc27a5fe7c46308e9a4e775a60071508af",
+          "snapshot": "sources/mapa-preprocessing-stft.py.html"
+        }
+      ],
+      "figure": "figure-ref-prediction-7-1"
+    },
+    {
+      "section": "prediction",
+      "title": "Session STFT and normalization",
+      "target": "prediction-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 256,
+          "end": 276,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "023451396b05f8f0c2490ea1864ddabebc4ba58cda7a91c33dbda2e0d77ea036",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/data/normalize.py",
+          "start": 44,
+          "end": 49,
+          "sha256": "b0bb952533a32a8b6637110da7fbebe7b2738726afe596f596d38be33095b0fc",
+          "excerpt_sha256": "8c088851c213e0de74046ee053b00223db4a4586867095976445647f3d66f355",
+          "snapshot": "sources/mapa-data-normalize.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-0-1"
+    },
+    {
+      "section": "prediction",
+      "title": "Zoom in: selecting a normalized clip",
+      "target": "prediction-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 129,
+          "end": 132,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "a656ce435a4d4f187e736c2153d044b746b54c1f2dc1346da5282a3adbc027d0",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 140,
+          "end": 146,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "3ac6c3e91c949352131b33e10c0469c4bdabac5cd4d6eb0720b7b59dcc26197b",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        }
+      ],
+      "figure": "figure-ref-prediction-12-1"
+    },
+    {
+      "section": "prediction",
+      "title": "Apply stored session statistics",
+      "target": "prediction-code-3",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/data/normalize.py",
+          "start": 51,
+          "end": 61,
+          "sha256": "b0bb952533a32a8b6637110da7fbebe7b2738726afe596f596d38be33095b0fc",
+          "excerpt_sha256": "0329dfa50e2029520a030b58e872237a2d1922a32fe1db989017088c55daebdf",
+          "snapshot": "sources/mapa-data-normalize.py.html"
+        }
+      ],
+      "figure": "figure-ref-prediction-13-1"
+    },
+    {
+      "section": "prediction",
+      "title": "Referencing and filtering",
+      "target": "prediction-code-4",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 250,
+          "end": 254,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "5a34a3dbf128096913c089a87540dd59cf7530eeecba29ff81503d8e883c884b",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 63,
+          "end": 68,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "18027dc03c7777f94a8b7859b772c18c2f6f7acab0ed288a8d21ffba6c07d05f",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/preprocessing/frontend.py",
+          "start": 57,
+          "end": 60,
+          "sha256": "1bfc677154928813a2750f58c81d3c8a448c64f6c9c4db5f150821702c6a0eaa",
+          "excerpt_sha256": "a90accd3493e643a72ba024e61cbc77f349b4c755f04c0e6bbd197933cdfa0ec",
+          "snapshot": "sources/mapa-preprocessing-frontend.py.html"
+        }
+      ],
+      "figure": "figure-ref-prediction-10-1"
+    },
+    {
+      "section": "tokens",
+      "title": "Subsample, project, add band identity",
+      "target": "tokens-code-0",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/stem.py",
+          "start": 24,
+          "end": 25,
+          "sha256": "b38f3e0ed0e3440aa246a1d7833ff2974c5fa9ece4b6ccd6c011cf4e091f030e",
+          "excerpt_sha256": "0c4b1c0d56da5b4c5e3edb2b19b8bf5d0509402fc7da6952983aa3f53a342b8e",
+          "snapshot": "sources/mapa-models-stem.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/stem.py",
+          "start": 28,
+          "end": 31,
+          "sha256": "b38f3e0ed0e3440aa246a1d7833ff2974c5fa9ece4b6ccd6c011cf4e091f030e",
+          "excerpt_sha256": "55f1d2ec85e8c4726cbf97f4d4b272476b2383b5ebdae1ae945731afad91a4e0",
+          "snapshot": "sources/mapa-models-stem.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/stem.py",
+          "start": 54,
+          "end": 57,
+          "sha256": "b38f3e0ed0e3440aa246a1d7833ff2974c5fa9ece4b6ccd6c011cf4e091f030e",
+          "excerpt_sha256": "3ca001ad23913b88dc5d702fe595417f9b4027a6cb975f83ff0f353647d914c0",
+          "snapshot": "sources/mapa-models-stem.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/stem.py",
+          "start": 86,
+          "end": 97,
+          "sha256": "b38f3e0ed0e3440aa246a1d7833ff2974c5fa9ece4b6ccd6c011cf4e091f030e",
+          "excerpt_sha256": "143b1a755819d45d84e4863b4a7536fa628a386fdfd86a1eacfd3fef3da18da8",
+          "snapshot": "sources/mapa-models-stem.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-1-1"
+    },
+    {
+      "section": "tokens",
+      "title": "Pack contacts in array order",
+      "target": "tokens-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pack_r4.py",
+          "start": 133,
+          "end": 145,
+          "sha256": "a39de5062ec0b92b30a61146bfb521ecc886f6839c75898d63983e1cddfd99b0",
+          "excerpt_sha256": "346396ad63e8bbe817783fa76261eacdd824159f011c7165ccf7903cec5e13b4",
+          "snapshot": "sources/mapa-models-pack_r4.py.html"
+        }
+      ],
+      "figure": "figure-ref-tokens-15-1"
+    },
+    {
+      "section": "tokens",
+      "title": "Token coordinates",
+      "target": "tokens-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pack_r4.py",
+          "start": 76,
+          "end": 99,
+          "sha256": "a39de5062ec0b92b30a61146bfb521ecc886f6839c75898d63983e1cddfd99b0",
+          "excerpt_sha256": "86783ce25677aeb285d6a87a96f3b180ee479dbce1380eb6b663c4a76dd4456c",
+          "snapshot": "sources/mapa-models-pack_r4.py.html"
+        }
+      ],
+      "figure": "figure-ref-spatial-17-1"
+    },
+    {
+      "section": "tokens",
+      "title": "Retain every eighth, second, or first frame",
+      "target": "tokens-code-3",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/stem.py",
+          "start": 62,
+          "end": 68,
+          "sha256": "b38f3e0ed0e3440aa246a1d7833ff2974c5fa9ece4b6ccd6c011cf4e091f030e",
+          "excerpt_sha256": "f6aec413873619bf3cd1d36097e0829defa45fff61da78088cbfc47a0936bda9",
+          "snapshot": "sources/mapa-models-stem.py.html"
+        }
+      ],
+      "figure": "figure-ref-prediction-14-1"
+    },
+    {
+      "section": "spatial",
+      "title": "Add the shared region embedding",
+      "target": "spatial-code-0",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/encoder.py",
+          "start": 130,
+          "end": 140,
+          "sha256": "92e8a2cb388d8c9067d198bfc73803da419f64d9db9eaabff2d84426904892d5",
+          "excerpt_sha256": "de7e61978a1ce3c228cc7b5a37a251c4ad79cd5cb123a1d544fa5944ae75d50e",
+          "snapshot": "sources/mapa-encoder.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 122,
+          "end": 124,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "ddcbd3ae6aa0fbba3bf184126b1bbb84270d3e8eb4bf719ea645c1774f3a001a",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 126,
+          "end": 130,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "273d13ff75469579fea4f8b0a56e218d5c0022eab3bab4ea36a02dbf689e345d",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 113,
+          "end": 115,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "589362bada34d7da0464b1179a4c9f1b12ff2ac985d943ae66657bd7968410dd",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-3-1"
+    },
+    {
+      "section": "spatial",
+      "title": "Turn coordinates into rotation angles",
+      "target": "spatial-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 82,
+          "end": 88,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "f944a4075680858629309ccdeafaf9c4dda498376bfab85ac2c0d25fc402b835",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        }
+      ],
+      "figure": "figure-ref-spatial-22-1"
+    },
+    {
+      "section": "spatial",
+      "title": "Rotate Q and K",
+      "target": "spatial-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 40,
+          "end": 43,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "7a36750358a5cd7fc0497ce329adfc6ca3b5ac2c540dfb2f433d132d08651f60",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 96,
+          "end": 100,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "6ed3f81b4c501eec9790e97cfbf5b9c5fcda154f708791b147fd66d0e7805dd7",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-4-1"
+    },
+    {
+      "section": "spatial",
+      "title": "Fixed frequencies for the two axes",
+      "target": "spatial-code-3",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 53,
+          "end": 54,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "a682b1ac6ac41f13271140031fea6af31cb07710bdc97199df0b4443b92e77a8",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pe.py",
+          "start": 65,
+          "end": 72,
+          "sha256": "9daefe51d2e6b81c100f12469eee9ade97f0e04c6c981a8e3b79441b936f3a3c",
+          "excerpt_sha256": "9618d1a8d4d75c171d02220706f4711ce677154378f4b928b292b252bae5cd9b",
+          "snapshot": "sources/mapa-models-pe.py.html"
+        }
+      ],
+      "figure": "figure-ref-spatial-23-1"
+    },
+    {
+      "section": "transformer",
+      "title": "Start with the two residual updates",
+      "target": "transformer-code-0",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 60,
+          "end": 61,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "897ccf977a6732fe75d4c53489c28252e1a721278e4b424d80b9845327bbb079",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 115,
+          "end": 127,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "86869df0780dc081e353a56b6251b93af9ede59930ee9224d4f297cfd1ad7fc0",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-2-1"
+    },
+    {
+      "section": "transformer",
+      "title": "Zoom in: QKV, rotations, attention",
+      "target": "transformer-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 54,
+          "end": 58,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "37326345fe6d319d370b1ac24f8820b8ddd5f0488e24575cf86ed8a22625cde1",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 82,
+          "end": 102,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "47cd72975ff133e1987fe471e91b721fdedc7a97150862a5b0c6fbc5cef9781d",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        }
+      ],
+      "figure": "figure-ref-transformer-38-1"
+    },
+    {
+      "section": "transformer",
+      "title": "Zoom in: the token-wise MLP",
+      "target": "transformer-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 31,
+          "end": 34,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "de0d4abe6b8a9407d935752646c9936e8be317b1cf1462c9a94ffec1d705867a",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/attention.py",
+          "start": 37,
+          "end": 42,
+          "sha256": "4de5ddf3d59350dedfebd082901f43c52cfcf282e5cfc8492c77617bb2d3b55f",
+          "excerpt_sha256": "cf0779ee81e231ec58ff20d9ea49373291b32c0336abb97029f6adaa6ba02b1e",
+          "snapshot": "sources/mapa-models-attention.py.html"
+        }
+      ],
+      "figure": "figure-ref-transformer-39-1"
+    },
+    {
+      "section": "transformer",
+      "title": "Attention within each array",
+      "target": "transformer-code-3",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/pack_r4.py",
+          "start": 103,
+          "end": 106,
+          "sha256": "a39de5062ec0b92b30a61146bfb521ecc886f6839c75898d63983e1cddfd99b0",
+          "excerpt_sha256": "f59f0a65b3562071a95933cb586c025b397f108e37755eb54d78f4a35cb5fd32",
+          "snapshot": "sources/mapa-models-pack_r4.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 117,
+          "end": 127,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "c9ab17f6311e071382459d46bbea71a7880c642c7186de3a100962b221fb4a04",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/varlen.py",
+          "start": 35,
+          "end": 37,
+          "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
+          "excerpt_sha256": "ed52d3a3eac6d9d5294b9f938d673e0118af54459822966becf81b3b298842a7",
+          "snapshot": "sources/mapa-models-varlen.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/varlen.py",
+          "start": 45,
+          "end": 55,
+          "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
+          "excerpt_sha256": "a22c1d5dc840ad04e2799a005b21ecb828db9d2013706b8bf238810c6e6579f6",
+          "snapshot": "sources/mapa-models-varlen.py.html"
+        }
+      ],
+      "figure": "figure-ref-transformer-40-1"
+    },
+    {
+      "section": "transformer",
+      "title": "Twelve blocks; raw layer-12 features",
+      "target": "transformer-code-4",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 31,
+          "end": 31,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "4aae7bb2a3ff85b1234c2b3d957f7382530312df10eaae184de0cc999c0c9d62",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 62,
+          "end": 64,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "65a532048da99d1fde7694b4c3a867492df6b6cd1e4037a2496e8a76690468e9",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 139,
+          "end": 145,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "3c4666cb8e7def81bd1260cc18706a96d20d2e113643316840e640257e225ec3",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        }
+      ],
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "readout",
+      "title": "Collect array features",
+      "target": "readout-code-0",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/encode.py",
+          "start": 48,
+          "end": 52,
+          "sha256": "6bdb0af6778bd6f38176f28de5519ccde1df5fe97fefcfce52cc216f7f1ea827",
+          "excerpt_sha256": "25dac70223d7cb3e0ddefdd4f6e325cd66289050a81a71890121c26f804b58e9",
+          "snapshot": "sources/evals-neuroprobe-encode.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/encode.py",
+          "start": 247,
+          "end": 255,
+          "sha256": "6bdb0af6778bd6f38176f28de5519ccde1df5fe97fefcfce52cc216f7f1ea827",
+          "excerpt_sha256": "fbc13ba6e1bb1f6a3441874e1c08c50a5e132fd6cbcbc1a841afd036548b168d",
+          "snapshot": "sources/evals-neuroprobe-encode.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-5-1"
+    },
+    {
+      "section": "readout",
+      "title": "Flatten aligned features",
+      "target": "readout-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 143,
+          "end": 151,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "4aa2235bd86c701e07ff23b2ea5357ef95a6390ec813fdb9573dcd33e148a4ec",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-50-1"
+    },
+    {
+      "section": "readout",
+      "title": "Mean-pool contacts by region",
+      "target": "readout-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/encode.py",
+          "start": 164,
+          "end": 170,
+          "sha256": "6bdb0af6778bd6f38176f28de5519ccde1df5fe97fefcfce52cc216f7f1ea827",
+          "excerpt_sha256": "4c9a0eafc7410d82e4942c319488e97a6defc18e1b95f97cca4f895ea5e7eda4",
+          "snapshot": "sources/evals-neuroprobe-encode.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-54-1"
+    },
+    {
+      "section": "readout",
+      "title": "Align shared atlas IDs",
+      "target": "readout-code-3",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 238,
+          "end": 248,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "9d8df8f13ef234fe441cb45ea84c8a7f354fb30901c22e23fcf97d4fba1da912",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 306,
+          "end": 307,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "f28f19b9e774902853e89d21856c17a0a4f7561319906decde0637e70e7f6ac4",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-56-1"
+    },
+    {
+      "section": "readout",
+      "title": "Standardize using training trials",
+      "target": "readout-code-4",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 252,
+          "end": 252,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "5a9827825abba712051c09592387728c91e20780d1a358bb353ffdacbb547c8a",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 115,
+          "end": 130,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "92b73c8735978b9da97d57e2709b2dd7a779463424ceabf9a03ff96fa1ecaca1",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-52-1"
+    },
+    {
+      "section": "readout",
+      "title": "Solve ridge over the lambda grid",
+      "target": "readout-code-5",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 78,
+          "end": 78,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "725b631b0f94055eb4b4af1481b98a845086a8444a0e32875dc818e644b46b03",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 153,
+          "end": 160,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "c2f5d1453f295d522c23febd7a275500677d73498b8ccadb81f94c4a35bddfd0",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 168,
+          "end": 181,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "372dd0c9137be6b1574d96fcb4b7a153fb6e16462c6eb5a97b7b2eeeab57ba5c",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-overview-6-1"
+    },
+    {
+      "section": "readout",
+      "title": "Select lambda on validation AUROC",
+      "target": "readout-code-6",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 209,
+          "end": 221,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "f7ebc5924d329c4f074887ae8c8face1d493565bc7e6663af1fc2e5f1638edcf",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-57-1"
+    },
+    {
+      "section": "readout",
+      "title": "Cross-session: shared contact labels",
+      "target": "readout-code-7",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "evals/neuroprobe/readout.py",
+          "start": 320,
+          "end": 331,
+          "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
+          "excerpt_sha256": "80b5bdc8c5c6c3004c5f60e4e1c2cbbef3fb0e351a959058939ae0f44cd02577",
+          "snapshot": "sources/evals-neuroprobe-readout.py.html"
+        }
+      ],
+      "figure": "figure-ref-readout-58-1"
+    },
+    {
+      "section": "training",
+      "title": "Sample an exact mask per shaft / clip",
+      "target": "training-code-0",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/masking.py",
+          "start": 729,
+          "end": 737,
+          "sha256": "c61bd3660017bbc010173663da04f0a741e3cd855a0d0ee1bdf6861823f359cb",
+          "excerpt_sha256": "52890ece1ce0464d14e759070cb356897f593c03f67c9bf2d857afbe2403a3cc",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-masking.py-L729-L737.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/masking.py",
+          "start": 658,
+          "end": 678,
+          "sha256": "c61bd3660017bbc010173663da04f0a741e3cd855a0d0ee1bdf6861823f359cb",
+          "excerpt_sha256": "7e9aa23bfaee2ba7dd7fa90595b290c3521c2db4e1f1a9e755e86cc29f86bbd2",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-masking.py-L658-L678.html"
+        }
+      ],
+      "figure": "figure-ref-training-59-1"
+    },
+    {
+      "section": "training",
+      "title": "Gather visible tokens before the encoder",
+      "target": "training-code-1",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
+          "start": 201,
+          "end": 208,
+          "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
+          "excerpt_sha256": "917a252b19222f65f79df1d6b2e888ed78539a4388cfbecfc8bf87246ac77dfd",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L201-L208.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 183,
+          "end": 191,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "e31c701a388bc11b0ad940ff595f5f981532dfee3a29d899a448b83568b23249",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L183-L191.html"
+        }
+      ],
+      "figure": "figure-ref-training-60-1"
+    },
+    {
+      "section": "training",
+      "title": "Normalize and concatenate four taps",
+      "target": "training-code-2",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 35,
+          "end": 36,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "dcef6e189913d53b5426f7b3543518ec3f8b0088543a149f638b75efb0fcddaf",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 72,
+          "end": 74,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "42408aa7636d237ed481d65da86af831c27ca1364634a8a4ead58284b0e7a5a0",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        },
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/towers.py",
+          "start": 146,
+          "end": 152,
+          "sha256": "b5950e0090f0cef9fca971a2a00373f832e163e73bb44b31c28621b5abcda865",
+          "excerpt_sha256": "b6f35e6c71ed9780c44a209931e2b38879820cc85506cef70f533acef69e24c0",
+          "snapshot": "sources/mapa-models-towers.py.html"
+        }
+      ],
+      "figure": "figure-ref-training-61-1"
+    },
+    {
+      "section": "training",
+      "title": "Fuse four levels into decoder width",
+      "target": "training-code-3",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 338,
+          "end": 342,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "c1ad8802ee264261a3f0d8172343be0678b46da3d2b352a5f973597e7a894e91",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L338-L342.html"
+        }
+      ],
+      "figure": "figure-ref-training-63-1"
+    },
+    {
+      "section": "training",
+      "title": "Restore the full sequence",
+      "target": "training-code-4",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 415,
+          "end": 415,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "552d8d49311b74581fd8fcacd92fadcba55f1d345e1a5fc75f9af5ebdd6cd97a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L415-L415.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 500,
+          "end": 502,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "909b3e5c34f706693689e67e420ac94a9d00ee85c59c78c35b7f4c82450b2eb2",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L500-L502.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
+          "start": 241,
+          "end": 243,
+          "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
+          "excerpt_sha256": "6a26b296e0056a6fd67cd39adc31e2d77bb9632ae9ba82da9fbb173ac658c7aa",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L241-L243.html"
+        }
+      ],
+      "figure": "figure-ref-training-64-1"
+    },
+    {
+      "section": "training",
+      "title": "Decoder: band, region, and RoPE",
+      "target": "training-code-5",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 50,
+          "end": 50,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "cc545c4d8edc283e882af44c734f96cc50968389590ea8a2b4a4eb907d3cbd31",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L50-L50.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 75,
+          "end": 76,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "b5f06821b262b6b91e8f264fdef99b9edb7c09a37f51352923ec7bc444ffc63a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L75-L76.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 370,
+          "end": 374,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "eb7aba3394db7d35f41f845cc059dc6c47a5fde6087dd58e4648cfb90b472911",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L370-L374.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 514,
+          "end": 514,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "76479c567277cb6254d11805739a236983b50972b80b175ed8dc99b937fc2bf1",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L514-L514.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 518,
+          "end": 518,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "27333285c69ea3a89b8f0c163cacf88fe7076fdeddfdbf6261b43e1dc1367d17",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L518-L518.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 302,
+          "end": 304,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "fb996f3e551db45a3710dc505f28586684362a7c80780f25705c933f2b3d5f17",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L302-L304.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 317,
+          "end": 324,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "0be2e71bf67dcb30649f9676be97294b862a6ddc22f07e87d33976906d2f8531",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L317-L324.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 326,
+          "end": 326,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "8c86e04120d186a3f6b68eee9d8ab3f45a7ec94f5133acabaf58c3eb07d05c33",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L326-L326.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 329,
+          "end": 329,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "f078b644bb3c61c2e4937863697392cc9880dc467006b606d3cd2d65e983ca78",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L329-L329.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 333,
+          "end": 335,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "308a69ac1326ad8effe6b7883e6212a7aca4a553025eee515d01a1a19dad8db4",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L333-L335.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
+          "start": 340,
+          "end": 341,
+          "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
+          "excerpt_sha256": "4f5c9ec332b6c9739825ff93f07af9bf187f3735d916fc7f8b432dea7d26a67a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L340-L341.html"
+        }
+      ],
+      "figure": "figure-ref-training-66-1"
+    },
+    {
+      "section": "training",
+      "title": "Band heads: 192 \u2192 7 / 6 / 7",
+      "target": "training-code-6",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 384,
+          "end": 387,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "66724a1695ac44e8dcf490ed321e597a46d73ad216aadb48e3b40b075e0f0140",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L384-L387.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 902,
+          "end": 911,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "ff7ebc4fa2e7f6c8f4b34438b7cfcd5605cf26a4a0abf3d6d49c9fb8ea1d0d00",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L902-L911.html"
+        }
+      ],
+      "figure": "figure-ref-training-69-1"
+    },
+    {
+      "section": "training",
+      "title": "Targets and valid bins",
+      "target": "training-code-7",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 535,
+          "end": 540,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "bb9fb92bcf06f7d297ccd0fa89f9023bb86728afb5466a54e84e8a9d787a42b5",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L535-L540.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 850,
+          "end": 867,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "a1c6ec46734e8fc6ad6eafb4be9f0d718a20c9b5bd51d3ec306fc89ba388ade4",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L850-L867.html"
+        }
+      ],
+      "figure": "figure-ref-training-72-1"
+    },
+    {
+      "section": "training",
+      "title": "Masked-only MSE",
+      "target": "training-code-8",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 473,
+          "end": 473,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "bdc8a9c9f14aa140a52035a013a0c94f3776b93b7d3061190176875c323c193b",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L473-L473.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
+          "start": 318,
+          "end": 332,
+          "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
+          "excerpt_sha256": "54b43ad28a5748e35085772644973ca4225ba2091ea81d3a5396227e3361900a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L318-L332.html"
+        },
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+          "start": 604,
+          "end": 610,
+          "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+          "excerpt_sha256": "6216a1c696ba9f51755fd7d4547c98db3997a61a3c7251a8fa16d5618ff3c30a",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L604-L610.html"
+        }
+      ],
+      "figure": "figure-ref-training-71-1"
+    },
+    {
+      "section": "throughput",
+      "title": "Fill the contact budget; trim the final shaft",
+      "target": "throughput-code-0",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/models/v14_converged_v3/shaft_batch.py",
+          "start": 148,
+          "end": 160,
+          "sha256": "b06c18319c164447159ab04de899988362cf24484b242f920626b0400714fdc9",
+          "excerpt_sha256": "98a321205e265a9b2fe6d3eb1e1f66d818465481430cede482a163309a258f6b",
+          "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-shaft_batch.py-L148-L160.html"
+        }
+      ],
+      "figure": "figure-ref-throughput-73-1"
+    },
+    {
+      "section": "throughput",
+      "title": "GPU attention uses packed values and boundaries",
+      "target": "throughput-code-1",
+      "sources": [
+        {
+          "repository": "MAPA",
+          "path": "mapa/models/varlen.py",
+          "start": 74,
+          "end": 81,
+          "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
+          "excerpt_sha256": "93c86ad15b61045c666402ccba298ab659b72b99e7f490eafdcfc6c60421fd89",
+          "snapshot": "sources/mapa-models-varlen.py.html"
+        }
+      ],
+      "figure": "figure-ref-throughput-76-1"
+    },
+    {
+      "section": "throughput",
+      "title": "Compilation handles changing shaft geometry",
+      "target": "throughput-code-2",
+      "sources": [
+        {
+          "repository": "training",
+          "path": "src/speech_decoding/experiments/dispatch_v3.py",
+          "start": 876,
+          "end": 876,
+          "sha256": "aa1e7a514327cfdcd72dcc506971535fc59d22b753ddf92d51a8949c19119f84",
+          "excerpt_sha256": "1f7e9e9cb5c1d99036ad7871a03327ebfe2867d181c258bad2a490249bee20ce",
+          "snapshot": "sources/training-src-speech_decoding-experiments-dispatch_v3.py-L876-L876.html"
+        }
+      ],
+      "figure": "figure-ref-throughput-77-1"
+    }
+  ],
+  "figure_links": [
+    {
+      "section": "overview",
+      "label": "Recording",
+      "target": "prediction-code-1",
+      "figure": "figure-ref-overview-0-1"
+    },
+    {
+      "section": "overview",
+      "label": "Tokenization",
+      "target": "tokens-code-0",
+      "figure": "figure-ref-overview-1-1"
+    },
+    {
+      "section": "overview",
+      "label": "Shared encoder",
+      "target": "transformer-code-0",
+      "figure": "figure-ref-overview-2-1"
+    },
+    {
+      "section": "overview",
+      "label": "+ region embedding",
+      "target": "spatial-code-0",
+      "figure": "figure-ref-overview-3-1"
+    },
+    {
+      "section": "overview",
+      "label": "+ contact / time RoPE",
+      "target": "spatial-code-2",
+      "figure": "figure-ref-overview-4-1"
+    },
+    {
+      "section": "overview",
+      "label": "Combine array features",
+      "target": "readout-code-0",
+      "figure": "figure-ref-overview-5-1"
+    },
+    {
+      "section": "overview",
+      "label": "Ridge readout",
+      "target": "readout-code-5",
+      "figure": "figure-ref-overview-6-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Slow \u00b7 2\u201314 Hz",
+      "target": "prediction-code-0",
+      "figure": "figure-ref-prediction-7-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Mid \u00b7 16\u201356 Hz",
+      "target": "prediction-code-0",
+      "figure": "figure-ref-prediction-7-1"
+    },
+    {
+      "section": "prediction",
+      "label": "High / HGA \u00b7 64\u2013160 Hz",
+      "target": "prediction-code-0",
+      "figure": "figure-ref-prediction-7-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Reference + filter",
+      "target": "prediction-code-4",
+      "figure": "figure-ref-prediction-10-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Fit session median / MAD",
+      "target": "prediction-code-1",
+      "figure": "figure-ref-overview-0-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Slice clip",
+      "target": "prediction-code-2",
+      "figure": "figure-ref-prediction-12-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Normalize clip",
+      "target": "prediction-code-3",
+      "figure": "figure-ref-prediction-13-1"
+    },
+    {
+      "section": "prediction",
+      "label": "Retain frames",
+      "target": "tokens-code-3",
+      "figure": "figure-ref-prediction-14-1"
+    },
+    {
+      "section": "tokens",
+      "label": "One packed sequence",
+      "target": "tokens-code-1",
+      "figure": "figure-ref-tokens-15-1"
+    },
+    {
+      "section": "tokens",
+      "label": "Flatten contacts + tokens",
+      "target": "tokens-code-1",
+      "figure": "figure-ref-tokens-15-1"
+    },
+    {
+      "section": "spatial",
+      "label": "The same packed sequence",
+      "target": "tokens-code-2",
+      "figure": "figure-ref-spatial-17-1"
+    },
+    {
+      "section": "spatial",
+      "label": "x + E[43]",
+      "target": "spatial-code-0",
+      "figure": "figure-ref-overview-3-1"
+    },
+    {
+      "section": "spatial",
+      "label": "Add anatomical identity to the token",
+      "target": "spatial-code-0",
+      "figure": "figure-ref-overview-3-1"
+    },
+    {
+      "section": "spatial",
+      "label": "Contact 2 \u00b7 time index 16",
+      "target": "tokens-code-2",
+      "figure": "figure-ref-spatial-17-1"
+    },
+    {
+      "section": "spatial",
+      "label": "Rotate Q and K using these coordinates",
+      "target": "spatial-code-2",
+      "figure": "figure-ref-overview-4-1"
+    },
+    {
+      "section": "spatial",
+      "label": "One feature pair \u00b7 \u03b8 = contact \u00d7 1 rad",
+      "target": "spatial-code-1",
+      "figure": "figure-ref-spatial-22-1"
+    },
+    {
+      "section": "spatial",
+      "label": "32 feature dimensions for contact \u00b7 16 pairs",
+      "target": "spatial-code-3",
+      "figure": "figure-ref-spatial-23-1"
+    },
+    {
+      "section": "spatial",
+      "label": "32 feature dimensions for time \u00b7 16 pairs",
+      "target": "spatial-code-3",
+      "figure": "figure-ref-spatial-23-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 1",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 2",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 3",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 4",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 5",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 6",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 7",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 8",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 9",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 10",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 11",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Block 12",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Layer 12",
+      "target": "transformer-code-4",
+      "figure": "figure-ref-transformer-25-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Attn",
+      "target": "transformer-code-1",
+      "figure": "figure-ref-transformer-38-1"
+    },
+    {
+      "section": "transformer",
+      "label": "MLP",
+      "target": "transformer-code-2",
+      "figure": "figure-ref-transformer-39-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Attention within each array",
+      "target": "transformer-code-3",
+      "figure": "figure-ref-transformer-40-1"
+    },
+    {
+      "section": "transformer",
+      "label": "Q",
+      "target": "transformer-code-1",
+      "figure": "figure-ref-transformer-38-1"
+    },
+    {
+      "section": "transformer",
+      "label": "K",
+      "target": "transformer-code-1",
+      "figure": "figure-ref-transformer-38-1"
+    },
+    {
+      "section": "transformer",
+      "label": "The MLP mixes features",
+      "target": "transformer-code-2",
+      "figure": "figure-ref-transformer-39-1"
+    },
+    {
+      "section": "transformer",
+      "label": "GELU",
+      "target": "transformer-code-2",
+      "figure": "figure-ref-transformer-39-1"
+    },
+    {
+      "section": "transformer",
+      "label": "x + \u0394x",
+      "target": "transformer-code-0",
+      "figure": "figure-ref-overview-2-1"
+    },
+    {
+      "section": "transformer",
+      "label": "LayerNorm before each branch",
+      "target": "transformer-code-0",
+      "figure": "figure-ref-overview-2-1"
+    },
+    {
+      "section": "readout",
+      "label": "Frozen encoder",
+      "target": "readout-code-0",
+      "figure": "figure-ref-overview-5-1"
+    },
+    {
+      "section": "readout",
+      "label": "Layer 12",
+      "target": "readout-code-0",
+      "figure": "figure-ref-overview-5-1"
+    },
+    {
+      "section": "readout",
+      "label": "Combine arrays",
+      "target": "readout-code-0",
+      "figure": "figure-ref-overview-5-1"
+    },
+    {
+      "section": "readout",
+      "label": "Flatten",
+      "target": "readout-code-1",
+      "figure": "figure-ref-readout-50-1"
+    },
+    {
+      "section": "readout",
+      "label": "\u2193 flatten",
+      "target": "readout-code-1",
+      "figure": "figure-ref-readout-50-1"
+    },
+    {
+      "section": "readout",
+      "label": "Standardize",
+      "target": "readout-code-4",
+      "figure": "figure-ref-readout-52-1"
+    },
+    {
+      "section": "readout",
+      "label": "Ridge",
+      "target": "readout-code-5",
+      "figure": "figure-ref-overview-6-1"
+    },
+    {
+      "section": "readout",
+      "label": "Group contacts by region",
+      "target": "readout-code-2",
+      "figure": "figure-ref-readout-54-1"
+    },
+    {
+      "section": "readout",
+      "label": "Mean per region",
+      "target": "readout-code-2",
+      "figure": "figure-ref-readout-54-1"
+    },
+    {
+      "section": "readout",
+      "label": "Shared regions only",
+      "target": "readout-code-3",
+      "figure": "figure-ref-readout-56-1"
+    },
+    {
+      "section": "readout",
+      "label": "choose \u03bb",
+      "target": "readout-code-6",
+      "figure": "figure-ref-readout-57-1"
+    },
+    {
+      "section": "readout",
+      "label": "align shared contacts",
+      "target": "readout-code-7",
+      "figure": "figure-ref-readout-58-1"
+    },
+    {
+      "section": "training",
+      "label": "Mask 75%",
+      "target": "training-code-0",
+      "figure": "figure-ref-training-59-1"
+    },
+    {
+      "section": "training",
+      "label": "Encoder",
+      "target": "training-code-1",
+      "figure": "figure-ref-training-60-1"
+    },
+    {
+      "section": "training",
+      "label": "Layers 3 / 6 / 9 / 12",
+      "target": "training-code-2",
+      "figure": "figure-ref-training-61-1"
+    },
+    {
+      "section": "training",
+      "label": "LayerNorm per tap",
+      "target": "training-code-2",
+      "figure": "figure-ref-training-61-1"
+    },
+    {
+      "section": "training",
+      "label": "Fuse",
+      "target": "training-code-3",
+      "figure": "figure-ref-training-63-1"
+    },
+    {
+      "section": "training",
+      "label": "Restore positions",
+      "target": "training-code-4",
+      "figure": "figure-ref-training-64-1"
+    },
+    {
+      "section": "training",
+      "label": "+ learned mask tokens",
+      "target": "training-code-4",
+      "figure": "figure-ref-training-64-1"
+    },
+    {
+      "section": "training",
+      "label": "Decoder",
+      "target": "training-code-5",
+      "figure": "figure-ref-training-66-1"
+    },
+    {
+      "section": "training",
+      "label": "Final LayerNorm",
+      "target": "training-code-5",
+      "figure": "figure-ref-training-66-1"
+    },
+    {
+      "section": "training",
+      "label": "Band + region identity \u00b7 contact/time RoPE in both stacks",
+      "target": "training-code-5",
+      "figure": "figure-ref-training-66-1"
+    },
+    {
+      "section": "training",
+      "label": "Band heads",
+      "target": "training-code-6",
+      "figure": "figure-ref-training-69-1"
+    },
+    {
+      "section": "training",
+      "label": "Predict bins",
+      "target": "training-code-6",
+      "figure": "figure-ref-training-69-1"
+    },
+    {
+      "section": "training",
+      "label": "Masked-only MSE",
+      "target": "training-code-8",
+      "figure": "figure-ref-training-71-1"
+    },
+    {
+      "section": "training",
+      "label": "vs. normalized STFT bins",
+      "target": "training-code-7",
+      "figure": "figure-ref-training-72-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Variable shaft-clips",
+      "target": "throughput-code-0",
+      "figure": "figure-ref-throughput-73-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Fixed contact budget",
+      "target": "throughput-code-0",
+      "figure": "figure-ref-throughput-73-1"
+    },
+    {
+      "section": "throughput",
+      "label": "trim final shaft",
+      "target": "throughput-code-0",
+      "figure": "figure-ref-throughput-73-1"
+    },
+    {
+      "section": "throughput",
+      "label": "Packed GPU attention",
+      "target": "throughput-code-1",
+      "figure": "figure-ref-throughput-76-1"
+    },
+    {
+      "section": "throughput",
+      "label": "dynamic compilation",
+      "target": "throughput-code-2",
+      "figure": "figure-ref-throughput-77-1"
+    },
+    {
+      "section": "throughput",
+      "label": "75% masking \u2192 214,500 visible tokens",
+      "target": "training-code-0",
+      "figure": "figure-ref-training-59-1"
+    }
+  ]
+}
