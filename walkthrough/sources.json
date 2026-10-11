@@ -835,5 +835,59 @@
     "sha256": "a3170db42088b3fdc9563ed9acc9178e6211b9e43eb0f61fabe14d3c3746633e",
     "excerpt_sha256": "c659e9b3f980d504cd4e1a6a25da5185fa0bba0611c93fda30a5514c5c4aa956",
     "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L83-L95.html"
+  },
+  {
+    "repository": "training",
+    "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+    "start": 287,
+    "end": 287,
+    "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+    "excerpt_sha256": "0b73308c9f1e4fc4b848851316666455f79d0bd029820ce6fdd61288b4e7d7e5",
+    "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L287-L287.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/shaft_batch.py",
+    "start": 127,
+    "end": 133,
+    "sha256": "b06c18319c164447159ab04de899988362cf24484b242f920626b0400714fdc9",
+    "excerpt_sha256": "bc69593ae5ffd1cfaeadfc9ae8785ab492cc6f4b1aa70b989e4d1aea6912d079",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-shaft_batch.py-L127-L133.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/shaft_dataset.py",
+    "start": 95,
+    "end": 98,
+    "sha256": "75d205f093e52982a13faf1b408e76ef6baa023dc7c9fb9d2361bab03b341299",
+    "excerpt_sha256": "505d7ab2313c96dec407f95c3fc6b644860c39304afb62c5751348ac237e0013",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-shaft_dataset.py-L95-L98.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/clip_sampler.py",
+    "start": 105,
+    "end": 109,
+    "sha256": "aa70fc27ac092faf957c56e09aede972a44f5c686a015393341e0bd19746eda1",
+    "excerpt_sha256": "903f8eeea0fdb111d47642ca92abaaee1d1e082d8e50a1ee11dfb29ec374567d",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-clip_sampler.py-L105-L109.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/experiments/dispatch_v3.py",
+    "start": 198,
+    "end": 202,
+    "sha256": "aa1e7a514327cfdcd72dcc506971535fc59d22b753ddf92d51a8949c19119f84",
+    "excerpt_sha256": "5c31c4388b8477fc8e41bd9cce3d5117d8b7a85c5b625b82cb1eee9ab096ee57",
+    "snapshot": "sources/training-src-speech_decoding-experiments-dispatch_v3.py-L198-L202.html"
+  },
+  {
+    "repository": "training",
+    "path": "scripts/neuroprobe/v3_r6_vits384_iid_2g_55k_v2.sbatch",
+    "start": 288,
+    "end": 288,
+    "sha256": "dc9e654839060350f085a4a25d332e334001b7c9d4d31cec27234c4a28074b60",
+    "excerpt_sha256": "3e593c3f54e150f84a6a958330e36ff9d5e023c4707c6114d1d50f8d5babaf49",
+    "snapshot": "sources/training-scripts-neuroprobe-v3_r6_vits384_iid_2g_55k_v2.sbatch-L288-L288.html"
   }
 ]
