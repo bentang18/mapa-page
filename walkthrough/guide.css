@@ -66,3 +66,13 @@ nav{gap:20px}
 .recipe-note{margin:12px auto 18px;max-width:760px;font-size:13px;color:#666}.recipe-note summary{cursor:pointer;text-align:center}.recipe-note p{line-height:1.8;text-align:center}
 
 .code-details{margin:18px 0;font-size:13px;color:#666}.code-details summary{cursor:pointer;padding:8px 0}.code-details[open] summary{margin-bottom:12px}
+/* Physical recording geometry stays inside the optional overview notes. */
+.recording-anatomy{margin:24px 0 28px}
+.anatomy-heading,.anatomy-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:13px;color:#666}
+.anatomy-heading span:first-child{font-size:16px;color:#262626}
+#recording-brain{display:block;width:100%;max-width:600px;height:auto;margin:0 auto}
+.anatomy-controls{max-width:600px;margin:0 auto}
+.anatomy-controls label{display:flex;align-items:center;gap:12px}
+.anatomy-controls input{width:120px;accent-color:#8265a5}
+.anatomy-controls i{display:inline-block;width:9px;height:9px;background:#8265a5;border-radius:50%;margin-right:8px}
+.recording-anatomy figcaption{max-width:600px;margin:18px auto 0}

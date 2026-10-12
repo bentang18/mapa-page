@@ -215,3 +215,38 @@ function revealLinkedSnippet(){
 window.addEventListener('hashchange',revealLinkedSnippet);
 window.addEventListener('pageshow',()=>document.fonts.ready.then(revealLinkedSnippet));
 revealLinkedSnippet();
+
+// Reuse the hero's anatomical projection; contact names match the overview exactly.
+const brainCanvas=document.getElementById('recording-brain');
+if(brainCanvas){
+ const details=brainCanvas.closest('details'),angleInput=document.getElementById('brain-angle');
+ let anatomy,loading=false;
+ function drawBrain(){
+  if(!anatomy)return;
+  const c=brainCanvas.getContext('2d'),angle=Number(angleInput.value)*Math.PI/180;
+  const project=p=>{const x=p[0]-30,y=p[1]+20,z=p[2]-20;return [330+(y*Math.cos(angle)+x*Math.sin(angle))*3.25,257+(-z+x*.10)*3.25,x*Math.cos(angle)+y*Math.sin(angle)];};
+  c.setTransform(1.5,0,0,1.5,0,0);c.clearRect(0,0,660,530);
+  const dots=anatomy.surface.map(p=>({p,q:project(p)})).sort((a,b)=>a.q[2]-b.q[2]);
+  for(const {p,q} of dots){
+   const facing=p[3]*Math.cos(angle)+p[4]*Math.sin(angle);
+   const light=.22+.78*Math.max(0,facing*.7+p[5]*.3);
+   c.fillStyle='#4d4952';c.globalAlpha=(.25+.57*light)*(q[2]<-10?.55:1)*.55;
+   c.beginPath();c.arc(q[0],q[1],1.05,0,2*Math.PI);c.fill();
+  }
+  // Draw the highlighted shaft last so its contacts remain easy to locate.
+  for(const shaft of [...anatomy.shafts.slice(1),anatomy.shafts[0]]){
+   const selected=shaft.alias==='Shaft A',points=shaft.contacts.map(t=>project(t.position));
+   c.globalAlpha=selected?1:.55;c.strokeStyle=selected?'#8265a5':'#596370';c.lineWidth=selected?2.5:1.3;
+   c.beginPath();points.forEach((p,i)=>i?c.lineTo(p[0],p[1]):c.moveTo(p[0],p[1]));c.stroke();
+   for(const p of points){c.beginPath();c.arc(p[0],p[1],selected?4.1:2.6,0,2*Math.PI);c.fillStyle=c.strokeStyle;c.fill();}
+  }
+  c.globalAlpha=1;brainCanvas.dataset.ready='true';
+ }
+ async function loadBrain(){
+  if(!details.open||anatomy||loading)return;
+  loading=true;
+  try{const response=await fetch('subject-1-brain.json');if(!response.ok)throw Error('Geometry unavailable');anatomy=await response.json();drawBrain();}
+  catch(error){brainCanvas.insertAdjacentHTML('afterend','<p class="note">Brain preview unavailable. The geometry link below contains the source data.</p>');}
+ }
+ details.addEventListener('toggle',loadBrain);angleInput.addEventListener('input',drawBrain);loadBrain();
+}

@@ -164,10 +164,10 @@
   {
     "repository": "MAPA",
     "path": "mapa/models/pack_r4.py",
-    "start": 76,
+    "start": 72,
     "end": 99,
     "sha256": "a39de5062ec0b92b30a61146bfb521ecc886f6839c75898d63983e1cddfd99b0",
-    "excerpt_sha256": "86783ce25677aeb285d6a87a96f3b180ee479dbce1380eb6b663c4a76dd4456c",
+    "excerpt_sha256": "a8fa0707c734bccf3399a51e32ba6f4527a5c577f59c5b4cbad8c00f21b55741",
     "snapshot": "sources/mapa-models-pack_r4.py.html"
   },
   {
@@ -326,10 +326,10 @@
   {
     "repository": "MAPA",
     "path": "mapa/models/varlen.py",
-    "start": 45,
-    "end": 55,
+    "start": 74,
+    "end": 81,
     "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
-    "excerpt_sha256": "a22c1d5dc840ad04e2799a005b21ecb828db9d2013706b8bf238810c6e6579f6",
+    "excerpt_sha256": "93c86ad15b61045c666402ccba298ab659b72b99e7f490eafdcfc6c60421fd89",
     "snapshot": "sources/mapa-models-varlen.py.html"
   },
   {
@@ -348,6 +348,15 @@
     "end": 37,
     "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
     "excerpt_sha256": "ed52d3a3eac6d9d5294b9f938d673e0118af54459822966becf81b3b298842a7",
+    "snapshot": "sources/mapa-models-varlen.py.html"
+  },
+  {
+    "repository": "MAPA",
+    "path": "mapa/models/varlen.py",
+    "start": 45,
+    "end": 55,
+    "sha256": "1fea5b0cf2a1bff9f9ff0264ea648d8a07b37a186f2b85848cc1693fafee04f4",
+    "excerpt_sha256": "a22c1d5dc840ad04e2799a005b21ecb828db9d2013706b8bf238810c6e6579f6",
     "snapshot": "sources/mapa-models-varlen.py.html"
   },
   {
@@ -434,19 +443,19 @@
   {
     "repository": "MAPA",
     "path": "evals/neuroprobe/readout.py",
-    "start": 252,
-    "end": 252,
+    "start": 119,
+    "end": 130,
     "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "5a9827825abba712051c09592387728c91e20780d1a358bb353ffdacbb547c8a",
+    "excerpt_sha256": "3f90cb919ed3b98983428e361ddf5eb8be4bbaa14eefbb56249471326fe31fc7",
     "snapshot": "sources/evals-neuroprobe-readout.py.html"
   },
   {
     "repository": "MAPA",
     "path": "evals/neuroprobe/readout.py",
-    "start": 119,
-    "end": 130,
+    "start": 252,
+    "end": 252,
     "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "3f90cb919ed3b98983428e361ddf5eb8be4bbaa14eefbb56249471326fe31fc7",
+    "excerpt_sha256": "5a9827825abba712051c09592387728c91e20780d1a358bb353ffdacbb547c8a",
     "snapshot": "sources/evals-neuroprobe-readout.py.html"
   },
   {
@@ -489,36 +498,9 @@
     "repository": "MAPA",
     "path": "evals/neuroprobe/readout.py",
     "start": 209,
-    "end": 209,
-    "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "566182eef64a56f703fbbe124e7b722e81c8a968dd5d48ce35e6b29c27e6226a",
-    "snapshot": "sources/evals-neuroprobe-readout.py.html"
-  },
-  {
-    "repository": "MAPA",
-    "path": "evals/neuroprobe/readout.py",
-    "start": 213,
-    "end": 213,
-    "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "fa50e97c5ce1f8903e9837ffacb79dbc9b26f36730a0f9147291ce924ce541de",
-    "snapshot": "sources/evals-neuroprobe-readout.py.html"
-  },
-  {
-    "repository": "MAPA",
-    "path": "evals/neuroprobe/readout.py",
-    "start": 216,
     "end": 217,
     "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "fbdc7c295300ea8392b524601183885d71e38a0958c23520d294a993d3e2b824",
-    "snapshot": "sources/evals-neuroprobe-readout.py.html"
-  },
-  {
-    "repository": "MAPA",
-    "path": "evals/neuroprobe/readout.py",
-    "start": 210,
-    "end": 212,
-    "sha256": "d9119b6ba95d8784e96bd98439f148938ee57f91b43cab632b353747e5edb76d",
-    "excerpt_sha256": "a01b7e36b1a5862dd72c58f999dfcaeb8e5c0db67606776076bf79265e537acc",
+    "excerpt_sha256": "72a8fc2150be50417db2b1405fe5b8d4e5dfc7bed0d1b4ab91f520a7d96a96ea",
     "snapshot": "sources/evals-neuroprobe-readout.py.html"
   },
   {
@@ -550,6 +532,24 @@
   },
   {
     "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+    "start": 473,
+    "end": 473,
+    "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+    "excerpt_sha256": "bdc8a9c9f14aa140a52035a013a0c94f3776b93b7d3061190176875c323c193b",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L473-L473.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
+    "start": 318,
+    "end": 332,
+    "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
+    "excerpt_sha256": "54b43ad28a5748e35085772644973ca4225ba2091ea81d3a5396227e3361900a",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L318-L332.html"
+  },
+  {
+    "repository": "training",
     "path": "src/speech_decoding/models/v14_converged_v3/masking.py",
     "start": 658,
     "end": 678,
@@ -560,11 +560,29 @@
   {
     "repository": "training",
     "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+    "start": 478,
+    "end": 480,
+    "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+    "excerpt_sha256": "f4d32c7810755aac92def023c4108229ceb3cdba6c7ae5cbdb4f337f18f221a9",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L478-L480.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
     "start": 183,
+    "end": 184,
+    "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
+    "excerpt_sha256": "f0d694eff7c4e58e0126de6eeefe9aece0ebab657284d79c2fb44dae1570fc5a",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L183-L184.html"
+  },
+  {
+    "repository": "training",
+    "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
+    "start": 189,
     "end": 191,
     "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
-    "excerpt_sha256": "e31c701a388bc11b0ad940ff595f5f981532dfee3a29d899a448b83568b23249",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L183-L191.html"
+    "excerpt_sha256": "cc610718007b8af99ac9dc9f399a7f82fef35f5dbf5ce798e9663ee9c8f9e418",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L189-L191.html"
   },
   {
     "repository": "training",
@@ -642,19 +660,10 @@
     "repository": "training",
     "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
     "start": 514,
-    "end": 514,
-    "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
-    "excerpt_sha256": "76479c567277cb6254d11805739a236983b50972b80b175ed8dc99b937fc2bf1",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L514-L514.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
-    "start": 518,
     "end": 518,
     "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
-    "excerpt_sha256": "27333285c69ea3a89b8f0c163cacf88fe7076fdeddfdbf6261b43e1dc1367d17",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L518-L518.html"
+    "excerpt_sha256": "17cb6c6ca9c1588496a4ea9e94e269a92c61fb814d22e2f049555b31bffc7acd",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L514-L518.html"
   },
   {
     "repository": "training",
@@ -678,37 +687,10 @@
     "repository": "training",
     "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
     "start": 326,
-    "end": 326,
-    "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
-    "excerpt_sha256": "8c86e04120d186a3f6b68eee9d8ab3f45a7ec94f5133acabaf58c3eb07d05c33",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L326-L326.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
-    "start": 329,
-    "end": 329,
-    "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
-    "excerpt_sha256": "f078b644bb3c61c2e4937863697392cc9880dc467006b606d3cd2d65e983ca78",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L329-L329.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
-    "start": 333,
-    "end": 335,
-    "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
-    "excerpt_sha256": "308a69ac1326ad8effe6b7883e6212a7aca4a553025eee515d01a1a19dad8db4",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L333-L335.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/towers.py",
-    "start": 340,
     "end": 341,
     "sha256": "5610fc7e8fc424cb8dda80e4cdea759db90d407b9eb0d5fb79c244b716b0de74",
-    "excerpt_sha256": "4f5c9ec332b6c9739825ff93f07af9bf187f3735d916fc7f8b432dea7d26a67a",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L340-L341.html"
+    "excerpt_sha256": "d64d22c30166a178e793e15043e4b470f026221f7adde86f60f74b3b9e959563",
+    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L326-L341.html"
   },
   {
     "repository": "training",
@@ -776,29 +758,11 @@
   {
     "repository": "training",
     "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
-    "start": 473,
-    "end": 473,
-    "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
-    "excerpt_sha256": "bdc8a9c9f14aa140a52035a013a0c94f3776b93b7d3061190176875c323c193b",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L473-L473.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/objective.py",
     "start": 604,
     "end": 610,
     "sha256": "5718458b537dfa741a5cab47ef1d9503a356f5b880aadd4d36625f30bba2e553",
     "excerpt_sha256": "6216a1c696ba9f51755fd7d4547c98db3997a61a3c7251a8fa16d5618ff3c30a",
     "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-objective.py-L604-L610.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/models/v14_converged_v3/pack_r4.py",
-    "start": 318,
-    "end": 332,
-    "sha256": "10e2eebf5adf5f45c27961b5339be2ead5607fcac09bbfc1027282e94bfb5340",
-    "excerpt_sha256": "54b43ad28a5748e35085772644973ca4225ba2091ea81d3a5396227e3361900a",
-    "snapshot": "sources/training-src-speech_decoding-models-v14_converged_v3-pack_r4.py-L318-L332.html"
   },
   {
     "repository": "training",
@@ -876,19 +840,10 @@
     "repository": "training",
     "path": "src/speech_decoding/experiments/lr_schedule.py",
     "start": 81,
-    "end": 81,
-    "sha256": "a3170db42088b3fdc9563ed9acc9178e6211b9e43eb0f61fabe14d3c3746633e",
-    "excerpt_sha256": "6f2967542262e990cb496eee3da8beab23316ea168c60444f2d288c4c964097e",
-    "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L81-L81.html"
-  },
-  {
-    "repository": "training",
-    "path": "src/speech_decoding/experiments/lr_schedule.py",
-    "start": 83,
     "end": 95,
     "sha256": "a3170db42088b3fdc9563ed9acc9178e6211b9e43eb0f61fabe14d3c3746633e",
-    "excerpt_sha256": "c659e9b3f980d504cd4e1a6a25da5185fa0bba0611c93fda30a5514c5c4aa956",
-    "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L83-L95.html"
+    "excerpt_sha256": "89cefdb5555a893ef30837e972181b002598478de596db5e5b604ddae1df7bbb",
+    "snapshot": "sources/training-src-speech_decoding-experiments-lr_schedule.py-L81-L95.html"
   },
   {
     "repository": "training",
