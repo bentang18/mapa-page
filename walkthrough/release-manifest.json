@@ -2,9 +2,13 @@
   "code_commit": "a76904dd45235b9d3b9480fa374f839521929feb",
   "files": {
     "figure-code-map.json": "95c1044b3ed26e1050bc243049d8603918d6b49e88fa9e5ab11980e03c7ac022",
-    "guide.css": "4cd5ff34c84b1a7543a84f67c13d82c964038b545fc0730d6523b2a5092f4ee6",
-    "guide.js": "e72398a2100107d98291b21c193a36b5d2ce042403e64644d2360c2abf2bd4f0",
-    "index.html": "cf55dc97a4c732271c505f2a16efd2550f075ee2f31ed36b6a59e1fd0ab4fb24",
+    "guide.css": "b50ddfcee276d606c10cd9b4055ab627f22e6b24e6a84a09dfef3cdb69b453f3",
+    "guide.js": "455be07ae0df4e0950a74edcc18d01929b7e00b86976810a027b3792c098609c",
+    "index.html": "1bac277ab63e3cfa5dc55f674c7d5dd97dd87011df1f6da8f057d821dc845e9b",
+    "native-anatomy/person-a-parcels-leveled.png": "1ca360768f1f666495e99d4590896298c7b3cb9c9d17ced431c7b1c52dd36c18",
+    "native-anatomy/person-a-stg-leveled.png": "abeda242e38b21d4a72f80ab7206592966a6c70cc99983166ce2047681f0ac8a",
+    "native-anatomy/person-b-parcels-leveled.png": "e1113500a303d384e0d0f9e80861cfb09b5a9cf4d23636d9fd805675cd953b58",
+    "native-anatomy/person-b-stg-leveled.png": "9800cc61a81f0fa3e7d819feec0a40a2095e6bb4b29bfd7f490013540222b973",
     "overview-data.json": "dabec86bee8cf35f734d02664da1f9fd91816abea9cbcf18b9348c28b156b836",
     "recorded-trace.json": "82ace7a5901db63968aaf435674259dd9bc7eb7aa66bf18f4a986930a777fe76",
     "sources.json": "e33bfbadfd30fc7c26557f70e172f29db6ef81277715fc9ccbc34bbf45d5c005",
@@ -59,6 +63,13 @@
     "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L50-L50.html": "cc32a66d676cb7ac04f9f3901958e3665deefe21f0d38a27192ecc5b31e59b2f",
     "sources/training-src-speech_decoding-models-v14_converged_v3-towers.py-L75-L76.html": "88cd90d933016773ea9ca78ebc93a2f7e51c672688269178969f1219fd52dc92",
     "spatial-data.json": "0ea371e3a0226c343712bdf98a6e40f1ee7d9d9e97d4f03cd02a884a8fe3c064",
-    "subject-1-brain.json": "c0a09975cf2c505d582f26e49b8ed007bece8fe76b7586ad90ebcaeb5606a802"
+    "subject-1-brain.json": "c0a09975cf2c505d582f26e49b8ed007bece8fe76b7586ad90ebcaeb5606a802",
+    "uecog-origin/patient-array-locations.png": "7560f90b2aeff1920e2ae87824db6772c9ad3437b0c183cc1541c2350b186ade",
+    "uecog-origin/s62-abae.jpg": "a6d991d2a3af230be257abc1b75b3fb4a09c2d89135666961a2b25df5153bbaa",
+    "uecog-origin/s62-abae.mp4": "2a1198a0f8d0c4a8f4fd62de67ace80892bfd4e30f17841e08f5f4100c9f4bd1",
+    "uecog-origin/s62-kab.jpg": "c7730ae76db5794f247b8c4b72f6a5426aaed316f4087954b2716f6aad1917f8",
+    "uecog-origin/s62-kab.mp4": "e1fb6c17fa4981cbea45b58cb5e0a51885ad1e541fd4682aadf8accddf8e93e1",
+    "uecog-origin/s62-vaeg.jpg": "4bad6a07d73eeb3ac42812c3d0134a22b7903ad7ed7b69c725a68c9487db9e0f",
+    "uecog-origin/s62-vaeg.mp4": "dd7673d151eca17d8ecc941395d23619ebd7b7f4a9a07f21d31cd37ed90b3768"
   }
 }

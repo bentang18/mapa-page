@@ -250,3 +250,65 @@ if(brainCanvas){
  }
  details.addEventListener('toggle',loadBrain);angleInput.addEventListener('input',drawBrain);loadBrain();
 }
+
+// Native anatomy is an opt-in local preview; normal public builds omit the figure.
+const intuitionRoot=document.getElementById('spatial-intuition');
+if(intuitionRoot){
+ const origin=document.getElementById('uecog-origin');
+ const originVideo=document.getElementById('uecog-origin-video');
+ const originTrials=[...origin.querySelectorAll('[data-origin-trial]')];
+ originTrials.forEach(button=>button.addEventListener('click',()=>{
+  originVideo.pause();selected(originTrials,button);
+  originVideo.poster=`uecog-origin/s62-${button.dataset.originTrial}.jpg`;
+  originVideo.querySelector('source').src=`uecog-origin/s62-${button.dataset.originTrial}.mp4`;
+  originVideo.querySelector('a').href=`uecog-origin/s62-${button.dataset.originTrial}.mp4`;
+  originVideo.load();
+ }));
+ origin.addEventListener('toggle',()=>{
+  if(!origin.open){originVideo.pause();return;}
+  if(originVideo.preload==='none'){originVideo.preload='metadata';originVideo.load();}
+ });
+ const shift=document.getElementById('local-shift');
+ const shiftButton=document.getElementById('local-shift-play');
+ let localOffset=0,localFrame=0;
+ function drawLocalPosition(offset){
+  localOffset=offset;
+  document.getElementById('local-moving-hotspot').setAttribute('transform',`translate(${offset*52},0)`);
+  const point=(theta,r)=>[747+r*Math.cos(theta),103-r*Math.sin(theta)];
+  const angles=[4+offset,5+offset];
+  ['q','k'].forEach((kind,i)=>{
+   const [x,y]=point(angles[i],52),line=document.getElementById('local-rope-'+kind),tip=document.getElementById('local-rope-tip-'+kind);
+   line.setAttribute('x2',x);line.setAttribute('y2',y);tip.setAttribute('cx',x);tip.setAttribute('cy',y);
+  });
+  const [qx,qy]=point(angles[0],27),[kx,ky]=point(angles[1],27);
+  document.getElementById('local-rope-wedge').setAttribute('d',`M747,103 L${qx},${qy} A27,27 0 0 0 ${kx},${ky} Z`);
+ }
+ function shiftHotspot(value,animate=false){
+  cancelAnimationFrame(localFrame);
+  const target=Math.max(0,Math.min(5,Math.round(value))),start=localOffset;
+  shift.value=String(target);
+  document.getElementById('local-shift-range').textContent=`Contacts ${4+target}–${5+target}`;
+  shift.setAttribute('aria-valuetext',`Contacts ${4+target} through ${5+target}`);
+  shiftButton.innerHTML=`Translate <span aria-hidden="true">${target===0?'→':'←'}</span>`;
+  if(!animate||matchMedia('(prefers-reduced-motion: reduce)').matches){drawLocalPosition(target);return;}
+  const started=performance.now();
+  function frame(now){
+   const t=Math.min(1,(now-started)/1700),ease=(1-Math.cos(Math.PI*t))/2;
+   drawLocalPosition(start+(target-start)*ease);
+   if(t<1)localFrame=requestAnimationFrame(frame);
+  }
+  localFrame=requestAnimationFrame(frame);
+ }
+ shift.addEventListener('input',()=>shiftHotspot(Number(shift.value)));
+ shiftButton.addEventListener('click',()=>shiftHotspot(Number(shift.value)===0?5:0,true));
+ shiftHotspot(0);
+ const buttons=[...intuitionRoot.querySelectorAll('[data-intuition-step]')];
+ const modes={1:'parcels-leveled',2:'stg-leveled'};
+ buttons.forEach(button=>button.addEventListener('click',()=>{
+  const stage=Number(button.dataset.intuitionStep);selected(buttons,button);
+  intuitionRoot.dataset.stage=String(stage);
+  intuitionRoot.querySelectorAll('[data-intuition-panel]').forEach(p=>p.hidden=Number(p.dataset.intuitionPanel)!==stage);
+  intuitionRoot.querySelectorAll('[data-native-brain]').forEach(img=>img.src=`native-anatomy/${img.dataset.nativeBrain}-${modes[stage]}.png`);
+ }));
+ Object.values(modes).forEach(mode=>['person-a','person-b'].forEach(person=>{const img=new Image();img.src=`native-anatomy/${person}-${mode}.png`;}));
+}
