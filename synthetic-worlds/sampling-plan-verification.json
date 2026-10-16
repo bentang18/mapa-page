@@ -1,0 +1,42 @@
+{
+  "status": "PASS for metadata planning only; HGA qualification remains open",
+  "source_hashes": {
+    "candidate_sampling_identity.py": "76267b6a057b2689b77c19e900c6934865667d22df479d1580b92318f370b3c9",
+    "test_candidate_sampling_identity.py": "bb2a456af757bde7c8efb0a7f6f64f77bef3dab7a6a40b15ed33244417847f9c"
+  },
+  "portable_source_hashes": {
+    "candidate_sampling_identity.py": "bd603f3ca15b4f248d3b68dcb1af38ae88c914c9295c4aa25a2f53eaa832ca40",
+    "test_candidate_sampling_identity.py": "2618279222b33c19976854fe01d0f7ab179bbfcb3cc9fecec9acf6ecbbf83637"
+  },
+  "portable_adaptation": "candidate_recipes import name becomes recipes; numerical planner body unchanged",
+  "worlds": 48,
+  "parameter_distribution_and_draw_order": "same as frozen v11;16exact seeded parity cases",
+  "tests_passed": 8,
+  "portable_tests_passed": 8,
+  "standalone_plan_exact": true,
+  "verification": {
+    "worlds": 48,
+    "distinct_core_streams": 48,
+    "distinct_rng_streams": 144,
+    "group_counts": {
+      "switching": 12,
+      "statistical": 12,
+      "oscillatory": 12,
+      "spatial": 12
+    },
+    "blocks": 6,
+    "scope": "Seed-stream/group identity only; compare realized core-parameter fingerprints as well when data are generated. Distinct seeds do not prove different mechanisms."
+  },
+  "seed_bits": 128,
+  "serialization": "32lowercasehex digits as JSONstrings",
+  "legacy_stress": {
+    "count_per_namespace": 200000,
+    "core_family": "switching",
+    "cross_split_seed_collisions": 7,
+    "one_collision_replayed_core_trajectory_bitwise": true,
+    "current_distinct_core_identities": 28,
+    "current_collision_count": 0
+  },
+  "recordings_generated": false,
+  "training": false
+}

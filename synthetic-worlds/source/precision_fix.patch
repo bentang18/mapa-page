@@ -1,0 +1,10 @@
+--- a/renderer.py
++++ b/renderer.py
+@@ -116,6 +116,7 @@
+     for b,(part,sigma) in enumerate(zip(split_spectrum(x),widths)):
+         mixed=part@spatial_matrix(rows,cols,sigma).T
+         factor=np.sqrt(np.mean(part.astype('f8')**2)/max(1e-20,np.mean(mixed.astype('f8')**2))) if scales is None else scales[b]
++        factor=np.float64(factor)  # consistent multiplication precision across arms
+         result+=mixed*factor;used.append(float(factor))
+     return result,used
+ 

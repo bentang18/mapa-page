@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "exported_function_bodies": "verbatim; import paths adapted",
+  "exact_full_packet_replay": true,
+  "array_fields_equal": 21,
+  "source_files_sha256": {
+    "requirements.txt": "a1630c9a29dc8a7811b5632f80fe40380a789f07740fab6c79a8d09849d7003a",
+    "precision_fix.patch": "b3dd5e36316cdf71da5d69aef6b13f566d718fdee3d43cb984614f7fa3e15a26",
+    "renderer.py": "6f98b7eb54e9c25f0d84c5e0f5a26570c25d04437da35a8504bdb69d95ed2b01",
+    "frontend.py": "3f18a60510f3157a824a30965fbe835e7350100a7577d02fea769648c381c423",
+    "cores.py": "560cab6228f2220a7756ab0b10984c6ad0a835f267ccf6098a12e07f7444debb",
+    "recipes.py": "43dd514a6edf3a892af71382c7e887158c9c7b3442c713c2cd3c7b2785459d87",
+    "generate_demo.py": "93d8b6902f3c85dc986d2b950f935eff7f3604ff0586a6550acdecd28560b158",
+    "README.txt": "b76fe8041bd55ee6a4ea264cda5a3a05c5c5a24d8edb21209afa98a28b33f456"
+  },
+  "clinical_inputs": false,
+  "training": false,
+  "frozen_v11_numerical_caveat": "see precision-repair.json and source/precision_fix.patch"
+}

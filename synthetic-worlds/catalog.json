@@ -1,0 +1,794 @@
+[
+  {
+    "id": "public-switching-0-nominal-8x16",
+    "group": "switching",
+    "family": "switching",
+    "name": "Switching recurrent network",
+    "draw": 0,
+    "group_id": "public/switching/4082597859",
+    "core_seed": 4082597859,
+    "renderer_seed": 753236487,
+    "settings": {
+      "hga_gain": 0.37274999363142236,
+      "spatial_sigma_cells": [
+        1.151297475287319,
+        1.0229388426228887,
+        0.40801038159298536
+      ],
+      "shared_core_weight": 0.4167746176873408,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-switching-0-nominal-8x16-preview.bin",
+    "preview_sha256": "1e91e8b068ee7d1f23609fc2813a144ce739aeae7fa2ba4236fb222bdc338515",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-switching-0-nominal-8x16-traces.bin",
+    "trace_sha256": "48a82147c7a73b6e2e785d58a394a8decd5a27e2e7926dc0b65bb008b3998b07",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "a50be9bf38381c9f19590672e631eeece00bdee98b5b922719bbf4e62f5dbdea",
+    "core_parameters": {
+      "dimensions": 21,
+      "regimes": 7,
+      "graph_density": 0.1841140648281395,
+      "graph_spectral_radius": 0.863511407162355,
+      "tau_range_s": [
+        0.073751200169401,
+        0.46662988954560064
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-switching-0-nominal-8x16-driving.bin",
+    "driving_sha256": "bef4c3566856ce8914d8859508c392d9161b1c12ccbf592b3a2b7a979faa1fd5",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-switching-1-nominal-8x16",
+    "group": "switching",
+    "family": "switching",
+    "name": "Switching recurrent network",
+    "draw": 1,
+    "group_id": "public/switching/947952693",
+    "core_seed": 947952693,
+    "renderer_seed": 1415710056,
+    "settings": {
+      "hga_gain": 0.3789103045406435,
+      "spatial_sigma_cells": [
+        1.2706606324957546,
+        1.0771152104451824,
+        0.40913567900973097
+      ],
+      "shared_core_weight": 0.408924496627598,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-switching-1-nominal-8x16-preview.bin",
+    "preview_sha256": "5b8fe95f152133dfa1da1f8eb40ac499079c8a92635ea2fea10a41c33fe179f4",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-switching-1-nominal-8x16-traces.bin",
+    "trace_sha256": "3f2c0f850dd335e65f08bdaccc3fab5fb7ed77599b8a1917491bb5ede633d9ed",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "aee779bb1d3c14d8ee2b070f9f613f6f102c675734a8f06a1f5279040eb37154",
+    "core_parameters": {
+      "dimensions": 18,
+      "regimes": 5,
+      "graph_density": 0.20801182106172406,
+      "graph_spectral_radius": 0.8674499699177323,
+      "tau_range_s": [
+        0.06015017294546457,
+        0.4588563499451129
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-switching-1-nominal-8x16-driving.bin",
+    "driving_sha256": "c93eb15e8657c188ca75da59c142896da7c7e6a1d9af02320ca3dda14be31889",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-local-0-nominal-8x16",
+    "group": "spatial",
+    "family": "local",
+    "name": "Driven local field",
+    "draw": 0,
+    "group_id": "public/local/402080936",
+    "core_seed": 402080936,
+    "renderer_seed": 3706010386,
+    "settings": {
+      "hga_gain": 0.3053246860569836,
+      "spatial_sigma_cells": [
+        1.1139240797908945,
+        1.024187900105766,
+        0.3736317566668046
+      ],
+      "shared_core_weight": 0.5758017235804952,
+      "theta_pac": 0.050573244233690084,
+      "beta_scale": 0.11496124866097444,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-local-0-nominal-8x16-preview.bin",
+    "preview_sha256": "d8a6eb32dba5f601da57ccdd4178f3d98b6f753342b94c183ced922575f72a1c",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-local-0-nominal-8x16-traces.bin",
+    "trace_sha256": "974250a190ab895e687a99ed0b64ba21fc0f6f531703660812069cb2ecb9a1ff",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "b2102b65b3c0b0c8744333e519e03282c7c5c015d30bcd5e96c1426d31a546ac",
+    "core_parameters": {
+      "dimensions": 7,
+      "hidden_shape": [
+        8,
+        16,
+        7
+      ],
+      "boundary": "reflective",
+      "tau_range_s": [
+        0.05287342909670085,
+        0.25640436192536414
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-local-0-nominal-8x16-driving.bin",
+    "driving_sha256": "00d563fe4896e5b23a8ec9e04da7d47ddad6448179b8f1a39d32cae8e6205531",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-local-1-nominal-8x16",
+    "group": "spatial",
+    "family": "local",
+    "name": "Driven local field",
+    "draw": 1,
+    "group_id": "public/local/3674177682",
+    "core_seed": 3674177682,
+    "renderer_seed": 1593898210,
+    "settings": {
+      "hga_gain": 0.30645214544732885,
+      "spatial_sigma_cells": [
+        1.0102829276665366,
+        1.1029641232050647,
+        0.3644886155858969
+      ],
+      "shared_core_weight": 0.7716667143928656,
+      "theta_pac": 0.048231955588695155,
+      "beta_scale": 0.14209739230497484,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-local-1-nominal-8x16-preview.bin",
+    "preview_sha256": "8288136f86e04eecad9fd1188be37202d4bcbf962d4385adfc066403e8ee3c36",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-local-1-nominal-8x16-traces.bin",
+    "trace_sha256": "2e1371ad728466b8ffef88e5fdf5307219f7cd7d764531064ba5ea3ce42f5f0d",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "83a73947e16f4a25895aaad5d476588f6fd493964948e060d3c347b21c236d35",
+    "core_parameters": {
+      "dimensions": 7,
+      "hidden_shape": [
+        8,
+        16,
+        7
+      ],
+      "boundary": "reflective",
+      "tau_range_s": [
+        0.05656883507548453,
+        0.21586375269097693
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-local-1-nominal-8x16-driving.bin",
+    "driving_sha256": "f7aca2cc0a674cde3fd0cb5d867a3964e3e32cb213c2ad7b646965a8edc7405a",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-oscillator-0-nominal-8x16",
+    "group": "oscillatory",
+    "family": "oscillator",
+    "name": "Coupled oscillators",
+    "draw": 0,
+    "group_id": "public/oscillator/4199370151",
+    "core_seed": 4199370151,
+    "renderer_seed": 678484176,
+    "settings": {
+      "hga_gain": 0.2523052287065226,
+      "spatial_sigma_cells": [
+        1.0103312261518136,
+        1.1229147317987889,
+        0.6431601430181034
+      ],
+      "shared_core_weight": 0.5576668415614099,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-oscillator-0-nominal-8x16-preview.bin",
+    "preview_sha256": "6aea58646e23fcbad7e4c32c095d83c713ce8629336a55c8659c6cc03630c430",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-oscillator-0-nominal-8x16-traces.bin",
+    "trace_sha256": "6dc3daf846a26a54a3c4d41868c13382e781244911accec22984a05c5ffc6b15",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "2fa9064ebcda08835714d2e2b84b3231be4b7a4956880915eac700f7736e6c0a",
+    "core_parameters": {
+      "dimensions": 44,
+      "oscillators": 22,
+      "coupling": 0.265666475635359,
+      "frequency_range_hz": [
+        0.6693206990850207,
+        6.390953425043355
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-oscillator-0-nominal-8x16-driving.bin",
+    "driving_sha256": "d0b6ba815e88c81d875141438decaaf55d217c57d6e55af11576a934ce08b3cd",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-oscillator-1-nominal-8x16",
+    "group": "oscillatory",
+    "family": "oscillator",
+    "name": "Coupled oscillators",
+    "draw": 1,
+    "group_id": "public/oscillator/1247872853",
+    "core_seed": 1247872853,
+    "renderer_seed": 4220953384,
+    "settings": {
+      "hga_gain": 0.30660034463590086,
+      "spatial_sigma_cells": [
+        1.0194280503320656,
+        1.010066144481262,
+        0.5888869155569048
+      ],
+      "shared_core_weight": 0.6434391366976661,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-oscillator-1-nominal-8x16-preview.bin",
+    "preview_sha256": "9a5b65adb6bfaa452a394397745b3b04e456c093e93aa1212e9c13da2c9583d5",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-oscillator-1-nominal-8x16-traces.bin",
+    "trace_sha256": "226d6727b1a2cea4eb29980f3a8be49bdb2447c9f2bebcf4d9730c2f14b4ac81",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "8c62d8c60643b8e790fb284ebcb8cdbfaa73e01a93ea4d1ff93fbe1a97370fb4",
+    "core_parameters": {
+      "dimensions": 24,
+      "oscillators": 12,
+      "coupling": 0.5017355185121494,
+      "frequency_range_hz": [
+        0.8315141044549034,
+        4.872782616943973
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-oscillator-1-nominal-8x16-driving.bin",
+    "driving_sha256": "6939fcd8d350a9df46fb4f35eefc8def14b803119d045b574ec9032d286ecce6",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-kernel-0-nominal-8x16",
+    "group": "statistical",
+    "family": "kernel",
+    "name": "Kernel + nonlinear graph",
+    "draw": 0,
+    "group_id": "public/kernel/3416247715",
+    "core_seed": 3416247715,
+    "renderer_seed": 122569092,
+    "settings": {
+      "hga_gain": 0.3253122726558532,
+      "spatial_sigma_cells": [
+        1.2934832958340448,
+        1.2327003818922446,
+        0.4362124892949125
+      ],
+      "shared_core_weight": 0.4549010497802639,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-kernel-0-nominal-8x16-preview.bin",
+    "preview_sha256": "514ac45146b74b98d4fd827a863dda2fc771b6d1da95661ee651f324921aa01b",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-kernel-0-nominal-8x16-traces.bin",
+    "trace_sha256": "eaa3114b8a7ff194c385874d58e23e2e32b8446a3003a48ef5591f1210664032",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "831d0a5499f76ac492257e7702e0b0b81cb9f01ee964a08629dda4a658076e16",
+    "core_parameters": {
+      "dimensions": 22,
+      "roots": 7,
+      "root_timescale_range_s": [
+        0.07329310266203587,
+        1.3457501538502545
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-kernel-0-nominal-8x16-driving.bin",
+    "driving_sha256": "2769187ae37dbf5ecd07a86847f544783d957ce10f82aaa733b6a35b05a3cd77",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-kernel-1-nominal-8x16",
+    "group": "statistical",
+    "family": "kernel",
+    "name": "Kernel + nonlinear graph",
+    "draw": 1,
+    "group_id": "public/kernel/953172173",
+    "core_seed": 953172173,
+    "renderer_seed": 716683159,
+    "settings": {
+      "hga_gain": 0.2950519215734225,
+      "spatial_sigma_cells": [
+        1.0248132047524285,
+        1.1232474661814469,
+        0.411997608631559
+      ],
+      "shared_core_weight": 0.4121707516778386,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-kernel-1-nominal-8x16-preview.bin",
+    "preview_sha256": "5f588cca677020dcd665d1536939d451c1fa2ca0c17a4ac1aa9ab0b58ecf302a",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-kernel-1-nominal-8x16-traces.bin",
+    "trace_sha256": "840f2fd25473cb5a2b7d5e150f02153c12f8d46cf47805246b8f4064b61216a4",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "58bf68cdc406caba3d12e63dc4d5df22c14590d7cb781a8f5e777011f559f567",
+    "core_parameters": {
+      "dimensions": 20,
+      "roots": 8,
+      "root_timescale_range_s": [
+        0.060993678479749056,
+        1.1555592591081267
+      ]
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-kernel-1-nominal-8x16-driving.bin",
+    "driving_sha256": "c47bd007355b057dbb9be5a4ebdbe7f7f073c1c48dd3f8cc4708e9632b4847ab",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-linear-0-nominal-8x16",
+    "group": "statistical",
+    "family": "linear",
+    "name": "Multiscale stochastic memory",
+    "draw": 0,
+    "group_id": "public/linear/685107670",
+    "core_seed": 685107670,
+    "renderer_seed": 2555446220,
+    "settings": {
+      "hga_gain": 0.25991057585665894,
+      "spatial_sigma_cells": [
+        1.046643271153162,
+        1.0297220458474423,
+        0.5390179334880212
+      ],
+      "shared_core_weight": 0.37761664391283173,
+      "theta_pac": 0.03095039684151243,
+      "beta_scale": 0.11065967425982251,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-linear-0-nominal-8x16-preview.bin",
+    "preview_sha256": "37d94ab140ca7021435feada564031f910a5e11bf71dfb4159dbcb089f5294c4",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-linear-0-nominal-8x16-traces.bin",
+    "trace_sha256": "7b3045c9aa2d509b3928ce66bdad5590b848af3ebd3fed58b7b38f954cd5fa93",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "c5ae304e873a3e4f94d6b841c5595f6c813fece0fd46e032cf4a09f18b581607",
+    "core_parameters": {
+      "dimensions": 16,
+      "tau_range_s": [
+        0.0542177812599735,
+        1.9524497128461076
+      ],
+      "stationary_covariance": "identity",
+      "transition": "exact OU discretization"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-linear-0-nominal-8x16-driving.bin",
+    "driving_sha256": "195aab39b89f9a1534cbab1d5d4aae5f3b5cbaed03fa377f18081cfbf6a551ed",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-linear-1-nominal-8x16",
+    "group": "statistical",
+    "family": "linear",
+    "name": "Multiscale stochastic memory",
+    "draw": 1,
+    "group_id": "public/linear/3402194308",
+    "core_seed": 3402194308,
+    "renderer_seed": 698029090,
+    "settings": {
+      "hga_gain": 0.28060235928094074,
+      "spatial_sigma_cells": [
+        1.1952499436863677,
+        1.19128787151553,
+        0.26051181767900194
+      ],
+      "shared_core_weight": 0.6623192785619123,
+      "theta_pac": 0.051155142573144026,
+      "beta_scale": 0.10748702350402156,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-linear-1-nominal-8x16-preview.bin",
+    "preview_sha256": "ce0c5105153de76c670c78ca5b593b608f8917e581b264ea39f09f52d51268da",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-linear-1-nominal-8x16-traces.bin",
+    "trace_sha256": "d9b2d7abe1e6acb98fd1c058bea5d2acab508b4243ff42ac95195510daf420a2",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "7900a8bd555d40136af2413de27ab2331cbaa66f3dcfbb9eda108f960330943a",
+    "core_parameters": {
+      "dimensions": 16,
+      "tau_range_s": [
+        0.06487709171826535,
+        1.320407635795711
+      ],
+      "stationary_covariance": "identity",
+      "transition": "exact OU discretization"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-linear-1-nominal-8x16-driving.bin",
+    "driving_sha256": "6dc5d124facb247ab82517676ba953d1fdf5cff8ca5319a6a4b0a93b366e3cb4",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-rslds-0-nominal-8x16",
+    "group": "switching",
+    "family": "rslds",
+    "name": "State-dependent switching",
+    "draw": 0,
+    "group_id": "public/rslds/1536403298",
+    "core_seed": 1536403298,
+    "renderer_seed": 3480031185,
+    "settings": {
+      "hga_gain": 0.3300282743730735,
+      "spatial_sigma_cells": [
+        1.0695728556723325,
+        1.2490959282110115,
+        0.5197664471372982
+      ],
+      "shared_core_weight": 0.6536174502725917,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-rslds-0-nominal-8x16-preview.bin",
+    "preview_sha256": "9f99090b67ccaef4f3c053413533e73fb11540bcf2e171367decc8d2ca488d8a",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-rslds-0-nominal-8x16-traces.bin",
+    "trace_sha256": "e7aed8825ba5d3891f6e9c765d686d893a970496a7973e49a23e9b3ea310d663",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "90db948f731b7d11ff689462ba81596ed20925c62fa8144dd54270bf94b4d454",
+    "core_parameters": {
+      "dimensions": 16,
+      "regimes": 4,
+      "transition_slope": 8.0,
+      "alternative_logit": -5.0,
+      "spectral_radius_range": [
+        0.8029590265580431,
+        0.956948492778859
+      ],
+      "transition": "softmax, continuous-state-dependent, no imposed dwell duration"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-rslds-0-nominal-8x16-driving.bin",
+    "driving_sha256": "8b94dcb6f48979f0feb05818d8c17881e598cfd1b0aae9480523570d88a70217",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-rslds-1-nominal-8x16",
+    "group": "switching",
+    "family": "rslds",
+    "name": "State-dependent switching",
+    "draw": 1,
+    "group_id": "public/rslds/927394135",
+    "core_seed": 927394135,
+    "renderer_seed": 4276447965,
+    "settings": {
+      "hga_gain": 0.2976142229065423,
+      "spatial_sigma_cells": [
+        1.0784335370299825,
+        1.1890548457356187,
+        0.42439267429122374
+      ],
+      "shared_core_weight": 0.40000776352387013,
+      "theta_pac": 0.0,
+      "beta_scale": 0.0,
+      "broad_gain": 0.0,
+      "coupling_profile": "absent"
+    },
+    "preview_file": "public-rslds-1-nominal-8x16-preview.bin",
+    "preview_sha256": "2fb29766cd25e11b8c0902da7830a583597e07049c0b69966410c2dcaeafb47c",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-rslds-1-nominal-8x16-traces.bin",
+    "trace_sha256": "bbfeba8c720ea4125d237803e5a6bddba9c6a6ee90be58a8e4e2bea9e758c8cc",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "bf120454d84da765f047c6486e226125bd24287cd4c07fa6e3ccdf74f0472152",
+    "core_parameters": {
+      "dimensions": 16,
+      "regimes": 4,
+      "transition_slope": 8.0,
+      "alternative_logit": -5.0,
+      "spectral_radius_range": [
+        0.8023828434430491,
+        0.9597340145262012
+      ],
+      "transition": "softmax, continuous-state-dependent, no imposed dwell duration"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-rslds-1-nominal-8x16-driving.bin",
+    "driving_sha256": "ec5958ab19cac6558d1776f38cd99f597f791be7e2c8ce022c5deb210b623e2f",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-ei-0-nominal-8x16",
+    "group": "spatial",
+    "family": "ei",
+    "name": "Excitation, inhibition + recovery",
+    "draw": 0,
+    "group_id": "public/ei/801480614",
+    "core_seed": 801480614,
+    "renderer_seed": 216786351,
+    "settings": {
+      "hga_gain": 0.35538313952463924,
+      "spatial_sigma_cells": [
+        1.1074870761160212,
+        1.2082269389735067,
+        0.4787382921988398
+      ],
+      "shared_core_weight": 0.7952711726784104,
+      "theta_pac": 0.07086401378157196,
+      "beta_scale": 0.1222787569043426,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-ei-0-nominal-8x16-preview.bin",
+    "preview_sha256": "57ad9cabb2d07701f69f84cdd0e9539472e0bdb3d8a374654bdca40c318736f3",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-ei-0-nominal-8x16-traces.bin",
+    "trace_sha256": "dc8ad0edf472a36033257bb694e2ae59caddc78e5c76efe79bf98df3709b25ec",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "643c00d84db8ba043fbf2c102e363db833b91de9c305dea9bfe9ccda5a4be8f2",
+    "core_parameters": {
+      "dimensions": 3,
+      "hidden_shape": [
+        8,
+        16,
+        3
+      ],
+      "channels": [
+        "Excitatory",
+        "Inhibitory",
+        "Adaptation"
+      ],
+      "tau_s": [
+        0.05010385715986836,
+        0.12469492418023956,
+        0.8426936849846496
+      ],
+      "boundary": "reflective",
+      "external_events": 104,
+      "mechanism": "bounded E/I sigmoid feedback with slow adaptation; not a physical voltage model"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-ei-0-nominal-8x16-driving.bin",
+    "driving_sha256": "3c44a2112e10406fd9a72e91f59a48305a397810941a48a8ab5976bce78cfa82",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  },
+  {
+    "id": "public-ei-1-nominal-8x16",
+    "group": "spatial",
+    "family": "ei",
+    "name": "Excitation, inhibition + recovery",
+    "draw": 1,
+    "group_id": "public/ei/3889169331",
+    "core_seed": 3889169331,
+    "renderer_seed": 779619387,
+    "settings": {
+      "hga_gain": 0.39112019360713557,
+      "spatial_sigma_cells": [
+        1.165028411749569,
+        1.25819835681479,
+        0.46846459066365925
+      ],
+      "shared_core_weight": 0.42992521802948513,
+      "theta_pac": 0.06355549290823059,
+      "beta_scale": 0.2043042363106699,
+      "broad_gain": 0.0,
+      "coupling_profile": "weak"
+    },
+    "preview_file": "public-ei-1-nominal-8x16-preview.bin",
+    "preview_sha256": "8227373513393d4615fd4626d597e0cd9f2189926cc5d2478c2f77ac421d0cac",
+    "preview_shape": [
+      3,
+      512,
+      128
+    ],
+    "trace_file": "public-ei-1-nominal-8x16-traces.bin",
+    "trace_sha256": "21a709cc0e745a16b915d7d51213c592f00ff9af2bc6de4ad7c036d324b18089",
+    "trace_shape": [
+      8,
+      512
+    ],
+    "packet_sha256": "ce0b5f26c4940c832c796692dca710d6659f7c990d52b2f4ba23d54970ad1fb5",
+    "core_parameters": {
+      "dimensions": 3,
+      "hidden_shape": [
+        8,
+        16,
+        3
+      ],
+      "channels": [
+        "Excitatory",
+        "Inhibitory",
+        "Adaptation"
+      ],
+      "tau_s": [
+        0.06290932468992444,
+        0.08664775191425625,
+        0.5661511251376555
+      ],
+      "boundary": "reflective",
+      "external_events": 143,
+      "mechanism": "bounded E/I sigmoid feedback with slow adaptation; not a physical voltage model"
+    },
+    "source_version": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9",
+    "driving_file": "public-ei-1-nominal-8x16-driving.bin",
+    "driving_sha256": "9297cceb94d23ea844a549a56a37402197c911993d72b87da85fc479df37c7d7",
+    "driving_shape": [
+      3,
+      512,
+      128
+    ]
+  }
+]

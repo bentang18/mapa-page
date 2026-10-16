@@ -1,0 +1,1750 @@
+{
+  "grids": [
+    {
+      "key": "grid125",
+      "label": "125 contacts",
+      "origin": [
+        0,
+        0
+      ],
+      "shape": [
+        8,
+        16
+      ],
+      "positions": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "key": "grid242",
+      "label": "242 contacts",
+      "origin": [
+        0,
+        1
+      ],
+      "shape": [
+        12,
+        22
+      ],
+      "positions": [
+        [
+          3,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          7,
+          16
+        ]
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "family": "switching",
+      "name": "Persistent switching world",
+      "draw": 0,
+      "profile": "A",
+      "group": "switching",
+      "group_id": "world/switching/db404446887acdc1cf90aa31f637421a",
+      "core_seed_hex": "db404446887acdc1cf90aa31f637421a",
+      "renderer_seed_hex": "bb045c315add2c1b0c9f075454c66edd",
+      "settings": {
+        "hga_gain": 0.251701334769703,
+        "shared_core_weight": 0.383030225307751,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent",
+        "spatial_sigma_cells": [
+          1.2881154844730704,
+          1.0610957501637683,
+          0.5049286664836959
+        ],
+        "added_voltage_noise_rms": 0.11504176795597795
+      },
+      "preview_sha256": "dba1cdca1c21e2f5c81be6c823ee133859ae833e914396372177cc29487feaca",
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "trace_sha256": "3b2438240466d018557af5274e671dab228392fa56065f50f555dc5fc53e4a44",
+      "trace_shape": [
+        8,
+        512
+      ],
+      "driving_sha256": "e604b3ae70c36e1cc2db6f8c593e5134af7616d3cf727635027cc1374023d8ce",
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "packet_sha256": "5f8c243b012be96b418cfa65add63366d90bccd03c00ca1e7f561e3f6994ee94",
+      "core_parameters": {
+        "dimensions": 13,
+        "regimes": 7,
+        "graph_density": 0.23334001701517726,
+        "graph_spectral_radius": 0.7805536715919049,
+        "tau_range_s": [
+          0.07440837245280138,
+          0.4372296146256351
+        ]
+      },
+      "source_version": "v14 approved persistent-world control; not a replacement corpus",
+      "source_state_sha256": "1bcdb3377581017132cd22bf584c4eb8c38292948ec73b63d4f31169be8002af",
+      "source_voltage_sha256": "2242e521921f4ef11f6cdac07acdd93652be4626fc9bc946505d2548a19d34e9",
+      "unit_noise_sha256": "e095cd15195aacbf523db0d3c40d228c31624ef0c7e4f7f6353eb90326e6901e",
+      "normalization": "Each recording fits its own first24s; frozen through32scontent,8sbuffer,G3\u00b115. Raw-bin/precap correlation controls retained.",
+      "id": "persistent-profileA-grid125",
+      "geometry_key": "grid125",
+      "preview_file": "persistent-profileA-grid125-preview.bin",
+      "trace_file": "persistent-profileA-grid125-trace.bin",
+      "driving_file": "persistent-profileA-grid125-driving.bin"
+    },
+    {
+      "family": "switching",
+      "name": "Persistent switching world",
+      "draw": 0,
+      "profile": "A",
+      "group": "switching",
+      "group_id": "world/switching/db404446887acdc1cf90aa31f637421a",
+      "core_seed_hex": "db404446887acdc1cf90aa31f637421a",
+      "renderer_seed_hex": "bb045c315add2c1b0c9f075454c66edd",
+      "settings": {
+        "hga_gain": 0.251701334769703,
+        "shared_core_weight": 0.383030225307751,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent",
+        "spatial_sigma_cells": [
+          1.2881154844730704,
+          1.0610957501637683,
+          0.5049286664836959
+        ],
+        "added_voltage_noise_rms": 0.11504176795597795
+      },
+      "preview_sha256": "201973f1cbbbebac64a9003420e3b7eef7b2da36783a27fbeab93b708ce95e1d",
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "trace_sha256": "3b2438240466d018557af5274e671dab228392fa56065f50f555dc5fc53e4a44",
+      "trace_shape": [
+        8,
+        512
+      ],
+      "driving_sha256": "ecb8d1a206419c92c23fa2ba4b0a0ca9c468a219dcb80545650027ba03f80b7d",
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "packet_sha256": "f00e3acccf9d381bee7d01bfdda222f362ec7c80bb045ed26d1cc39fde9c63db",
+      "core_parameters": {
+        "dimensions": 13,
+        "regimes": 7,
+        "graph_density": 0.23334001701517726,
+        "graph_spectral_radius": 0.7805536715919049,
+        "tau_range_s": [
+          0.07440837245280138,
+          0.4372296146256351
+        ]
+      },
+      "source_version": "v14 approved persistent-world control; not a replacement corpus",
+      "source_state_sha256": "1bcdb3377581017132cd22bf584c4eb8c38292948ec73b63d4f31169be8002af",
+      "source_voltage_sha256": "2242e521921f4ef11f6cdac07acdd93652be4626fc9bc946505d2548a19d34e9",
+      "unit_noise_sha256": "e095cd15195aacbf523db0d3c40d228c31624ef0c7e4f7f6353eb90326e6901e",
+      "normalization": "Each recording fits its own first24s; frozen through32scontent,8sbuffer,G3\u00b115. Raw-bin/precap correlation controls retained.",
+      "id": "persistent-profileA-grid242",
+      "geometry_key": "grid242",
+      "preview_file": "persistent-profileA-grid242-preview.bin",
+      "trace_file": "persistent-profileA-grid242-trace.bin",
+      "driving_file": "persistent-profileA-grid242-driving.bin"
+    },
+    {
+      "family": "switching",
+      "name": "Persistent switching world",
+      "draw": 1,
+      "profile": "B",
+      "group": "switching",
+      "group_id": "world/switching/db404446887acdc1cf90aa31f637421a",
+      "core_seed_hex": "db404446887acdc1cf90aa31f637421a",
+      "renderer_seed_hex": "bb045c315add2c1b0c9f075454c66edd",
+      "settings": {
+        "hga_gain": 0.251701334769703,
+        "shared_core_weight": 0.383030225307751,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent",
+        "spatial_sigma_cells": [
+          1.2080005905579112,
+          1.096878552355416,
+          0.3953784414147667
+        ],
+        "added_voltage_noise_rms": 0.16814376059799177
+      },
+      "preview_sha256": "7762547ad50cc63bfd442ab3d3fa6890a575ebad7f2196ef88aa13712dfdb6f8",
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "trace_sha256": "3b2438240466d018557af5274e671dab228392fa56065f50f555dc5fc53e4a44",
+      "trace_shape": [
+        8,
+        512
+      ],
+      "driving_sha256": "e604b3ae70c36e1cc2db6f8c593e5134af7616d3cf727635027cc1374023d8ce",
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "packet_sha256": "f653940e3149865dd657de3158e191bf70fc8fa856e0c54df7f626cd4632b2f8",
+      "core_parameters": {
+        "dimensions": 13,
+        "regimes": 7,
+        "graph_density": 0.23334001701517726,
+        "graph_spectral_radius": 0.7805536715919049,
+        "tau_range_s": [
+          0.07440837245280138,
+          0.4372296146256351
+        ]
+      },
+      "source_version": "v14 approved persistent-world control; not a replacement corpus",
+      "source_state_sha256": "1bcdb3377581017132cd22bf584c4eb8c38292948ec73b63d4f31169be8002af",
+      "source_voltage_sha256": "2242e521921f4ef11f6cdac07acdd93652be4626fc9bc946505d2548a19d34e9",
+      "unit_noise_sha256": "e095cd15195aacbf523db0d3c40d228c31624ef0c7e4f7f6353eb90326e6901e",
+      "normalization": "Each recording fits its own first24s; frozen through32scontent,8sbuffer,G3\u00b115. Raw-bin/precap correlation controls retained.",
+      "id": "persistent-profileB-grid125",
+      "geometry_key": "grid125",
+      "preview_file": "persistent-profileB-grid125-preview.bin",
+      "trace_file": "persistent-profileB-grid125-trace.bin",
+      "driving_file": "persistent-profileB-grid125-driving.bin"
+    },
+    {
+      "family": "switching",
+      "name": "Persistent switching world",
+      "draw": 1,
+      "profile": "B",
+      "group": "switching",
+      "group_id": "world/switching/db404446887acdc1cf90aa31f637421a",
+      "core_seed_hex": "db404446887acdc1cf90aa31f637421a",
+      "renderer_seed_hex": "bb045c315add2c1b0c9f075454c66edd",
+      "settings": {
+        "hga_gain": 0.251701334769703,
+        "shared_core_weight": 0.383030225307751,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent",
+        "spatial_sigma_cells": [
+          1.2080005905579112,
+          1.096878552355416,
+          0.3953784414147667
+        ],
+        "added_voltage_noise_rms": 0.16814376059799177
+      },
+      "preview_sha256": "3076a029f9e8e6c974446a72ed4b6e695ac3679b216794e4e9afd133a840f8f7",
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "trace_sha256": "3b2438240466d018557af5274e671dab228392fa56065f50f555dc5fc53e4a44",
+      "trace_shape": [
+        8,
+        512
+      ],
+      "driving_sha256": "ecb8d1a206419c92c23fa2ba4b0a0ca9c468a219dcb80545650027ba03f80b7d",
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "packet_sha256": "c0198e453b1b76ab2a230ca1770035f668a24e6e850742f6835ae2060db17b0d",
+      "core_parameters": {
+        "dimensions": 13,
+        "regimes": 7,
+        "graph_density": 0.23334001701517726,
+        "graph_spectral_radius": 0.7805536715919049,
+        "tau_range_s": [
+          0.07440837245280138,
+          0.4372296146256351
+        ]
+      },
+      "source_version": "v14 approved persistent-world control; not a replacement corpus",
+      "source_state_sha256": "1bcdb3377581017132cd22bf584c4eb8c38292948ec73b63d4f31169be8002af",
+      "source_voltage_sha256": "2242e521921f4ef11f6cdac07acdd93652be4626fc9bc946505d2548a19d34e9",
+      "unit_noise_sha256": "e095cd15195aacbf523db0d3c40d228c31624ef0c7e4f7f6353eb90326e6901e",
+      "normalization": "Each recording fits its own first24s; frozen through32scontent,8sbuffer,G3\u00b115. Raw-bin/precap correlation controls retained.",
+      "id": "persistent-profileB-grid242",
+      "geometry_key": "grid242",
+      "preview_file": "persistent-profileB-grid242-preview.bin",
+      "trace_file": "persistent-profileB-grid242-trace.bin",
+      "driving_file": "persistent-profileB-grid242-driving.bin"
+    }
+  ]
+}

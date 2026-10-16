@@ -1,0 +1,18 @@
+{
+  "status": "input interface and replay verified; HGA statistical mismatch remains",
+  "gallery_examples": 14,
+  "qualification_recordings": 70,
+  "files_hashed": 336,
+  "core_families": 7,
+  "all20bins": true,
+  "normalization_replay": true,
+  "full_world_bitwise_replays": 1,
+  "standalone_source_packet_replay": true,
+  "paired_zero_arm_bitwise_gate": false,
+  "max_frozen_zero_arm_difference": 1.3709068298339844e-05,
+  "numerical_repair": "separately verified; frozen gallery not replaced",
+  "statistical_qualification": "HGA spatial coherence insufficient",
+  "clinical_arrays_in_public_bundle": false,
+  "training": false,
+  "source_contract_sha256": "051ad344eca19cda22357ff28ad56c1821e6e0d2e1aed3819419373fd06f3fe9"
+}

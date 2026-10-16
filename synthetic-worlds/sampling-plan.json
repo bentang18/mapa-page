@@ -1,0 +1,1226 @@
+{
+  "version": "uecog-candidate-plan-v13-identity1",
+  "status": "METADATA ONLY; HGA prior unqualified; not a training manifest",
+  "plan_seed_hex": "98adf1a93fa4ec892c366979d1bdfc22",
+  "candidate_spec_sha256": "b946d912cf54ff2f5cf92654de1ed8b52cd57dc24b0da0b31399c9f179f24636",
+  "sampling": "exactly balanced eight-world blocks; random order within each block",
+  "seeds": "128bit lowercase hex strings; parse with int(value,16) in Python. No JSNumber round trip.",
+  "split_rule": "Keep every renderer, geometry and crop sharing a world_group_id in the same split. Split-independent identity checks reject equal core streams.",
+  "training": false,
+  "recordings_generated": false,
+  "worlds": [
+    {
+      "world_id": "future_train/0/0",
+      "split": "future_train",
+      "block": 0,
+      "slot": 0,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/e9efc010b7e0419ba0120108d575e26e",
+      "core_seed_hex": "e9efc010b7e0419ba0120108d575e26e",
+      "renderer_seed_hex": "b138a0a12b9a13cb8ec1aa4bd8e19b20",
+      "recipe_seed_hex": "d719daa410c88c270d4ed405a508f33e",
+      "settings": {
+        "hga_gain": 0.31629924449065244,
+        "spatial_sigma_cells": [
+          1.2345067809477945,
+          1.278292813672902,
+          0.3807287222842945
+        ],
+        "shared_core_weight": 0.43293597975368364,
+        "theta_pac": 0.06622095516672193,
+        "beta_scale": 0.2889580666383244,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/0/1",
+      "split": "future_train",
+      "block": 0,
+      "slot": 1,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/43a017850e5a3be4518358a246b0d0f0",
+      "core_seed_hex": "43a017850e5a3be4518358a246b0d0f0",
+      "renderer_seed_hex": "2ae78f7b3c885202e117a9d91ac0e8cc",
+      "recipe_seed_hex": "409f7af1bbf0d8b21871cfa62555b365",
+      "settings": {
+        "hga_gain": 0.3639761823559538,
+        "spatial_sigma_cells": [
+          1.2550376755820245,
+          1.2162585411175173,
+          0.43267756810204866
+        ],
+        "shared_core_weight": 0.7089372568566569,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/0/2",
+      "split": "future_train",
+      "block": 0,
+      "slot": 2,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/012ffec0bd2e6015a32ef3d0a47fec84",
+      "core_seed_hex": "012ffec0bd2e6015a32ef3d0a47fec84",
+      "renderer_seed_hex": "e0269f73636a73e73081ff22ef4f45a9",
+      "recipe_seed_hex": "d3da264d940cc35aaac9b88c3c29539e",
+      "settings": {
+        "hga_gain": 0.37197877948688923,
+        "spatial_sigma_cells": [
+          1.026758984316136,
+          1.015505002201377,
+          0.34759610411738473
+        ],
+        "shared_core_weight": 0.4579590859078957,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/0/3",
+      "split": "future_train",
+      "block": 0,
+      "slot": 3,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/82e93397f9f3d8defe0555b4a52baae2",
+      "core_seed_hex": "82e93397f9f3d8defe0555b4a52baae2",
+      "renderer_seed_hex": "738d7ef844bb67ca3e4ca799eb3968d8",
+      "recipe_seed_hex": "84929d1d2a766baad82be4ca1d3418bc",
+      "settings": {
+        "hga_gain": 0.31417367152734965,
+        "spatial_sigma_cells": [
+          1.0445675936271317,
+          1.1957241912422356,
+          0.6482001395361409
+        ],
+        "shared_core_weight": 0.5221155110541826,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/0/4",
+      "split": "future_train",
+      "block": 0,
+      "slot": 4,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/7804ab4dd8ca5b63e77e1f9a9dcec79e",
+      "core_seed_hex": "7804ab4dd8ca5b63e77e1f9a9dcec79e",
+      "renderer_seed_hex": "8235e2c4dcac3f9cc9c920d00931a250",
+      "recipe_seed_hex": "78df18df2b4926ae2e1509d146a867d4",
+      "settings": {
+        "hga_gain": 0.2985045610909185,
+        "spatial_sigma_cells": [
+          1.2057843160351849,
+          1.1729541670374697,
+          0.3698130505011798
+        ],
+        "shared_core_weight": 0.6613372181759432,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/0/5",
+      "split": "future_train",
+      "block": 0,
+      "slot": 5,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/e1d68d72ab0006ff1fd6cdf06c7c6639",
+      "core_seed_hex": "e1d68d72ab0006ff1fd6cdf06c7c6639",
+      "renderer_seed_hex": "fa155e5432a44f778125ad1afd4696eb",
+      "recipe_seed_hex": "e1360b8a056138688fbbb0f5d7b6e4d1",
+      "settings": {
+        "hga_gain": 0.2672245645134732,
+        "spatial_sigma_cells": [
+          1.2230324478986385,
+          1.1027999361604441,
+          0.336097948843018
+        ],
+        "shared_core_weight": 0.6776363881308595,
+        "theta_pac": 0.04208495752419756,
+        "beta_scale": 0.27219774245132816,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/0/6",
+      "split": "future_train",
+      "block": 0,
+      "slot": 6,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/21b79492b9fb1712360b9c62fde3eb96",
+      "core_seed_hex": "21b79492b9fb1712360b9c62fde3eb96",
+      "renderer_seed_hex": "ffc998af7384eb2ab48d3cb419a36e87",
+      "recipe_seed_hex": "6e0bfd7c478a3eee94ef2419da35d95f",
+      "settings": {
+        "hga_gain": 0.34679390445664826,
+        "spatial_sigma_cells": [
+          1.0103252033866574,
+          1.0032293623404835,
+          0.3459906314750149
+        ],
+        "shared_core_weight": 0.47940130974719325,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/0/7",
+      "split": "future_train",
+      "block": 0,
+      "slot": 7,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/30b62bf59af2959a55132e681f4802ee",
+      "core_seed_hex": "30b62bf59af2959a55132e681f4802ee",
+      "renderer_seed_hex": "8f1335dcea2eedddce03df3b92f64679",
+      "recipe_seed_hex": "2ce75ed6cf701f377cf422ca37066192",
+      "settings": {
+        "hga_gain": 0.3431885940503454,
+        "spatial_sigma_cells": [
+          1.2909182213055284,
+          1.0100969620521152,
+          0.47853339648168386
+        ],
+        "shared_core_weight": 0.629425142220993,
+        "theta_pac": 0.0704409544900096,
+        "beta_scale": 0.24748655253480234,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/1/0",
+      "split": "future_train",
+      "block": 1,
+      "slot": 0,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/b87aef2cd485b0de5af3a0a5fbb26cab",
+      "core_seed_hex": "b87aef2cd485b0de5af3a0a5fbb26cab",
+      "renderer_seed_hex": "2d518f42bb9c6a48cd611d23246b8e4b",
+      "recipe_seed_hex": "cd472d2e746901508ead3669edd1b4db",
+      "settings": {
+        "hga_gain": 0.323049057254036,
+        "spatial_sigma_cells": [
+          1.1751588926907763,
+          1.0266148421494559,
+          0.32360908797310317
+        ],
+        "shared_core_weight": 0.6242428213733555,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/1/1",
+      "split": "future_train",
+      "block": 1,
+      "slot": 1,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/0bf4aa2c53618959590176054cf90282",
+      "core_seed_hex": "0bf4aa2c53618959590176054cf90282",
+      "renderer_seed_hex": "282592bcd6885ff56067fe45c08ee355",
+      "recipe_seed_hex": "ea111731b54ac7605f295d6f59f191fa",
+      "settings": {
+        "hga_gain": 0.266041357724634,
+        "spatial_sigma_cells": [
+          1.270292302325858,
+          1.1598462548966648,
+          0.39830145996376115
+        ],
+        "shared_core_weight": 0.7791215010001693,
+        "theta_pac": 0.04856073297531224,
+        "beta_scale": 0.17821780404309212,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/1/2",
+      "split": "future_train",
+      "block": 1,
+      "slot": 2,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/fabad986f1491f98f6c026a4cead5c10",
+      "core_seed_hex": "fabad986f1491f98f6c026a4cead5c10",
+      "renderer_seed_hex": "87eedb12e4d01c1ecb6db513638a9857",
+      "recipe_seed_hex": "4b379c9d96e4e1231acb7522088d30ae",
+      "settings": {
+        "hga_gain": 0.30223937991570543,
+        "spatial_sigma_cells": [
+          1.126789371555548,
+          1.1155208694152046,
+          0.5893386972989154
+        ],
+        "shared_core_weight": 0.46307697260210723,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/1/3",
+      "split": "future_train",
+      "block": 1,
+      "slot": 3,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/c447000b47d62da8700c9bfce6505d78",
+      "core_seed_hex": "c447000b47d62da8700c9bfce6505d78",
+      "renderer_seed_hex": "8272015c5dd3a761d237b1421e1490c1",
+      "recipe_seed_hex": "c111ef075cf4f932c80d10a03ed62e5a",
+      "settings": {
+        "hga_gain": 0.3254077805989649,
+        "spatial_sigma_cells": [
+          1.1140357032040116,
+          1.1640849900719452,
+          0.3518447457609782
+        ],
+        "shared_core_weight": 0.5746784608209539,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/1/4",
+      "split": "future_train",
+      "block": 1,
+      "slot": 4,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/8183a70f30f81df5231dbc590d17b523",
+      "core_seed_hex": "8183a70f30f81df5231dbc590d17b523",
+      "renderer_seed_hex": "a6713044159641f6c5f4c35d7b5f97c8",
+      "recipe_seed_hex": "10a15901d7de1d75f17061d8f43f3ee9",
+      "settings": {
+        "hga_gain": 0.296646076128369,
+        "spatial_sigma_cells": [
+          1.1347470370540185,
+          1.2585949268907548,
+          0.4375182291861907
+        ],
+        "shared_core_weight": 0.3984207955665859,
+        "theta_pac": 0.07352585435624148,
+        "beta_scale": 0.2012363115985386,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/1/5",
+      "split": "future_train",
+      "block": 1,
+      "slot": 5,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/62a153ef78b953fb313c6c0ca0a22264",
+      "core_seed_hex": "62a153ef78b953fb313c6c0ca0a22264",
+      "renderer_seed_hex": "b4b3e384fdd3e42e969df9a592e5c3bf",
+      "recipe_seed_hex": "8d9d14b35ff2e8fe81b1909869612f27",
+      "settings": {
+        "hga_gain": 0.30280911501271607,
+        "spatial_sigma_cells": [
+          1.1322558348823584,
+          1.175155054719094,
+          0.599778214982842
+        ],
+        "shared_core_weight": 0.3677994890414655,
+        "theta_pac": 0.06743459041593092,
+        "beta_scale": 0.27427335451619417,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/1/6",
+      "split": "future_train",
+      "block": 1,
+      "slot": 6,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/c23d05a94b427d2de7dc4cc2c5b819d0",
+      "core_seed_hex": "c23d05a94b427d2de7dc4cc2c5b819d0",
+      "renderer_seed_hex": "44eaa64908b0c8f4f7c20cf08e6b9be1",
+      "recipe_seed_hex": "f0ac9222739acf8d7f7d327f1cdeae4a",
+      "settings": {
+        "hga_gain": 0.35023983628006317,
+        "spatial_sigma_cells": [
+          1.2090143965955966,
+          1.0814128972338675,
+          0.2836307233933607
+        ],
+        "shared_core_weight": 0.5434139782748385,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/1/7",
+      "split": "future_train",
+      "block": 1,
+      "slot": 7,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/cf8cb2ba71343e8741de6e08abf657c2",
+      "core_seed_hex": "cf8cb2ba71343e8741de6e08abf657c2",
+      "renderer_seed_hex": "abd9458c61fa69e01861274672c1b374",
+      "recipe_seed_hex": "8a77b388bfad8b7539daf797fcebb774",
+      "settings": {
+        "hga_gain": 0.29933621733561017,
+        "spatial_sigma_cells": [
+          1.02900713052302,
+          1.124570895371611,
+          0.6361359615282146
+        ],
+        "shared_core_weight": 0.7051211618536432,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/2/0",
+      "split": "future_train",
+      "block": 2,
+      "slot": 0,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/e6de99de6fde1163a3c27293329ad786",
+      "core_seed_hex": "e6de99de6fde1163a3c27293329ad786",
+      "renderer_seed_hex": "c4b697f8c5413552cac113a4067acaa0",
+      "recipe_seed_hex": "e4eb0cff87a95d278b9a99a30b65570c",
+      "settings": {
+        "hga_gain": 0.3542093113885538,
+        "spatial_sigma_cells": [
+          1.2104910770989312,
+          1.106202112383909,
+          0.4665069935853388
+        ],
+        "shared_core_weight": 0.7311968526493288,
+        "theta_pac": 0.07494410877124406,
+        "beta_scale": 0.13311239299917854,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/2/1",
+      "split": "future_train",
+      "block": 2,
+      "slot": 1,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/9a0425cd32ad54edd7bd62f973b6cf2c",
+      "core_seed_hex": "9a0425cd32ad54edd7bd62f973b6cf2c",
+      "renderer_seed_hex": "6b8c4dcd273eec13489b4231a93cd910",
+      "recipe_seed_hex": "41c7fc9931f474e6def4d3b85149e522",
+      "settings": {
+        "hga_gain": 0.26361528455975597,
+        "spatial_sigma_cells": [
+          1.2343745783403652,
+          1.062135857510461,
+          0.3762362049918803
+        ],
+        "shared_core_weight": 0.5158479444610752,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/2/2",
+      "split": "future_train",
+      "block": 2,
+      "slot": 2,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/5eb5bc81ad4a243c9fde8de001cb0baf",
+      "core_seed_hex": "5eb5bc81ad4a243c9fde8de001cb0baf",
+      "renderer_seed_hex": "89f863096629e8201a4246fe450be895",
+      "recipe_seed_hex": "177192269dc89a0e899ad2559f339d75",
+      "settings": {
+        "hga_gain": 0.2695111070833923,
+        "spatial_sigma_cells": [
+          1.2132210882465058,
+          1.2313251520122475,
+          0.25483705772630755
+        ],
+        "shared_core_weight": 0.4041352136677443,
+        "theta_pac": 0.055694091530147045,
+        "beta_scale": 0.2929883886616595,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/2/3",
+      "split": "future_train",
+      "block": 2,
+      "slot": 3,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/7352db17148c06b0727eb19f9e5446b8",
+      "core_seed_hex": "7352db17148c06b0727eb19f9e5446b8",
+      "renderer_seed_hex": "99c5eca4338c2fe34356841ef7d13d66",
+      "recipe_seed_hex": "67f4ad2599fa625ae8e4ab8e82cbaf30",
+      "settings": {
+        "hga_gain": 0.25875673019793716,
+        "spatial_sigma_cells": [
+          1.2164777576221721,
+          1.1730396144695983,
+          0.31977985418579796
+        ],
+        "shared_core_weight": 0.4911154615330181,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/2/4",
+      "split": "future_train",
+      "block": 2,
+      "slot": 4,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/c600ed8c26ae87dc6a534f4e5ebaf528",
+      "core_seed_hex": "c600ed8c26ae87dc6a534f4e5ebaf528",
+      "renderer_seed_hex": "fafe995cdb3ab2b055590408fed554d0",
+      "recipe_seed_hex": "1c92dc3185701ea1c78f107f4f1e355b",
+      "settings": {
+        "hga_gain": 0.32799706577709625,
+        "spatial_sigma_cells": [
+          1.283206701906497,
+          1.1195015431728017,
+          0.40673740444300904
+        ],
+        "shared_core_weight": 0.3932031318782818,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/2/5",
+      "split": "future_train",
+      "block": 2,
+      "slot": 5,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/47963ab1dabfdb58c723e79cc86cf118",
+      "core_seed_hex": "47963ab1dabfdb58c723e79cc86cf118",
+      "renderer_seed_hex": "2c5d123536fcf68135258911599200e4",
+      "recipe_seed_hex": "0b1424c512935526a935cf1b832fa0d8",
+      "settings": {
+        "hga_gain": 0.385964190976421,
+        "spatial_sigma_cells": [
+          1.0062446182351048,
+          1.0739282877286778,
+          0.3555761412862947
+        ],
+        "shared_core_weight": 0.7470111898926641,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/2/6",
+      "split": "future_train",
+      "block": 2,
+      "slot": 6,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/221a03002c34810a2652255dacf41912",
+      "core_seed_hex": "221a03002c34810a2652255dacf41912",
+      "renderer_seed_hex": "9e23981cd8053b9da4e28089cb3d0983",
+      "recipe_seed_hex": "b2782b24aedb5c5232e1da6c9d5d67ea",
+      "settings": {
+        "hga_gain": 0.38590824996312795,
+        "spatial_sigma_cells": [
+          1.126881749636333,
+          1.1120278947640276,
+          0.3485528517688011
+        ],
+        "shared_core_weight": 0.6489926799832167,
+        "theta_pac": 0.04905860424104774,
+        "beta_scale": 0.25464696043660484,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/2/7",
+      "split": "future_train",
+      "block": 2,
+      "slot": 7,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/7c3c555a0e36a1a7e9cd57bb92895499",
+      "core_seed_hex": "7c3c555a0e36a1a7e9cd57bb92895499",
+      "renderer_seed_hex": "dd4469443c72a04b82ef1a9fe7a8862c",
+      "recipe_seed_hex": "4b44b807a27f4a70448ece5f6cdb5da8",
+      "settings": {
+        "hga_gain": 0.39691978747118933,
+        "spatial_sigma_cells": [
+          1.2339303652625198,
+          1.2162425140461237,
+          0.4401868826163507
+        ],
+        "shared_core_weight": 0.7566892674684622,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/3/0",
+      "split": "future_train",
+      "block": 3,
+      "slot": 0,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/dae98f273ea267691f6814f2cb193b80",
+      "core_seed_hex": "dae98f273ea267691f6814f2cb193b80",
+      "renderer_seed_hex": "0834aa86ebdced6c8d3a41d21d222dfc",
+      "recipe_seed_hex": "c3236967e5ea27de91a77520f8ae118e",
+      "settings": {
+        "hga_gain": 0.325813835426245,
+        "spatial_sigma_cells": [
+          1.0917928733315778,
+          1.0771910004518739,
+          0.46905102282146743
+        ],
+        "shared_core_weight": 0.38388344218251125,
+        "theta_pac": 0.02854443191115692,
+        "beta_scale": 0.1267432194288782,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/3/1",
+      "split": "future_train",
+      "block": 3,
+      "slot": 1,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/93c85af428bbd5fd2b7ce1b33d67ef22",
+      "core_seed_hex": "93c85af428bbd5fd2b7ce1b33d67ef22",
+      "renderer_seed_hex": "0d86b8d0f2dbb2ec14241bce25b97767",
+      "recipe_seed_hex": "20157bd9d00a49e2260974e93d494051",
+      "settings": {
+        "hga_gain": 0.3048254329526928,
+        "spatial_sigma_cells": [
+          1.1877018909284676,
+          1.026913730960649,
+          0.44075790132308473
+        ],
+        "shared_core_weight": 0.5196465271858669,
+        "theta_pac": 0.06574456030405147,
+        "beta_scale": 0.29756415209879167,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/3/2",
+      "split": "future_train",
+      "block": 3,
+      "slot": 2,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/72aadc4ee47e54f32716a29413e9a505",
+      "core_seed_hex": "72aadc4ee47e54f32716a29413e9a505",
+      "renderer_seed_hex": "445c9c487a254ed23e8cf4a393789ed1",
+      "recipe_seed_hex": "900369c9c4508f7a4647763379caadae",
+      "settings": {
+        "hga_gain": 0.36890327831829306,
+        "spatial_sigma_cells": [
+          1.2172548938153545,
+          1.0174458498838543,
+          0.6249641943786356
+        ],
+        "shared_core_weight": 0.5397124687149145,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/3/3",
+      "split": "future_train",
+      "block": 3,
+      "slot": 3,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/b27f2e35bd4e663d647dcb137b07b033",
+      "core_seed_hex": "b27f2e35bd4e663d647dcb137b07b033",
+      "renderer_seed_hex": "67975e4c1bc3f992a99720e454605333",
+      "recipe_seed_hex": "794f925f2a8a7ebde0dafd71f7959adc",
+      "settings": {
+        "hga_gain": 0.39404619966922366,
+        "spatial_sigma_cells": [
+          1.2816281041584214,
+          1.2096487095847535,
+          0.6388227693976132
+        ],
+        "shared_core_weight": 0.7218288633770963,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/3/4",
+      "split": "future_train",
+      "block": 3,
+      "slot": 4,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/8754272e3d84a0a1c5500df42c2c5fbd",
+      "core_seed_hex": "8754272e3d84a0a1c5500df42c2c5fbd",
+      "renderer_seed_hex": "eee883655704e84731c1dea1a731db90",
+      "recipe_seed_hex": "63e05ae150e26171c1ec85d1727878b7",
+      "settings": {
+        "hga_gain": 0.39088840321731017,
+        "spatial_sigma_cells": [
+          1.199755080780813,
+          1.065289549313059,
+          0.6141661386170564
+        ],
+        "shared_core_weight": 0.6530061767462735,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/3/5",
+      "split": "future_train",
+      "block": 3,
+      "slot": 5,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/25024270620b88e927ad06f07b2ac36c",
+      "core_seed_hex": "25024270620b88e927ad06f07b2ac36c",
+      "renderer_seed_hex": "e6e16dd582c77fb8b1a60b09dc692a70",
+      "recipe_seed_hex": "26c9cc2b26516cfd18c83a80eee424cc",
+      "settings": {
+        "hga_gain": 0.3919592160508335,
+        "spatial_sigma_cells": [
+          1.2394705761945506,
+          1.1672101587993688,
+          0.3834819126516205
+        ],
+        "shared_core_weight": 0.5865721231269018,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_train/3/6",
+      "split": "future_train",
+      "block": 3,
+      "slot": 6,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/96578b3bdeba5b4036ee3d5f74113ccf",
+      "core_seed_hex": "96578b3bdeba5b4036ee3d5f74113ccf",
+      "renderer_seed_hex": "1760c9e217c2f721bbabf2b6a68ec300",
+      "recipe_seed_hex": "d71c92e8fd56a1fa312e7e1e6fac885e",
+      "settings": {
+        "hga_gain": 0.3770397441469817,
+        "spatial_sigma_cells": [
+          1.103085696313314,
+          1.0543684658245709,
+          0.3243264231227473
+        ],
+        "shared_core_weight": 0.3825567728712375,
+        "theta_pac": 0.04675839650742171,
+        "beta_scale": 0.2736981511327227,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_train/3/7",
+      "split": "future_train",
+      "block": 3,
+      "slot": 7,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/2ba4c9db9213eb90e9835293ace9da04",
+      "core_seed_hex": "2ba4c9db9213eb90e9835293ace9da04",
+      "renderer_seed_hex": "e125d1356c23ec1db295426dc0917e96",
+      "recipe_seed_hex": "5cf94e1b5b6b5495aeb09ffb1a2ed563",
+      "settings": {
+        "hga_gain": 0.39922743080189677,
+        "spatial_sigma_cells": [
+          1.2142342746555346,
+          1.124109296919502,
+          0.40667164599154637
+        ],
+        "shared_core_weight": 0.7481566250368615,
+        "theta_pac": 0.04438088225319514,
+        "beta_scale": 0.2579103287067753,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_valid/0/0",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 0,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/2104d3f826f7972ac3a10067f686195e",
+      "core_seed_hex": "2104d3f826f7972ac3a10067f686195e",
+      "renderer_seed_hex": "2259009a802ac3bb169379d72d1c3851",
+      "recipe_seed_hex": "168f8c4757aded581dbd6f0cef8f2100",
+      "settings": {
+        "hga_gain": 0.2612276402591499,
+        "spatial_sigma_cells": [
+          1.2474715256684392,
+          1.0838396969416109,
+          0.5645683665981783
+        ],
+        "shared_core_weight": 0.46608330188612196,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/0/1",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 1,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/b408b87a379dd5ee9a8f14d7e2ea0d43",
+      "core_seed_hex": "b408b87a379dd5ee9a8f14d7e2ea0d43",
+      "renderer_seed_hex": "9d7571b8741a34ba384409bb414dea99",
+      "recipe_seed_hex": "70c76f0f70b0e72cc19074cf5156cac0",
+      "settings": {
+        "hga_gain": 0.25365226201248486,
+        "spatial_sigma_cells": [
+          1.272512119763859,
+          1.2336227918702711,
+          0.47773091687610586
+        ],
+        "shared_core_weight": 0.5231733055519758,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/0/2",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 2,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/c8943bcfd97b27734a5ebbb35016b5fe",
+      "core_seed_hex": "c8943bcfd97b27734a5ebbb35016b5fe",
+      "renderer_seed_hex": "898ad9d912c2922e348bb034ed4fe0f1",
+      "recipe_seed_hex": "2c36c257c097f0ca16363770ce7a989e",
+      "settings": {
+        "hga_gain": 0.33784608296973495,
+        "spatial_sigma_cells": [
+          1.2523241888728611,
+          1.1596780830453344,
+          0.3667459778917507
+        ],
+        "shared_core_weight": 0.5395930873235405,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/0/3",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 3,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/542518a323368b627c26fb87f05d4d36",
+      "core_seed_hex": "542518a323368b627c26fb87f05d4d36",
+      "renderer_seed_hex": "de4294e0a16599f9a361f4629f8388e1",
+      "recipe_seed_hex": "546d0d6d949b0627b4fa5b8abd69d75b",
+      "settings": {
+        "hga_gain": 0.30520384435534403,
+        "spatial_sigma_cells": [
+          1.2136416743367393,
+          1.2807984288459238,
+          0.6417857933288064
+        ],
+        "shared_core_weight": 0.45481331747318365,
+        "theta_pac": 0.057845428213667706,
+        "beta_scale": 0.28951086657366526,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_valid/0/4",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 4,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/f0aea413bf27c069b923b9b6b120a952",
+      "core_seed_hex": "f0aea413bf27c069b923b9b6b120a952",
+      "renderer_seed_hex": "44e410a6394cd6eb01fce96cc15b9289",
+      "recipe_seed_hex": "4264bea1389d45bc17d388c9936c1c76",
+      "settings": {
+        "hga_gain": 0.3975937875629569,
+        "spatial_sigma_cells": [
+          1.1055312798912795,
+          1.2608536457180919,
+          0.3259281677901464
+        ],
+        "shared_core_weight": 0.4803945848758365,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/0/5",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 5,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/f02343bd6c3cdfcb0472137fc325acee",
+      "core_seed_hex": "f02343bd6c3cdfcb0472137fc325acee",
+      "renderer_seed_hex": "d250d0d98bbd429fe656b8d8bf595728",
+      "recipe_seed_hex": "d16eabf690150f4ccc9fb8712e938a87",
+      "settings": {
+        "hga_gain": 0.3549634784718262,
+        "spatial_sigma_cells": [
+          1.0340850536360824,
+          1.1377303271596515,
+          0.3151629056490182
+        ],
+        "shared_core_weight": 0.5778992931826036,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/0/6",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 6,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/9f4a6f80b799e5b642c34165c7e101bd",
+      "core_seed_hex": "9f4a6f80b799e5b642c34165c7e101bd",
+      "renderer_seed_hex": "167d0336312810627435f53667be085d",
+      "recipe_seed_hex": "b2939b89ad039af2241b12d4f537b22d",
+      "settings": {
+        "hga_gain": 0.3983893487832306,
+        "spatial_sigma_cells": [
+          1.2959420446945953,
+          1.0840923900164223,
+          0.48256080349486624
+        ],
+        "shared_core_weight": 0.5676609276661042,
+        "theta_pac": 0.06617894044923417,
+        "beta_scale": 0.13686751709478612,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_valid/0/7",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 7,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/7cb0833922a2e15fe07516b471cb9943",
+      "core_seed_hex": "7cb0833922a2e15fe07516b471cb9943",
+      "renderer_seed_hex": "19a850545b726ba68ef63d326601f883",
+      "recipe_seed_hex": "84f5a742e809de4612713d88749eef18",
+      "settings": {
+        "hga_gain": 0.2826618202652099,
+        "spatial_sigma_cells": [
+          1.0735937155913646,
+          1.01690262434203,
+          0.5845640138892488
+        ],
+        "shared_core_weight": 0.40696917709729136,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/0",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 0,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/40ae30c50f796cc0960715cf9dce60bb",
+      "core_seed_hex": "40ae30c50f796cc0960715cf9dce60bb",
+      "renderer_seed_hex": "b26d7e50fcdfc284a2759dee48033361",
+      "recipe_seed_hex": "a600adeb8912429cfb0679f58cee119b",
+      "settings": {
+        "hga_gain": 0.3729555993325425,
+        "spatial_sigma_cells": [
+          1.0969675013517255,
+          1.0814669896835682,
+          0.4654621010559764
+        ],
+        "shared_core_weight": 0.5611202793478928,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/1",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 1,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/066061d32b14e7fc5143d921b96fda1b",
+      "core_seed_hex": "066061d32b14e7fc5143d921b96fda1b",
+      "renderer_seed_hex": "54c2f1f36a0ff99e8f40541f726cbde9",
+      "recipe_seed_hex": "1350a6359f733e684cce9756ba3bb83e",
+      "settings": {
+        "hga_gain": 0.2593571985095432,
+        "spatial_sigma_cells": [
+          1.085168114301037,
+          1.1226892992113806,
+          0.5749536108099701
+        ],
+        "shared_core_weight": 0.6814189127210557,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/2",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 2,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/6680ddc51a798c0e9632b2ab291bd16e",
+      "core_seed_hex": "6680ddc51a798c0e9632b2ab291bd16e",
+      "renderer_seed_hex": "09c30e1af6ec90047a1bd5c908bca7bf",
+      "recipe_seed_hex": "bb07d352b04e6e890bc41648f4fa6d75",
+      "settings": {
+        "hga_gain": 0.3354621553698145,
+        "spatial_sigma_cells": [
+          1.1127632599360877,
+          1.0635659434223719,
+          0.38482373443374984
+        ],
+        "shared_core_weight": 0.7098294516234818,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/3",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 3,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/2ced9d953325a95877702295008b5f9c",
+      "core_seed_hex": "2ced9d953325a95877702295008b5f9c",
+      "renderer_seed_hex": "182128d3900377f446c6afd164804612",
+      "recipe_seed_hex": "6307c859b2f0f2da7522584363cd6cc8",
+      "settings": {
+        "hga_gain": 0.2744645484464403,
+        "spatial_sigma_cells": [
+          1.069796101992064,
+          1.1656514766818624,
+          0.37117968325725975
+        ],
+        "shared_core_weight": 0.548839341289278,
+        "theta_pac": 0.04611659102549074,
+        "beta_scale": 0.25342927135789545,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      }
+    },
+    {
+      "world_id": "future_valid/1/4",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 4,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/404943aa98eda14fd9e8eb187f213f65",
+      "core_seed_hex": "404943aa98eda14fd9e8eb187f213f65",
+      "renderer_seed_hex": "908ce247f00e2cda9aa0b610a0ea4561",
+      "recipe_seed_hex": "6705fc4c5e4c0218a00bf862e2e37b53",
+      "settings": {
+        "hga_gain": 0.35269263947916457,
+        "spatial_sigma_cells": [
+          1.0310431478024946,
+          1.2918831160730144,
+          0.28717987023273506
+        ],
+        "shared_core_weight": 0.7969535166384645,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/5",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 5,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/f16316b06e090d7c51a80df8157b8823",
+      "core_seed_hex": "f16316b06e090d7c51a80df8157b8823",
+      "renderer_seed_hex": "d0b84880d5641965073994ce4c6cb419",
+      "recipe_seed_hex": "f2123c5f32e88643779645748c636be3",
+      "settings": {
+        "hga_gain": 0.29590226801436353,
+        "spatial_sigma_cells": [
+          1.120959065619047,
+          1.1826028128663393,
+          0.630253987543587
+        ],
+        "shared_core_weight": 0.7955741641327576,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/6",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 6,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/6f363738aa885197cf3cacde00ec1d3f",
+      "core_seed_hex": "6f363738aa885197cf3cacde00ec1d3f",
+      "renderer_seed_hex": "e2547c43dd56c62ec8bac0aa4e8b375f",
+      "recipe_seed_hex": "53b498ee9ecf5c5b265927b94cd328e6",
+      "settings": {
+        "hga_gain": 0.27853842450783356,
+        "spatial_sigma_cells": [
+          1.2028949734169945,
+          1.2374969878783468,
+          0.48536919930601286
+        ],
+        "shared_core_weight": 0.7695208236270855,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    },
+    {
+      "world_id": "future_valid/1/7",
+      "split": "future_valid",
+      "block": 1,
+      "slot": 7,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/ef3ec00a2bf6290b3562dc90e8543d54",
+      "core_seed_hex": "ef3ec00a2bf6290b3562dc90e8543d54",
+      "renderer_seed_hex": "91a71c4e4a709c43c79a7a306ce76ba3",
+      "recipe_seed_hex": "402f75ef72cda49370e11dc05e46fad4",
+      "settings": {
+        "hga_gain": 0.2780845909102437,
+        "spatial_sigma_cells": [
+          1.1324080358595638,
+          1.2613486247425638,
+          0.6147497759945761
+        ],
+        "shared_core_weight": 0.7893863876798007,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      }
+    }
+  ],
+  "verification": {
+    "worlds": 48,
+    "distinct_core_streams": 48,
+    "distinct_rng_streams": 144,
+    "group_counts": {
+      "switching": 12,
+      "statistical": 12,
+      "oscillatory": 12,
+      "spatial": 12
+    },
+    "blocks": 6,
+    "scope": "Seed-stream/group identity only; compare realized core-parameter fingerprints as well when data are generated. Distinct seeds do not prove different mechanisms."
+  }
+}

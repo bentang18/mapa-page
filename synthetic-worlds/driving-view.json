@@ -1,0 +1,192 @@
+{
+  "contract": {
+    "source": "state.npz: component_driver",
+    "source_indices": [
+      1,
+      3,
+      0
+    ],
+    "source_names": [
+      "Theta",
+      "Beta",
+      "Broadband"
+    ],
+    "session_frames": [
+      1024,
+      1536
+    ],
+    "fps": 32,
+    "units": "Native signed simulator drive; fixed display limits \u00b13. No display normalization or spatial smoothing.",
+    "meaning": "Core projection + source-specific AR fluctuations and bursts, before nonlinear envelope/gain, voltage carriers, frequency-dependent mixing, reference, filters and STFT. Selected sources, not a complete band decomposition."
+  },
+  "worlds": [
+    {
+      "id": "public-switching-0-nominal-8x16",
+      "driving_file": "public-switching-0-nominal-8x16-driving.bin",
+      "driving_sha256": "bef4c3566856ce8914d8859508c392d9161b1c12ccbf592b3a2b7a979faa1fd5",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-switching-0-nominal-8x16-state.npz",
+      "state_sha256": "2d3d3e1a16e3929b03c883eb12e187d365387bc094707387d742ca590e9d4aff"
+    },
+    {
+      "id": "public-switching-1-nominal-8x16",
+      "driving_file": "public-switching-1-nominal-8x16-driving.bin",
+      "driving_sha256": "c93eb15e8657c188ca75da59c142896da7c7e6a1d9af02320ca3dda14be31889",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-switching-1-nominal-8x16-state.npz",
+      "state_sha256": "a2573943368e11d6058f17e5e39ab35b4516c8706f16d7af94b4c97fed0d7c5f"
+    },
+    {
+      "id": "public-local-0-nominal-8x16",
+      "driving_file": "public-local-0-nominal-8x16-driving.bin",
+      "driving_sha256": "00d563fe4896e5b23a8ec9e04da7d47ddad6448179b8f1a39d32cae8e6205531",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-local-0-nominal-8x16-state.npz",
+      "state_sha256": "e76b6dd3fc26328e2beeee4829796e67aa054708cfb442703d1c1675e2b75fa3"
+    },
+    {
+      "id": "public-local-1-nominal-8x16",
+      "driving_file": "public-local-1-nominal-8x16-driving.bin",
+      "driving_sha256": "f7aca2cc0a674cde3fd0cb5d867a3964e3e32cb213c2ad7b646965a8edc7405a",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-local-1-nominal-8x16-state.npz",
+      "state_sha256": "595225f9eefdc8b6b2474aec839acffd2661a1f136635f367a8d8a46cae58bec"
+    },
+    {
+      "id": "public-oscillator-0-nominal-8x16",
+      "driving_file": "public-oscillator-0-nominal-8x16-driving.bin",
+      "driving_sha256": "d0b6ba815e88c81d875141438decaaf55d217c57d6e55af11576a934ce08b3cd",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-oscillator-0-nominal-8x16-state.npz",
+      "state_sha256": "1479bc3bae02a8c154180f19a0c8e117cb78be758857d3f9d1762be5a699f5b6"
+    },
+    {
+      "id": "public-oscillator-1-nominal-8x16",
+      "driving_file": "public-oscillator-1-nominal-8x16-driving.bin",
+      "driving_sha256": "6939fcd8d350a9df46fb4f35eefc8def14b803119d045b574ec9032d286ecce6",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-oscillator-1-nominal-8x16-state.npz",
+      "state_sha256": "e765e5ac060860d29dc1e34b6dca09b4434933fefcb2f9a3dee2a679f91715a9"
+    },
+    {
+      "id": "public-kernel-0-nominal-8x16",
+      "driving_file": "public-kernel-0-nominal-8x16-driving.bin",
+      "driving_sha256": "2769187ae37dbf5ecd07a86847f544783d957ce10f82aaa733b6a35b05a3cd77",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-kernel-0-nominal-8x16-state.npz",
+      "state_sha256": "9f8d412c533c001eb9151241f74b593a9ed3453a39ce4d30a59e82944d963b35"
+    },
+    {
+      "id": "public-kernel-1-nominal-8x16",
+      "driving_file": "public-kernel-1-nominal-8x16-driving.bin",
+      "driving_sha256": "c47bd007355b057dbb9be5a4ebdbe7f7f073c1c48dd3f8cc4708e9632b4847ab",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-kernel-1-nominal-8x16-state.npz",
+      "state_sha256": "8dcc591ac91f958f3933381d4be8a6eaf2428e2d016cd80a263525d153abcb07"
+    },
+    {
+      "id": "public-linear-0-nominal-8x16",
+      "driving_file": "public-linear-0-nominal-8x16-driving.bin",
+      "driving_sha256": "195aab39b89f9a1534cbab1d5d4aae5f3b5cbaed03fa377f18081cfbf6a551ed",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-linear-0-nominal-8x16-state.npz",
+      "state_sha256": "b00a2bf26399fad8e031f33a22ef31265993515993a32bc9e58697b177cd2366"
+    },
+    {
+      "id": "public-linear-1-nominal-8x16",
+      "driving_file": "public-linear-1-nominal-8x16-driving.bin",
+      "driving_sha256": "6dc5d124facb247ab82517676ba953d1fdf5cff8ca5319a6a4b0a93b366e3cb4",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-linear-1-nominal-8x16-state.npz",
+      "state_sha256": "6223f52f872a5806d38b208583dc0628d1be5c7142b278b4d4256425fc2945cd"
+    },
+    {
+      "id": "public-rslds-0-nominal-8x16",
+      "driving_file": "public-rslds-0-nominal-8x16-driving.bin",
+      "driving_sha256": "8b94dcb6f48979f0feb05818d8c17881e598cfd1b0aae9480523570d88a70217",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-rslds-0-nominal-8x16-state.npz",
+      "state_sha256": "d91b026aceb32d7c30f9444df2bdb3e417d92a1c74fa3f421a2a1d4731e859df"
+    },
+    {
+      "id": "public-rslds-1-nominal-8x16",
+      "driving_file": "public-rslds-1-nominal-8x16-driving.bin",
+      "driving_sha256": "ec5958ab19cac6558d1776f38cd99f597f791be7e2c8ce022c5deb210b623e2f",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-rslds-1-nominal-8x16-state.npz",
+      "state_sha256": "45d84aaac9e90d623e9f94be4ed004281c5e3f65d1c41bde4e3433ead8198135"
+    },
+    {
+      "id": "public-ei-0-nominal-8x16",
+      "driving_file": "public-ei-0-nominal-8x16-driving.bin",
+      "driving_sha256": "3c44a2112e10406fd9a72e91f59a48305a397810941a48a8ab5976bce78cfa82",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-ei-0-nominal-8x16-state.npz",
+      "state_sha256": "81f1eb8d653a6ec792dace19da0a0c94676dc989b7f98de09ebb41e2debb542a"
+    },
+    {
+      "id": "public-ei-1-nominal-8x16",
+      "driving_file": "public-ei-1-nominal-8x16-driving.bin",
+      "driving_sha256": "9297cceb94d23ea844a549a56a37402197c911993d72b87da85fc479df37c7d7",
+      "driving_shape": [
+        3,
+        512,
+        128
+      ],
+      "state_file": "recipe-candidate-v11/public-ei-1-nominal-8x16-state.npz",
+      "state_sha256": "b5bc02c5433af9a6a77a8879a79989c30382634ad8a0be74645a1c596b22430c"
+    }
+  ]
+}

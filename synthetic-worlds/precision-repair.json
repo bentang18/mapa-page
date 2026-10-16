@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "contacts": 242,
+  "paired_zero_arms_raw_bitwise": true,
+  "original_control_normalized_content_bitwise": true,
+  "scientific_parameters_changed": false,
+  "original_prefix_fits": true,
+  "frozen_v11_preserved": true,
+  "training": false,
+  "repaired_source_sha256": "ae15ad7c68a4c01b9f9baaa91722e4062fbcfb53fc1c81f71d184fceca9ff3ee"
+}

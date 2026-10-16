@@ -1,0 +1,167 @@
+{
+  "version": "synthetic-worlds-candidate-v11",
+  "status": "candidate; no training",
+  "sampling": {
+    "unit": "continuous world, not independently invented frames",
+    "group_probability": {
+      "statistical": 0.25,
+      "switching": 0.25,
+      "spatial": 0.25,
+      "oscillatory": 0.25
+    },
+    "groups": {
+      "statistical": [
+        "linear",
+        "kernel"
+      ],
+      "switching": [
+        "switching",
+        "rslds"
+      ],
+      "spatial": [
+        "local",
+        "ei"
+      ],
+      "oscillatory": [
+        "oscillator"
+      ]
+    },
+    "within_group": "uniform",
+    "interpretation": "balanced mechanism coverage; not estimated biological frequencies",
+    "parameter_prior": "one common observation prior across all cores and subjects"
+  },
+  "observation_prior": {
+    "hga_log_gain_uniform": [
+      0.25,
+      0.4
+    ],
+    "slow_mid_log_gain": 0.65,
+    "extra_spatial_sigma_cells_uniform": [
+      [
+        1.0,
+        1.3
+      ],
+      [
+        1.0,
+        1.3
+      ],
+      [
+        0.25,
+        0.65
+      ]
+    ],
+    "inherited_carrier_blur_cells_uniform": [
+      0.3,
+      0.75
+    ],
+    "shared_core_weight_uniform": [
+      0.35,
+      0.8
+    ],
+    "explicit_coupling": {
+      "absent_probability": 0.6,
+      "weak_probability": 0.4,
+      "weak_theta_log_gain_uniform": [
+        0.02,
+        0.08
+      ],
+      "weak_beta_coefficient_scale_uniform": [
+        0.1,
+        0.3
+      ]
+    },
+    "broad_gain": 0,
+    "rationale": "Weaker HGA gain and reduced explicit coupling follow v9/v10 diagnostics. Spatial/drive intervals are bounded engineering diversity, not identified neural parameters. Extra global gain remains excluded.",
+    "excluded": [
+      "strong coherent coupling package",
+      "HGA whitening",
+      "output blur",
+      "histogram matching",
+      "per-clip normalizer",
+      "synthetic anatomical labels",
+      "clinical artifacts without an explicit validated prior"
+    ]
+  },
+  "frontend": {
+    "raw_rate_hz": 2048,
+    "cache_rate_hz": 32,
+    "fft_lengths": [
+      1024,
+      256,
+      128
+    ],
+    "inclusive_bins": [
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "window": "periodic Hann",
+    "token_rates_hz": [
+      4,
+      16,
+      32
+    ],
+    "native_point_selection_strides": [
+      8,
+      2,
+      1
+    ],
+    "reference": "common average over observed contacts",
+    "filters": "canonical 60..300Hz notches and 0.5Hz high-pass",
+    "normalizer": "per-contact/bin lower median and 1.4826 lower MAD; floor 1e-6",
+    "g3": "clip normalized content to [-15,15]; complete synthetic availability"
+  },
+  "session": {
+    "interior_s": 64,
+    "raw_context_each_side_s": 8,
+    "normalizer_fit_s": [
+      0,
+      24
+    ],
+    "buffer_s": [
+      24,
+      32
+    ],
+    "content_s": [
+      32,
+      64
+    ],
+    "crop_s": 2,
+    "crop_alignment_cache_frames": 8,
+    "statistical_scope": "offline world; generator field standardization uses the simulated trajectory. This is not a causal online simulator."
+  },
+  "provenance": {
+    "seed_namespaces": [
+      "public",
+      "qualification",
+      "future_train",
+      "future_valid"
+    ],
+    "group_id": "namespace/core/core_seed; group every geometry, renderer and crop sharing a rule",
+    "separation": "no world group may cross train/validation; reserve namespaces before generating",
+    "core_rule": "generator functions sample parameters and initial conditions together; retain arrays plus full source hashes, not seed alone",
+    "anatomy": "unknown; no fabricated atlas labels. Training integration is a separate contract."
+  },
+  "claims": {
+    "can_establish": [
+      "input interface",
+      "reproducibility",
+      "descriptive dependence coverage"
+    ],
+    "cannot_establish": [
+      "speech semantics",
+      "physiological fidelity",
+      "useful learned representations",
+      "pretraining transfer"
+    ]
+  }
+}
