@@ -276,7 +276,7 @@
       },
       "decision": "Leave disabled: core-dependent spatial/temporal trade-off; switching lag outlier and local-field nonresponse."
     },
-    "references": "Previously exposed SOURCE development statistics. S14 legacy and S62 HELD visual checks do not select priors. No VALID/TEST tuning."
+    "references": "Previously exposed SOURCE development statistics. Supplementary legacy/held visual checks do not select priors. No VALID/TEST tuning."
   },
   "limits": [
     "No learned representation, semantics, physiological identification or transfer evidence.",
@@ -325,5 +325,6 @@
     "Choose extra HGA mixing sigma 0.65 rather than the original uniform[0.25,0.65].",
     "Use one recording profile and one coverage per new independent source world in the primary corpus; keep paired views for diagnostics.",
     "Use independently addressed recording-noise realizations, rather than the shared unit-noise field used for matched controls."
-  ]
+  ],
+  "publication_note": "Internal reference identifiers omitted. Scientific parameters and approval unchanged."
 }

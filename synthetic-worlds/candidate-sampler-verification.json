@@ -32,9 +32,9 @@
     "waveforms_generated": false
   },
   "files": {
-    "frozen-recipe-spec.json": "0078b6db08f6548cb83a8d57238cff6781b107e99cffde250d0bb0ae4a050526",
+    "frozen-recipe-spec.json": "839a1c6f554a4ac3f5bc8347bb1afb0f0cdaca025dc737603425e045a65b24c6",
     "candidate-sampling-plan.json": "c667f77368b1f23587431d3b817cf39cb960e363cd26ea3adff22b9bc09ffb03",
-    "candidate-sampler-source.zip": "f320c4b279854633d0a4a6a18f5ffc19bddc3965893f8bbe8c27c47de47728e3",
+    "candidate-sampler-source.zip": "2139b57cd9d1e608a445cc6c9bec6fa6e3099f17b4bb4c19013c6c8e399bc163",
     "coverage-masks.json": "242d90d5412b7f1d005bfb4257b2b79350cc1b293a602599b5337fdd589a34df",
     "core-prior-ledger.json": "d4cd680df3fce8be30b545bee68bed1b8c9fe89d0bfce604f855a3a7c4f3214f"
   },
@@ -43,5 +43,6 @@
     "Renderer source and frontend were audited on the retained comparison fixtures; no claim of transfer or physiology."
   ],
   "training": false,
-  "waveforms_generated": false
+  "waveforms_generated": false,
+  "publication_note": "Internal reference identifiers omitted from public specification; scientific parameters, approved sampler and metadata replay unchanged."
 }

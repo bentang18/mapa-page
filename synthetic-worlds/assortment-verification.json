@@ -85,7 +85,7 @@
     "Eight source worlds, one per six cores and two oscillator worlds; not enough for family-specific confidence intervals.",
     "Profiles/coverages/arms/blocks within a world are paired repetitions, not independent worlds.",
     "Extra HGA width .65 is a candidate engineering prior; inherited source blur remains variable.",
-    "References are previously exposed SOURCE development statistics, not independent confirmation. No S14/S62/VALID/TEST calibration.",
+    "References are previously exposed SOURCE development statistics, not independent confirmation. No supplementary-reference or VALID/TEST calibration.",
     "No physical cortical length inference, speech semantics, learned representations or transfer."
   ],
   "training": false

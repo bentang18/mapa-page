@@ -1,0 +1,57 @@
+{
+  "status": "Matched display checks pass; no physiology or transfer claim.",
+  "source_worlds": 8,
+  "core_families": 7,
+  "contact_masks": 7,
+  "synthetic_cells": 112,
+  "real_display_clips": 7,
+  "same_contact_masks_and_order": true,
+  "all_display_arrays_finite": true,
+  "source_and_noise_identity_across_views": true,
+  "hidden_drivers_bitwise": true,
+  "individual_full_bin_packet_digests_retained_privately": true,
+  "real_display_payloads_match_private_exports": true,
+  "public_reference_schema_allowlisted": true,
+  "source_identifiers_omitted": true,
+  "public_raw_voltage": false,
+  "public_full_stft_bins": false,
+  "render_cpu_s": 561.015745,
+  "stage1_gate": {
+    "proceed": true,
+    "cells": 70,
+    "source_worlds": 5,
+    "engineering_checks": true,
+    "no_realism_tuning": true,
+    "stage_order_deviation": "Initial indexing bug preserved, corrected before remaining expansion."
+  },
+  "limits": [
+    "Independent real and synthetic clips, not trial-aligned.",
+    "One reference uses legacy display normalization; references are not a measured SNR ranking.",
+    "Literal tile masks are not certified physical cortical wiring.",
+    "Display lattice12x34 differs from frozen candidate12x23; training sampler unchanged."
+  ],
+  "training": false,
+  "portable_synthetic_replay": {
+    "source_worlds": 1,
+    "masks": 7,
+    "packet_records": 7,
+    "packet_arrays_exact": 105,
+    "cpu_s": 42.321577,
+    "full": false,
+    "training": false,
+    "scope": "Exact synthetic source/frontend/display replay; no clinical payloads and no transfer claim.",
+    "archive_sha256": "57c7c607cc6f6bff53d127b74a5943807facf96610cd207bc25bf4e26db09be6"
+  },
+  "trace_oracle": {
+    "reference_masks": 7,
+    "independently_checked_trace_values": 48,
+    "both_sources_correct": true,
+    "native_cadences_correct": true,
+    "off_cadence_frame_checked": 171,
+    "contact_last_index_bounds_correct": true,
+    "map_click_selected_expected_contact": 10
+  },
+  "current_public_asset_allowlist_count": 317,
+  "public_subject_identifier_scan_passed": true,
+  "frozen_scientific_contract_unchanged": true
+}
