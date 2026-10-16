@@ -1,0 +1,183 @@
+{
+  "status": "Code-grounded ledger for review; not a new prior adoption or standalone substitute for source.",
+  "core_families": {
+    "linear": {
+      "group": "statistical",
+      "function": "exploratory_cores.py:linear",
+      "state": "16-dimensional multivariate Ornstein\u2013Uhlenbeck process",
+      "parameters": {
+        "dimensions": 16,
+        "tau_s": "independent log-uniform[.05,2]",
+        "mixing": "Q from QR of iid standard-normal16x16",
+        "transition": "A=Q diag(exp(-1/(32*tau))) Q.T",
+        "innovation": "Q diag(sqrt(1-exp(-2/(32*tau))))"
+      },
+      "initial": "iid N(0,1)",
+      "clock": "32Hz exact discrete transition; output every step",
+      "limits": "Simple stable covariance/memory baseline, not cortical identification",
+      "source_file_sha256": "bf70c2718ac8627c4312697c6ddfb34b0e6b3e323fe208e305d9c4d38ce3a8e8",
+      "function_source_sha256": "1d75679604b43cae3878efbcd45f03f103bf50ce1831221998a2df9e358cffb2",
+      "function_first_line": 21,
+      "core_probability": 0.125
+    },
+    "kernel": {
+      "group": "statistical",
+      "function": "generate_worlds.py:kernel_graph",
+      "state": "Random Fourier roots feeding an acyclic nonlinear graph",
+      "parameters": {
+        "dimensions": "integer12..24",
+        "roots": "integer5..10",
+        "root_timescale_s": "independent log-uniform[.05,1.5]",
+        "root_frequencies": "32 N(0,1/timescale); odd roots replace first16 with periodic harmonic-like draws",
+        "periodic_roots": "2*pi*U[.4,4]*integer1..3 +N(0,.15)",
+        "root_phases": "32 U[0,2*pi]",
+        "root_weights": "32 N(0,1), sum/4",
+        "root_trend": "N(0,.25)*(t-mean(t))/16",
+        "parent_count": "min(j, integer2..4), no replacement among earlier coordinates",
+        "parent_weights": "N(0,1/sqrt(parent_count))",
+        "node_operation": "equal integer0..2: tanh(x),sin(x),or tanh(x)*tanh(first_parent)"
+      },
+      "clock": "Roots evaluated on32Hz trajectory, no recurrent integration",
+      "limits": "Structured nonrecurrent dependency baseline; not a reproduction of CauKer",
+      "source_file_sha256": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+      "function_source_sha256": "ad7d861c5016d6ebcc7cc43b7c30354b853355a54c42677c96f06655f0c77aef",
+      "function_first_line": 174,
+      "core_probability": 0.125
+    },
+    "switching": {
+      "group": "switching",
+      "function": "generate_worlds.py:switching",
+      "state": "Sparse leaky tanh recurrent network with external Markov regime changes",
+      "parameters": {
+        "dimensions": "integer12..24",
+        "graph_density": "U[.12,.35]",
+        "graph_weights": "N(0,1)*Bernoulli(density), zero diagonal",
+        "graph_radius": "rescale toU[.65,1.25]",
+        "tau_s": "independent log-uniform[.06,.5]",
+        "regimes": "integer4..8",
+        "regime_patterns": "N(0,.8)",
+        "transition_rows": "Dirichlet(ones)",
+        "dwell_s": "floor(U[.12,.65]/dt) steps",
+        "innovation": "N(0,.018) per integration step"
+      },
+      "initial": "N(0,.1)",
+      "clock": "Euler128Hz, discard3s, output32Hz",
+      "limits": "External regime labels are simulator states, not phonemes",
+      "source_file_sha256": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+      "function_source_sha256": "448e384c40753ef6d4d80e1eabf997e28630276073c0d11a62ac96b60cf0e13a",
+      "function_first_line": 84,
+      "core_probability": 0.125
+    },
+    "rslds": {
+      "group": "switching",
+      "function": "exploratory_cores.py:rslds",
+      "state": "16-dimensional state-dependent switching among four affine contraction modes",
+      "parameters": {
+        "dimensions": 16,
+        "modes": 4,
+        "centers": "N(0,.65)",
+        "mode_eigenvalues": "U[.80,.96], shared QR orthogonal basis",
+        "switch_direction": "unit(previous_center to current_center)",
+        "threshold": "dot(center,direction)-.35",
+        "stay_logit": 0,
+        "next_logit": "8*(dot(direction,state)-threshold)",
+        "other_logits": -5,
+        "innovation": "N(0,.025) each32Hzstep"
+      },
+      "initial": "center0+N(0,.2), mode0",
+      "clock": "32Hz; discard96steps",
+      "limits": "Softmax phenomenological adaptation, not a fitted rSLDS or exact reproduction of a paper",
+      "source_file_sha256": "bf70c2718ac8627c4312697c6ddfb34b0e6b3e323fe208e305d9c4d38ce3a8e8",
+      "function_source_sha256": "5091a600e1aac947eae6e775474a5349ee7cd10032ec05a0ee2e2ed31b86abe5",
+      "function_first_line": 31,
+      "core_probability": 0.125
+    },
+    "local": {
+      "group": "spatial",
+      "function": "generate_worlds.py:local_field",
+      "state": "4..8 channels at each site, coupled by local mixing, diffusion and directed transport",
+      "parameters": {
+        "channels": "integer4..8",
+        "mix": "iid N(0,1), rescale spectral radius toU[.45,.95]",
+        "tau_s": "log-uniform[.05,.3]",
+        "diffusion": "per-channelU[.08,.35]",
+        "advection": "per-channelU[-.18,.18]",
+        "pulse_mix": "4xchannels N(0,1)",
+        "pulse_chance": ".025 per128Hzstep",
+        "pulse_width_cells": "U[.6,2.8]",
+        "pulse_strength": "U[.8,1.8]",
+        "drive_decay_s": 0.13,
+        "innovation": "N(0,.008) perstep",
+        "nonlinearity": "tanh(.72*z + neighbor@mix + diffusion*laplacian +advection*horizontal_gradient+drive)"
+      },
+      "initial": "N(0,.12) per site/channel",
+      "clock": "Euler128Hz, discard3s, output32Hz",
+      "boundary": "reflective",
+      "limits": "NCA-inspired continuous field, not a trained NCA or cortical simulation",
+      "source_file_sha256": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+      "function_source_sha256": "caf4273c47f384cb31bf830b7c5568793dd940a8297d007750c62fefd727bac2",
+      "function_first_line": 111,
+      "core_probability": 0.125
+    },
+    "ei": {
+      "group": "spatial",
+      "function": "exploratory_cores.py:ei",
+      "state": "Excitatory, inhibitory and adaptation variables at each site",
+      "parameters": {
+        "tau_e_s": "U[.03,.07]",
+        "tau_i_s": "U[.06,.14]",
+        "tau_adaptation_s": "U[.5,1.5]",
+        "e_kernel_sigma_cells": 0.7,
+        "i_kernel_sigma_cells": 1.8,
+        "e_target": "sigmoid(10*smoothed_E-12*smoothed_I-2.5-2*adapt+.8+drive)",
+        "i_target": "sigmoid(10*smoothed_E-2*smoothed_I-3)",
+        "adapt_target": "E",
+        "event_interarrival_s": "Exponential(mean=.6)",
+        "event_width_cells": "U[.6,1.7]",
+        "event_strength": "U[1.8,3.2]",
+        "event_timecourse": "(1-exp(-age/.025))*exp(-age/.12), 0<=age<2s"
+      },
+      "initial": "E,I U[.03,.08]; adapt=E",
+      "clock": "Euler256Hz default8substeps, discard3s, output32Hz",
+      "boundary": "reflective",
+      "limits": "Wilson\u2013Cowan-inspired sigmoid feedback with adaptation; no physical voltage or cell identity claim",
+      "source_file_sha256": "bf70c2718ac8627c4312697c6ddfb34b0e6b3e323fe208e305d9c4d38ce3a8e8",
+      "function_source_sha256": "59985183144f433a6c9ed860e19e2b82165d343d95ac82937d54fabc42524cbc",
+      "function_first_line": 47,
+      "core_probability": 0.125
+    },
+    "oscillator": {
+      "group": "oscillatory",
+      "function": "generate_worlds.py:oscillator",
+      "state": "12..24 complex Stuart\u2013Landau oscillators with coupling and random forcing",
+      "parameters": {
+        "oscillators": "integer12..24",
+        "graph": "U[0,1]*Bernoulli(.2), zero diagonal, row divide by max(rowsum,1)",
+        "frequency_hz": "log-uniform[.6,7]",
+        "growth": "U[-.4,.8]",
+        "coupling": "U[.25,1.1]",
+        "forcing_chance": ".012 per256Hzstep",
+        "forcing_size": "N(0,.8)*exp(i*U[0,2*pi])",
+        "forcing_decay_s": 0.16,
+        "innovation": "independent real/imagN(0,.003) perstep",
+        "derivative": "(growth+2*pi*i*freq-|z|^2)*z +coupling*(graph@z-z)+forcing"
+      },
+      "initial": ".2*(N(0,1)+i*N(0,1))",
+      "clock": "RK4 at256Hz, discard3s, output concatenated real/imag at32Hz",
+      "limits": "Latent-envelope frequencies, not HGA voltage carrier frequencies",
+      "source_file_sha256": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+      "function_source_sha256": "254d928de4b377cdf361949c9945b536f60485e8bc4aae622d277ca7424a8684",
+      "function_first_line": 144,
+      "core_probability": 0.25
+    }
+  },
+  "common_notes": [
+    "All ranges are engineering priors, not estimated biological population distributions.",
+    "Core states feed common source-field construction and voltage observation renderer. They are not themselves measured ECoG.",
+    "Source-field standardization uses the full simulated trajectory; offline simulation, not causal online inference.",
+    "Coordinates are virtual source tiles; geometry and hardware are not identical to brain dynamics.",
+    "Use exact seeds, implementation closure and dependency versions to reproduce sampled rules and initial states.",
+    "Balanced group weights are a design choice, not biological frequencies."
+  ],
+  "training": false
+}

@@ -1,0 +1,773 @@
+{
+  "version": "uecog-seven-core-candidate-2026-10-16",
+  "status": "16 metadata-only example addresses, not a corpus-size choice or training manifest.",
+  "plan_seed_hex": "cc862d960358ca4eaf03e9356d905879",
+  "recording_address_version": "candidate-corpus-recording1",
+  "worlds": [
+    {
+      "world_id": "future_train/0/0",
+      "split": "future_train",
+      "block": 0,
+      "slot": 0,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/20fb1cb346ed0d73853c38b7ac0f18b6",
+      "core_seed_hex": "20fb1cb346ed0d73853c38b7ac0f18b6",
+      "renderer_seed_hex": "01747260741eae270f06702af0f7f81b",
+      "recipe_seed_hex": "9f1cb5e782c36da5c386cbd078b56e8d",
+      "settings": {
+        "hga_gain": 0.3485360913869859,
+        "spatial_sigma_cells": [
+          1.1852175743753735,
+          1.1957245634962421,
+          0.2614022363185856
+        ],
+        "shared_core_weight": 0.42191548222072933,
+        "theta_pac": 0.04605720303033017,
+        "beta_scale": 0.10969352976026125,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/kernel/20fb1cb346ed0d73853c38b7ac0f18b6",
+          "recording_seed_hex": {
+            "profile": "9272417b39c707a9ebe9e5d3d5a9a0de",
+            "rms": "81025e03f758c32769d5d8a44cdc6f6e",
+            "coverage": "752cf77cdff9ebd794e6fa3a0d45f61b",
+            "unit-noise": "c46654d966bb529c52de18afdb377693"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.2229212537854697,
+            1.2293605727875585,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.1670694165419504,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/1",
+      "split": "future_train",
+      "block": 0,
+      "slot": 1,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/d9b36cf7755ef7206cbafc0a2bf92b4c",
+      "core_seed_hex": "d9b36cf7755ef7206cbafc0a2bf92b4c",
+      "renderer_seed_hex": "9997ed6fcf3197b3f48a52a76f3d369c",
+      "recipe_seed_hex": "90d4e5065653e63c92c98365728741bd",
+      "settings": {
+        "hga_gain": 0.3044648070116155,
+        "spatial_sigma_cells": [
+          1.2262737769084584,
+          1.0113622701770983,
+          0.6350395949621385
+        ],
+        "shared_core_weight": 0.5745681901208064,
+        "theta_pac": 0.024557959473912,
+        "beta_scale": 0.27840056749390474,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/oscillator/d9b36cf7755ef7206cbafc0a2bf92b4c",
+          "recording_seed_hex": {
+            "profile": "88e4241dd09605d0539b3f700d01ce37",
+            "rms": "eea7e885bc8c09e602b9de69b6f6f88a",
+            "coverage": "a517467ab65b411de2a2918b8c20a837",
+            "unit-noise": "27dc7f1b9774de5f8d91ea6950b0004a"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.2169331441392162,
+            1.160047702002991,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.10894901102523039,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/2",
+      "split": "future_train",
+      "block": 0,
+      "slot": 2,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/13b67307f7a7ff5dff5171c446647f4c",
+      "core_seed_hex": "13b67307f7a7ff5dff5171c446647f4c",
+      "renderer_seed_hex": "7736c32ab0b74f14640234785e1b051e",
+      "recipe_seed_hex": "05d2770b7d914da61f6295330ea23d6d",
+      "settings": {
+        "hga_gain": 0.34213245583266033,
+        "spatial_sigma_cells": [
+          1.0856182658562101,
+          1.1231970855758788,
+          0.5685370567394208
+        ],
+        "shared_core_weight": 0.5683335050068173,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/linear/13b67307f7a7ff5dff5171c446647f4c",
+          "recording_seed_hex": {
+            "profile": "003ab4b0aed15e8c7a3d525c61eb1865",
+            "rms": "6f3c45c9c82f6d6d6f7484f1940e9240",
+            "coverage": "b7651a5aae387b9f8d1dc3ba52d87f5d",
+            "unit-noise": "cbb41b407fa258c1dcd2ddc98665947c"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.1919308594913844,
+            1.0914967528421826,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.09413623452085512,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/3",
+      "split": "future_train",
+      "block": 0,
+      "slot": 3,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/95483a48b7865c4737694664ad0fbda3",
+      "core_seed_hex": "95483a48b7865c4737694664ad0fbda3",
+      "renderer_seed_hex": "970895f3a6e4032273d8b99d2f0191f4",
+      "recipe_seed_hex": "245f9e84ec2732253c405a5cbb7fb388",
+      "settings": {
+        "hga_gain": 0.3495992699683625,
+        "spatial_sigma_cells": [
+          1.0437976180245987,
+          1.1033969271186281,
+          0.37385673011093434
+        ],
+        "shared_core_weight": 0.5956522463108186,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/rslds/95483a48b7865c4737694664ad0fbda3",
+          "recording_seed_hex": {
+            "profile": "f6ab9588dc863509e4f2af49660b2099",
+            "rms": "8c1d0164b23b49674cdd50fc6e8da31d",
+            "coverage": "28d6287fb94440d8af22075ba47479c7",
+            "unit-noise": "55eb098602ee5811dd2afdf6edd18a0c"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.163607596937108,
+            1.063755578442853,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.12560526466477068,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/4",
+      "split": "future_train",
+      "block": 0,
+      "slot": 4,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/4353f611cf59b75db12d1602e69d7e6e",
+      "core_seed_hex": "4353f611cf59b75db12d1602e69d7e6e",
+      "renderer_seed_hex": "4f270ca9bdeccd3d345e0d9c2de32115",
+      "recipe_seed_hex": "f0f40f4bc714264febece4460948d9d6",
+      "settings": {
+        "hga_gain": 0.2991084214831245,
+        "spatial_sigma_cells": [
+          1.0520932419828455,
+          1.1701703109024704,
+          0.4093843420857423
+        ],
+        "shared_core_weight": 0.5574918120346081,
+        "theta_pac": 0.05449460322560697,
+        "beta_scale": 0.20074079392930178,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/local/4353f611cf59b75db12d1602e69d7e6e",
+          "recording_seed_hex": {
+            "profile": "122cf9d4c18c9bad8c0bf8835f214828",
+            "rms": "a09ee1f09096c07380c1fef8401b1450",
+            "coverage": "d9968d781e3a9588263012d0faf34d83",
+            "unit-noise": "d0eef1f812e493f404f17f11d7bbdb5b"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.2982447079313972,
+            1.195479797832683,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.1799811513008966,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/5",
+      "split": "future_train",
+      "block": 0,
+      "slot": 5,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/79241d28964686bde0daff46d837b5a4",
+      "core_seed_hex": "79241d28964686bde0daff46d837b5a4",
+      "renderer_seed_hex": "9dae5b7a771c82e56fc99ae123a3e009",
+      "recipe_seed_hex": "1a0e4269f169942ec2a164dbe0806cfc",
+      "settings": {
+        "hga_gain": 0.3871245650428151,
+        "spatial_sigma_cells": [
+          1.1274908413793634,
+          1.2102849090685082,
+          0.34704481876020865
+        ],
+        "shared_core_weight": 0.5207728442545808,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/oscillator/79241d28964686bde0daff46d837b5a4",
+          "recording_seed_hex": {
+            "profile": "ea00ef053602548a6b9ddaf48b264098",
+            "rms": "88a5804385b4895c143bd57ca83adffb",
+            "coverage": "607a732e3058fb178e823cc1ade90a2f",
+            "unit-noise": "4478ad526d8ffdd8cea25a1e3a562765"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.1292352343713115,
+            1.152645370145699,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.0955749639617573,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/6",
+      "split": "future_train",
+      "block": 0,
+      "slot": 6,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/128dfb296497b6ed7fbb0d107fd7bf03",
+      "core_seed_hex": "128dfb296497b6ed7fbb0d107fd7bf03",
+      "renderer_seed_hex": "e1740e2c88299da54c54cfab1d2b39c9",
+      "recipe_seed_hex": "f4d8b37f8dc7bff9ff34b0eaa3aa6a7f",
+      "settings": {
+        "hga_gain": 0.34298043215702895,
+        "spatial_sigma_cells": [
+          1.1197545462979654,
+          1.2982311432999956,
+          0.4873349893542262
+        ],
+        "shared_core_weight": 0.40792844377042414,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/switching/128dfb296497b6ed7fbb0d107fd7bf03",
+          "recording_seed_hex": {
+            "profile": "da23b1a3b7d66d96198d57e993486994",
+            "rms": "46cb6c4bc32cb0a6b8695898e6bcac38",
+            "coverage": "68b029230c98efecf0aa557b1ee15cc6",
+            "unit-noise": "75f33c73c7ffc27c3a129a3ecf6eaedb"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.093158123166775,
+            1.1862728632307844,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.19779839827519471,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_train/0/7",
+      "split": "future_train",
+      "block": 0,
+      "slot": 7,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/edf74c91cde1b167fecb24b1b5b2efa4",
+      "core_seed_hex": "edf74c91cde1b167fecb24b1b5b2efa4",
+      "renderer_seed_hex": "02bbeb59c416c8e5ed198b518d089c0e",
+      "recipe_seed_hex": "8d54df7b30bb6a50aab2651e774fcfb3",
+      "settings": {
+        "hga_gain": 0.2911016966789511,
+        "spatial_sigma_cells": [
+          1.170670689492041,
+          1.0358645153983543,
+          0.5265617181076693
+        ],
+        "shared_core_weight": 0.7612345662607115,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/ei/edf74c91cde1b167fecb24b1b5b2efa4",
+          "recording_seed_hex": {
+            "profile": "c8ac09dce68f346e8ed80c1a8793e13d",
+            "rms": "fe626d8b2f929e61e68e4752b3e8375c",
+            "coverage": "ac812b34e695c982c702e53c9de7784b",
+            "unit-noise": "a2fd15563cdd127deb7a58c727474e0a"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.2298974389977295,
+            1.1076421493342476,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.17176635999508633,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/0",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 0,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/59769dbd11849b2cce74e672ecf7f6df",
+      "core_seed_hex": "59769dbd11849b2cce74e672ecf7f6df",
+      "renderer_seed_hex": "729efba10f12d780e2594eed098a3cda",
+      "recipe_seed_hex": "2882d8728062f44208190b0ccd356ff9",
+      "settings": {
+        "hga_gain": 0.29716602182672824,
+        "spatial_sigma_cells": [
+          1.2190451426349358,
+          1.0926526599474509,
+          0.5614337303985882
+        ],
+        "shared_core_weight": 0.44238953839727285,
+        "theta_pac": 0.02105496756166802,
+        "beta_scale": 0.11547377528569747,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/oscillator/59769dbd11849b2cce74e672ecf7f6df",
+          "recording_seed_hex": {
+            "profile": "c963860a0fd434b009dc795f559cadc8",
+            "rms": "668cabf95111d2b12fc7ebaa012902ef",
+            "coverage": "1ca01e9860b8e9324d8d729f120aee3b",
+            "unit-noise": "07ce7236fe9b8d8407740d8f0268bf19"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.2040266925851093,
+            1.027374960820459,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.15247053880693306,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/1",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 1,
+      "family": "local",
+      "group": "spatial",
+      "world_group_id": "world/local/4a9d6e462e409e1809b23e31e80b00ee",
+      "core_seed_hex": "4a9d6e462e409e1809b23e31e80b00ee",
+      "renderer_seed_hex": "2a3e2b8a1d3a02a7ab66c7078a60bd39",
+      "recipe_seed_hex": "fd93c82a582607f609b9ff3171c6f866",
+      "settings": {
+        "hga_gain": 0.32166516575188897,
+        "spatial_sigma_cells": [
+          1.1875301308290807,
+          1.0722198199997228,
+          0.28657017934869655
+        ],
+        "shared_core_weight": 0.38227737955130825,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/local/4a9d6e462e409e1809b23e31e80b00ee",
+          "recording_seed_hex": {
+            "profile": "03212832be665ecb011761eab3fe95e1",
+            "rms": "f477cc608f95cbcc93d23dc55920e3c3",
+            "coverage": "25e9c07736f9a8a9e9916777e48d52ca",
+            "unit-noise": "ff657c756da702eab6cb89ca28eafd22"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.1082808417118652,
+            1.193560105288239,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.14137512585256243,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/2",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 2,
+      "family": "kernel",
+      "group": "statistical",
+      "world_group_id": "world/kernel/261417ff388e19156da02d620f7a5498",
+      "core_seed_hex": "261417ff388e19156da02d620f7a5498",
+      "renderer_seed_hex": "0d7530270c29a12fabe8f1165c6670d7",
+      "recipe_seed_hex": "1bb22fcfee0e0faaeb8fdb79a4c4cedd",
+      "settings": {
+        "hga_gain": 0.34183638428117624,
+        "spatial_sigma_cells": [
+          1.2344832254518223,
+          1.2977663852695587,
+          0.564019913309234
+        ],
+        "shared_core_weight": 0.5928785493275592,
+        "theta_pac": 0.027689226222679088,
+        "beta_scale": 0.1457024204342466,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/kernel/261417ff388e19156da02d620f7a5498",
+          "recording_seed_hex": {
+            "profile": "a4076e17168fb1cae6ea9e924fce2e22",
+            "rms": "26737201aec498ba121aef069468f2e3",
+            "coverage": "fd1d5e5c5743f9b01c7e7c412cac7a23",
+            "unit-noise": "9e2e03ffbacf69d3748389f1a2e2ffa3"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.1358364309541158,
+            1.1551347813537813,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.19322393416140837,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/3",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 3,
+      "family": "linear",
+      "group": "statistical",
+      "world_group_id": "world/linear/b43c4b761aa8301cc4e584f741c92887",
+      "core_seed_hex": "b43c4b761aa8301cc4e584f741c92887",
+      "renderer_seed_hex": "92ebd8dc014cc50b03acf14dc3c37a7d",
+      "recipe_seed_hex": "827846a2554f8ad32d52a39ca5b3cd08",
+      "settings": {
+        "hga_gain": 0.391268608624846,
+        "spatial_sigma_cells": [
+          1.0155490503587106,
+          1.2733545409477223,
+          0.5485620062625107
+        ],
+        "shared_core_weight": 0.7405461422307632,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/linear/b43c4b761aa8301cc4e584f741c92887",
+          "recording_seed_hex": {
+            "profile": "19c5207bb25d57e3746a4467644e3241",
+            "rms": "c3aa71669b3610351e22ac4cd8131bfe",
+            "coverage": "6b93a75a3b22e3041129054ae092b16e",
+            "unit-noise": "946720b185640fb965bd9918c3e94d35"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.1031787176437098,
+            1.031738996034755,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.17843977595121593,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/4",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 4,
+      "family": "rslds",
+      "group": "switching",
+      "world_group_id": "world/rslds/8fcc9a85e84df54c5ee4d4bd7557609e",
+      "core_seed_hex": "8fcc9a85e84df54c5ee4d4bd7557609e",
+      "renderer_seed_hex": "1775c891ad7270fa9b9771f4a7c1c999",
+      "recipe_seed_hex": "7b3349834b214939aacb0fd4e8f8424f",
+      "settings": {
+        "hga_gain": 0.2743451719901707,
+        "spatial_sigma_cells": [
+          1.2766831214341272,
+          1.0217748465969154,
+          0.33231962042695196
+        ],
+        "shared_core_weight": 0.7093192670973778,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/rslds/8fcc9a85e84df54c5ee4d4bd7557609e",
+          "recording_seed_hex": {
+            "profile": "91ed3d58bb4c9e45b1afd89782cb2910",
+            "rms": "e037ede937e1faf9f43d6c8a344174dd",
+            "coverage": "661c12bf39d527a21c5623f1e770200d",
+            "unit-noise": "f4ba084290d5d1fa8f0db80335526024"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.299459208340638,
+            1.2398184619865933,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.16764276891847327,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/5",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 5,
+      "family": "ei",
+      "group": "spatial",
+      "world_group_id": "world/ei/59c89118fa2e7950309dd7425295d108",
+      "core_seed_hex": "59c89118fa2e7950309dd7425295d108",
+      "renderer_seed_hex": "ea6e906971903f27d7684c65360aba16",
+      "recipe_seed_hex": "a204105f8ff92aa887587e4b4f4c7e27",
+      "settings": {
+        "hga_gain": 0.3701569582265049,
+        "spatial_sigma_cells": [
+          1.2222139961571101,
+          1.0012652494600383,
+          0.39496690494442604
+        ],
+        "shared_core_weight": 0.5431219134466219,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/ei/59c89118fa2e7950309dd7425295d108",
+          "recording_seed_hex": {
+            "profile": "c02be813ec7a89cf1e71d388487c1e17",
+            "rms": "3b6b4e0f4477ff47cc09b00ba0e3061a",
+            "coverage": "3111ea53a5ea3f9533ab997d6ca01829",
+            "unit-noise": "044ba21040eb0009a01eaeffe0a31aa5"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.1370992589343334,
+            1.0368050088318363,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.11036861532678598,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/6",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 6,
+      "family": "switching",
+      "group": "switching",
+      "world_group_id": "world/switching/f172916171a408126b785be47f848240",
+      "core_seed_hex": "f172916171a408126b785be47f848240",
+      "renderer_seed_hex": "b2547d67d8765e8b898715bd1cb98560",
+      "recipe_seed_hex": "27581c74dd664e2ed02e71a822bfb014",
+      "settings": {
+        "hga_gain": 0.31645707427817554,
+        "spatial_sigma_cells": [
+          1.2215611038005645,
+          1.0821350629402335,
+          0.43248300554632213
+        ],
+        "shared_core_weight": 0.7715358153354974,
+        "theta_pac": 0.0,
+        "beta_scale": 0.0,
+        "broad_gain": 0.0,
+        "coupling_profile": "absent"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/switching/f172916171a408126b785be47f848240",
+          "recording_seed_hex": {
+            "profile": "789fea653fa393b6a85543d85e63fa6e",
+            "rms": "2ac6bfa4f32b07717065d02f79f92edd",
+            "coverage": "858327fd08ecb83c732a8dd70557fb56",
+            "unit-noise": "7492588ec125a29f6a7966c841aaa67a"
+          },
+          "geometry_key": "grid125",
+          "spatial_sigma_cells": [
+            1.2260649612767198,
+            1.0322931737611905,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.14399922487755068,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    },
+    {
+      "world_id": "future_valid/0/7",
+      "split": "future_valid",
+      "block": 0,
+      "slot": 7,
+      "family": "oscillator",
+      "group": "oscillatory",
+      "world_group_id": "world/oscillator/f0d315e96f6fc8188f83d4cd2895487e",
+      "core_seed_hex": "f0d315e96f6fc8188f83d4cd2895487e",
+      "renderer_seed_hex": "a9724700a4ea1a463802355e88038603",
+      "recipe_seed_hex": "b049c36e108b58f1b8577c128612dc65",
+      "settings": {
+        "hga_gain": 0.2767366710460695,
+        "spatial_sigma_cells": [
+          1.1175309890072673,
+          1.259453501526178,
+          0.6232753122210205
+        ],
+        "shared_core_weight": 0.427963676023881,
+        "theta_pac": 0.04281634753246732,
+        "beta_scale": 0.2228949281140501,
+        "broad_gain": 0.0,
+        "coupling_profile": "weak"
+      },
+      "recordings": [
+        {
+          "recording_index": 0,
+          "world_group_id": "world/oscillator/f0d315e96f6fc8188f83d4cd2895487e",
+          "recording_seed_hex": {
+            "profile": "7c7d2cf80dc5003411ee897d3aff0102",
+            "rms": "4a6d037596e985c6909b36a88eaf7691",
+            "coverage": "f4a61856b0752f4608313edafdf70e18",
+            "unit-noise": "c961cc6332ff2b742cc37d3ee3fa6bb9"
+          },
+          "geometry_key": "grid242",
+          "spatial_sigma_cells": [
+            1.2004861362924237,
+            1.2147775643218488,
+            0.65
+          ],
+          "added_voltage_noise_rms": 0.08636599140103388,
+          "unit_noise": "Independent full-source-lattice IID standard-normal float32 stream; no noise array generated.",
+          "normalization": "Own first24s lower median/scaled MAD, then frozen; content32..64s, G3 +/-15."
+        }
+      ]
+    }
+  ],
+  "source_lattice_shape": [
+    12,
+    23
+  ],
+  "effective_width_rule": "Recording spatial_sigma_cells overrides the legacy unused source settings spatial_sigma_cells; HGA fixed .65.",
+  "world_identity_rule": "All renderings, coverages and crops of one world_group_id stay in its split.",
+  "training": false,
+  "waveforms_generated": false,
+  "verification": {
+    "source_checks": {
+      "worlds": 16,
+      "distinct_core_streams": 16,
+      "distinct_rng_streams": 48,
+      "group_counts": {
+        "statistical": 4,
+        "oscillatory": 4,
+        "switching": 4,
+        "spatial": 4
+      },
+      "blocks": 2,
+      "scope": "Seed-stream/group identity only; compare realized core-parameter fingerprints as well when data are generated. Distinct seeds do not prove different mechanisms."
+    },
+    "recordings": 16,
+    "distinct_all_seed_streams": 112,
+    "one_recording_per_world": true,
+    "fixed_extra_hga_sigma": 0.65,
+    "training": false,
+    "waveforms_generated": false
+  }
+}

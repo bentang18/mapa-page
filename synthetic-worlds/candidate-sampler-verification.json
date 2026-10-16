@@ -1,0 +1,47 @@
+{
+  "status": "Approved candidate specification and metadata sampler verified; no corpus or training launch.",
+  "version": "uecog-seven-core-candidate-2026-10-16",
+  "approval": {
+    "date": "2026-10-16",
+    "human": "Ben Tang",
+    "exact_reply": "Freeze the proposed seven-core candidate (recommended)",
+    "reviewed_proposal_sha256": "8348680270239bf04dbf4c04e188f08e0f45740bc4baeae622e626d43d1f9787"
+  },
+  "canonical_sampler_tests_passed": 13,
+  "portable_sampler_tests_passed": 5,
+  "exact_cli_and_portable_metadata_replay_worlds": 16,
+  "checks": {
+    "source_checks": {
+      "worlds": 16,
+      "distinct_core_streams": 16,
+      "distinct_rng_streams": 48,
+      "group_counts": {
+        "statistical": 4,
+        "oscillatory": 4,
+        "switching": 4,
+        "spatial": 4
+      },
+      "blocks": 2,
+      "scope": "Seed-stream/group identity only; compare realized core-parameter fingerprints as well when data are generated. Distinct seeds do not prove different mechanisms."
+    },
+    "recordings": 16,
+    "distinct_all_seed_streams": 112,
+    "one_recording_per_world": true,
+    "fixed_extra_hga_sigma": 0.65,
+    "training": false,
+    "waveforms_generated": false
+  },
+  "files": {
+    "frozen-recipe-spec.json": "0078b6db08f6548cb83a8d57238cff6781b107e99cffde250d0bb0ae4a050526",
+    "candidate-sampling-plan.json": "c667f77368b1f23587431d3b817cf39cb960e363cd26ea3adff22b9bc09ffb03",
+    "candidate-sampler-source.zip": "f320c4b279854633d0a4a6a18f5ffc19bddc3965893f8bbe8c27c47de47728e3",
+    "coverage-masks.json": "242d90d5412b7f1d005bfb4257b2b79350cc1b293a602599b5337fdd589a34df",
+    "core-prior-ledger.json": "d4cd680df3fce8be30b545bee68bed1b8c9fe89d0bfce604f855a3a7c4f3214f"
+  },
+  "limits": [
+    "Metadata sampler validated; final independent-noise corpus has not been waveform-rendered.",
+    "Renderer source and frontend were audited on the retained comparison fixtures; no claim of transfer or physiology."
+  ],
+  "training": false,
+  "waveforms_generated": false
+}

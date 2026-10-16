@@ -1,0 +1,92 @@
+{
+  "status": "Descriptive comparison only; no final recipe adopted",
+  "source_worlds": 8,
+  "core_families": 7,
+  "recording_cells": 64,
+  "overall_world_medians": {
+    "original": {
+      "slow": {
+        "adjacent_same_bin_correlation": 0.7615891868527116,
+        "distant_same_bin_correlation": 0.08393533586271079,
+        "lag1": 0.12181569157726704,
+        "rms": 1.1454394658584481,
+        "q99_abs": 3.5751646667718866,
+        "fraction_abs_gt5": 0.001625582298136646,
+        "top1pct_contact_token_zero_loss_share": 0.07987395787380656,
+        "high_temporal_power_fraction": 0.4056923911226532
+      },
+      "mid": {
+        "adjacent_same_bin_correlation": 0.7306877405243639,
+        "distant_same_bin_correlation": 0.05888331901028045,
+        "lag1": 0.1323179185735039,
+        "rms": 1.0873726733022777,
+        "q99_abs": 3.3587885838746976,
+        "fraction_abs_gt5": 0.0008973052536231884,
+        "top1pct_contact_token_zero_loss_share": 0.07897664648489423,
+        "high_temporal_power_fraction": 0.4177159146043719
+      },
+      "fast": {
+        "adjacent_same_bin_correlation": 0.2036271374672758,
+        "distant_same_bin_correlation": 0.004156661189374144,
+        "lag1": 0.06114045938635053,
+        "rms": 1.0267325347960174,
+        "q99_abs": 3.016234847009179,
+        "fraction_abs_gt5": 0.0002280667701863354,
+        "top1pct_contact_token_zero_loss_share": 0.0564919117378163,
+        "high_temporal_power_fraction": 0.46335745022964886
+      }
+    },
+    "wider": {
+      "slow": {
+        "adjacent_same_bin_correlation": 0.7615890696006773,
+        "distant_same_bin_correlation": 0.08393536989497657,
+        "lag1": 0.12181568832521193,
+        "rms": 1.1454394417301819,
+        "q99_abs": 3.5751699003577206,
+        "fraction_abs_gt5": 0.001625582298136646,
+        "top1pct_contact_token_zero_loss_share": 0.07987393516426877,
+        "high_temporal_power_fraction": 0.4056923017318541
+      },
+      "mid": {
+        "adjacent_same_bin_correlation": 0.7329627381757924,
+        "distant_same_bin_correlation": 0.05876068514926111,
+        "lag1": 0.131958081536109,
+        "rms": 1.0872562269770079,
+        "q99_abs": 3.3572556209564146,
+        "fraction_abs_gt5": 0.0008916440217391305,
+        "top1pct_contact_token_zero_loss_share": 0.07898106314368385,
+        "high_temporal_power_fraction": 0.4178602684128949
+      },
+      "fast": {
+        "adjacent_same_bin_correlation": 0.3240931372415491,
+        "distant_same_bin_correlation": 0.005559865939836749,
+        "lag1": 0.057410110367335926,
+        "rms": 1.0233690702369018,
+        "q99_abs": 2.9926612803339934,
+        "fraction_abs_gt5": 0.00019895186335403727,
+        "top1pct_contact_token_zero_loss_share": 0.05563548322753902,
+        "high_temporal_power_fraction": 0.46547701113803264
+      }
+    }
+  },
+  "positive_adjacent_pairs": 32,
+  "checks": {
+    "engineering_fixture_source_replay": true,
+    "source_noise_identity_per_world": true,
+    "all_matched_driving_arrays_bitwise": true,
+    "independent_hga_adjacent_oracles": 128,
+    "packet_preview_driving_hashes": true,
+    "source_file_and_state_hashes": true,
+    "distinct_realized_rule_fingerprints": 8,
+    "stage1_gate": true
+  },
+  "cpu_s": 489.203067,
+  "limits": [
+    "Eight source worlds, one per six cores and two oscillator worlds; not enough for family-specific confidence intervals.",
+    "Profiles/coverages/arms/blocks within a world are paired repetitions, not independent worlds.",
+    "Extra HGA width .65 is a candidate engineering prior; inherited source blur remains variable.",
+    "References are previously exposed SOURCE development statistics, not independent confirmation. No S14/S62/VALID/TEST calibration.",
+    "No physical cortical length inference, speech semantics, learned representations or transfer."
+  ],
+  "training": false
+}

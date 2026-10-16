@@ -1,0 +1,329 @@
+{
+  "title": "Frozen seven-core synthetic input candidate",
+  "status": "APPROVED CANDIDATE DISTRIBUTION. No training or corpus launch authorized.",
+  "hypothesis": "A bounded mixture of stochastic, switching, spatial and oscillatory dependencies may supply useful reconstruction pretraining tasks.",
+  "null": "Simple stochastic inputs or no synthetic pretraining may work equally well or better. Visual resemblance and moment matching do not decide this.",
+  "core_sampling": {
+    "groups": {
+      "statistical": [
+        "linear",
+        "kernel"
+      ],
+      "switching": [
+        "switching",
+        "rslds"
+      ],
+      "spatial": [
+        "local",
+        "ei"
+      ],
+      "oscillatory": [
+        "oscillator"
+      ]
+    },
+    "group_probabilities": {
+      "statistical": 0.25,
+      "switching": 0.25,
+      "spatial": 0.25,
+      "oscillatory": 0.25
+    },
+    "core_probabilities": {
+      "linear": 0.125,
+      "kernel": 0.125,
+      "switching": 0.125,
+      "rslds": 0.125,
+      "local": 0.125,
+      "ei": 0.125,
+      "oscillator": 0.25
+    },
+    "implementation": "candidate_sampling_identity.plan_worlds: randomly ordered balanced eight-world blocks; each of six cores once and oscillator twice.",
+    "interpretation": "Design weights for coverage, not inferred biological prevalence or evidence that seven cores beat fewer.",
+    "full_core_prior_ledger": "core-prior-ledger.json"
+  },
+  "hierarchy": {
+    "world": "One independent core seed, source maps, spatial/source gains, spectral tendencies and continuous trajectory. Full virtual source lattice 12x23.",
+    "recording": "One profile and one observed contact coverage per world in the primary sampler. Parameters stay fixed throughout the recording.",
+    "within_recording": "Existing core trajectories and source envelopes evolve continuously; no framewise parameter redraw.",
+    "paired_views": "Retain renderer capability for counterfactual diagnostics; do not multiply primary-corpus world counts with repeated views."
+  },
+  "observation_prior": {
+    "inherited": {
+      "hga_log_gain_uniform": [
+        0.25,
+        0.4
+      ],
+      "slow_mid_log_gain": 0.65,
+      "extra_spatial_sigma_cells_uniform": [
+        [
+          1.0,
+          1.3
+        ],
+        [
+          1.0,
+          1.3
+        ],
+        [
+          0.25,
+          0.65
+        ]
+      ],
+      "inherited_carrier_blur_cells_uniform": [
+        0.3,
+        0.75
+      ],
+      "shared_core_weight_uniform": [
+        0.35,
+        0.8
+      ],
+      "explicit_coupling": {
+        "absent_probability": 0.6,
+        "weak_probability": 0.4,
+        "weak_theta_log_gain_uniform": [
+          0.02,
+          0.08
+        ],
+        "weak_beta_coefficient_scale_uniform": [
+          0.1,
+          0.3
+        ]
+      },
+      "broad_gain": 0,
+      "rationale": "Weaker HGA gain and reduced explicit coupling follow v9/v10 diagnostics. Spatial/drive intervals are bounded engineering diversity, not identified neural parameters. Extra global gain remains excluded.",
+      "excluded": [
+        "strong coherent coupling package",
+        "HGA whitening",
+        "output blur",
+        "histogram matching",
+        "per-clip normalizer",
+        "synthetic anatomical labels",
+        "clinical artifacts without an explicit validated prior"
+      ]
+    },
+    "effective_extra_spatial_sigma_cells": {
+      "slow": {
+        "uniform": [
+          1.0,
+          1.3
+        ]
+      },
+      "mid": {
+        "uniform": [
+          1.0,
+          1.3
+        ]
+      },
+      "fast": {
+        "fixed": 0.65
+      }
+    },
+    "inherited_hga_sigma_range_is_overridden": true,
+    "broad_gain": 0.0,
+    "added_voltage_noise_rms": {
+      "uniform": [
+        0.08,
+        0.2
+      ]
+    },
+    "coverage": {
+      "probabilities": {
+        "grid125": 0.5,
+        "grid242": 0.5
+      },
+      "masks": "coverage-masks.json; source_row=origin[0]+positions[i][0], source_col=origin[1]+positions[i][1]; contact order retained.",
+      "mask_file_sha256": "242d90d5412b7f1d005bfb4257b2b79350cc1b293a602599b5337fdd589a34df"
+    },
+    "noise": "IID standard-normal float32 voltage noise on the full source lattice, multiplied by recording RMS. Independent seed per world/recording; no added clinical artifact model.",
+    "order": "Build latent/source voltage -> mix full source lattice -> add recording noise -> select contacts -> CAR/filter -> canonical STFT -> frozen per-recording normalization -> G3.",
+    "limits": "Two contact masks and a bounded prior are a limited engineering support, not a fitted patient/hardware population model.",
+    "effective_width_precedence": "Recording widths are authoritative. Legacy source settings contain unused sampled width fields retained solely for exact source-seed provenance."
+  },
+  "source_and_frontend": {
+    "source_implementation": "persistent_family_renderer_v18.build_source_world",
+    "observation_implementation": "persistent_family_renderer_v18.full_observation/observe_contacts/frontend_packet",
+    "source_hashes": {
+      "persistent_family_renderer_v18.py": "a8b17f436939705e7bd6ce3ed0db81a85144a99ae39e8b8ba35279bbdc30f07e",
+      "candidate_renderer_precision.py": "ae15ad7c68a4c01b9f9baaa91722e4062fbcfb53fc1c81f71d184fceca9ff3ee",
+      "candidate_sampling_identity.py": "76267b6a057b2689b77c19e900c6934865667d22df479d1580b92318f370b3c9",
+      "candidate_recipes.py": "402fbed7cab9569f7a82827b0fad032fb46111ef99303efc35b7ab17978cb553",
+      "generate_band_worlds.py": "68eab47fa1fd9a9ad8f6e25827e3c87427cb45958d589a5877eb547fcd0e4e9e",
+      "generate_worlds.py": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+      "exploratory_cores.py": "bf70c2718ac8627c4312697c6ddfb34b0e6b3e323fe208e305d9c4d38ce3a8e8"
+    },
+    "source_details": "Pinned source is authoritative for source maps, rhythms, carrier spectrum, gains and offline trajectory standardization. Core parameters, initial states and sampled arrays must be retained.",
+    "frontend": {
+      "raw_rate_hz": 2048,
+      "cache_rate_hz": 32,
+      "fft_lengths": [
+        1024,
+        256,
+        128
+      ],
+      "inclusive_bins": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "window": "periodic Hann",
+      "token_rates_hz": [
+        4,
+        16,
+        32
+      ],
+      "native_point_selection_strides": [
+        8,
+        2,
+        1
+      ],
+      "reference": "common average over observed contacts",
+      "filters": "canonical 60..300Hz notches and 0.5Hz high-pass",
+      "normalizer": "per-contact/bin lower median and 1.4826 lower MAD; floor 1e-6",
+      "g3": "clip normalized content to [-15,15]; complete synthetic availability"
+    },
+    "session": {
+      "interior_s": 64,
+      "raw_context_each_side_s": 8,
+      "normalizer_fit_s": [
+        0,
+        24
+      ],
+      "buffer_s": [
+        24,
+        32
+      ],
+      "content_s": [
+        32,
+        64
+      ],
+      "crop_s": 2,
+      "crop_alignment_cache_frames": 8,
+      "statistical_scope": "offline world; generator field standardization uses the simulated trajectory. This is not a causal online simulator."
+    },
+    "sampler_implementation": "frozen_candidate_sampler.py",
+    "sampler_sha256": "5f9fe3b032fb373f4769309733d0737dc527f1e85a20efeb5670df92120084d5",
+    "audited_portable_renderer_archive": {
+      "file": "assortment-source.zip",
+      "sha256": "d1dee204faa800bdb104bf34ba2dce48ae426622e4323b2eecaf1d5435325af3",
+      "scope": "All eight source worlds and sixteen cached packets replayed exactly. Frozen independent-noise corpus has not been rendered."
+    }
+  },
+  "identity_and_split": {
+    "world_planner": "Existing v13 identity planner; exact 128-bit lowercase hex strings, never JSON numeric seeds.",
+    "world_group": "world/<family>/<core_seed_hex>; every observation and crop of that world belongs to one split.",
+    "recording_addresses": "candidate-corpus-recording1: SHA256 canonical JSON [namespace,purpose,world_group_id,0], first32hex; independent profile/rms/coverage/unit-noise purposes.",
+    "implementation_state": "Metadata sampler implemented and validated. No waveform generation or model training.",
+    "namespace_policy": "Reserve fresh future_train/future_valid worlds; current public and qualification worlds are diagnostics and not reused as the candidate training corpus.",
+    "checks": "Reject duplicate world IDs, core streams and seed streams across splits; retain realized rule fingerprints, source arrays, renderer settings and normalizer provenance."
+  },
+  "evidence": {
+    "wider_hga": {
+      "independent_worlds": 8,
+      "cores": 7,
+      "paired_recordings": 32,
+      "positive_adjacent_pairs": 32,
+      "before": {
+        "adjacent_same_bin_correlation": 0.2036271374672758,
+        "distant_same_bin_correlation": 0.004156661189374144,
+        "lag1": 0.06114045938635053,
+        "rms": 1.0267325347960174,
+        "q99_abs": 3.016234847009179,
+        "fraction_abs_gt5": 0.0002280667701863354,
+        "top1pct_contact_token_zero_loss_share": 0.0564919117378163,
+        "high_temporal_power_fraction": 0.46335745022964886
+      },
+      "after": {
+        "adjacent_same_bin_correlation": 0.3240931372415491,
+        "distant_same_bin_correlation": 0.005559865939836749,
+        "lag1": 0.057410110367335926,
+        "rms": 1.0233690702369018,
+        "q99_abs": 2.9926612803339934,
+        "fraction_abs_gt5": 0.00019895186335403727,
+        "top1pct_contact_token_zero_loss_share": 0.05563548322753902,
+        "high_temporal_power_fraction": 0.46547701113803264
+      }
+    },
+    "shared_gain": {
+      "independent_worlds": 8,
+      "new_independent_worlds": 0,
+      "positive_distant_pairs": 30,
+      "before": {
+        "adjacent_same_bin_correlation": 0.3240931372415491,
+        "distant_same_bin_correlation": 0.005559865939836749,
+        "lag1": 0.057410110367335926,
+        "rms": 1.0233690702369018,
+        "q99_abs": 2.9926612803339934,
+        "fraction_abs_gt5": 0.00019895186335403727,
+        "top1pct_contact_token_zero_loss_share": 0.05563548322753902,
+        "high_temporal_power_fraction": 0.46547701113803264
+      },
+      "after": {
+        "adjacent_same_bin_correlation": 0.35626277595501366,
+        "distant_same_bin_correlation": 0.03314369229799718,
+        "lag1": 0.08075383241827719,
+        "rms": 1.0353384452050796,
+        "q99_abs": 3.0911490765213925,
+        "fraction_abs_gt5": 0.0003427067158385093,
+        "top1pct_contact_token_zero_loss_share": 0.06072180760513361,
+        "high_temporal_power_fraction": 0.4550319357941094
+      },
+      "decision": "Leave disabled: core-dependent spatial/temporal trade-off; switching lag outlier and local-field nonresponse."
+    },
+    "references": "Previously exposed SOURCE development statistics. S14 legacy and S62 HELD visual checks do not select priors. No VALID/TEST tuning."
+  },
+  "limits": [
+    "No learned representation, semantics, physiological identification or transfer evidence.",
+    "Repeated manual tuning against a few reference recordings risks generator/diagnostic overfitting.",
+    "Wider HGA mixing improves adjacent correlation here; distant and temporal mismatches remain.",
+    "One or two worlds per core do not establish a family distribution or robust ranking.",
+    "No independent subject-level realism confirmation and no universal biological acceptance threshold.",
+    "Frozen short-prefix synthetic normalization is not identical in sampling scope to complete real TRAIN normalization."
+  ],
+  "scope": {
+    "requested_next_action": "Specification and metadata sampler frozen. Any training/corpus size and launch require a separate contract.",
+    "not_authorized": [
+      "Training",
+      "Remote compute",
+      "Full corpus generation",
+      "Clinical clip publication",
+      "Production model/data contract changes",
+      "Further renderer tuning without a new scientific contract"
+    ],
+    "deferred_to_training_contract": [
+      "Number of independent worlds",
+      "Optimizer/schedule",
+      "Synthetic/real mixing ratio",
+      "Training batching and crop weighting",
+      "Readout and evaluation design"
+    ],
+    "rationale": "A distribution can be specified before choosing how many samples or optimizer steps to draw. The final training contract must bind those quantities separately.",
+    "adoption_scope": "This synthetic candidate only. No production model, real-data preprocessing, training objective or evaluation contract changed."
+  },
+  "alternatives": {
+    "retain_original_hga_width": "Preserves the original prior; retains the repeatedly observed adjacent-correlation deficit. Keep as comparison, not silently discard.",
+    "simplify_core_assortment": "Possible linear/switching/local pilot, but that changes the agreed mixture and requires explicit review; no evidence yet establishes it as superior."
+  },
+  "stop_rule": "Freeze this candidate distribution for the first matched learning test if approved; do not tune it further using the same development references. Any later change gets a new explicit scientific contract.",
+  "adopted": true,
+  "recordings_generated": false,
+  "training": false,
+  "version": "uecog-seven-core-candidate-2026-10-16",
+  "approval": {
+    "date": "2026-10-16",
+    "human": "Ben Tang",
+    "exact_reply": "Freeze the proposed seven-core candidate (recommended)",
+    "reviewed_proposal_sha256": "8348680270239bf04dbf4c04e188f08e0f45740bc4baeae622e626d43d1f9787"
+  },
+  "approved_changes": [
+    "Choose extra HGA mixing sigma 0.65 rather than the original uniform[0.25,0.65].",
+    "Use one recording profile and one coverage per new independent source world in the primary corpus; keep paired views for diagnostics.",
+    "Use independently addressed recording-noise realizations, rather than the shared unit-noise field used for matched controls."
+  ]
+}

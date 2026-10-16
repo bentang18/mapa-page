@@ -1,0 +1,70 @@
+{
+  "archive_sha256": "d1dee204faa800bdb104bf34ba2dce48ae426622e4323b2eecaf1d5435325af3",
+  "version": "persistent-assortment-v18-portable",
+  "status": "Frozen comparison fixture; final recipe not adopted",
+  "source_hashes": {
+    "cores.py": "560cab6228f2220a7756ab0b10984c6ad0a835f267ccf6098a12e07f7444debb",
+    "frontend.py": "3f18a60510f3157a824a30965fbe835e7350100a7577d02fea769648c381c423",
+    "recipes.py": "43dd514a6edf3a892af71382c7e887158c9c7b3442c713c2cd3c7b2785459d87",
+    "candidate_sampling_identity.py": "bd603f3ca15b4f248d3b68dcb1af38ae88c914c9295c4aa25a2f53eaa832ca40",
+    "requirements.txt": "a1630c9a29dc8a7811b5632f80fe40380a789f07740fab6c79a8d09849d7003a",
+    "renderer.py": "0bef60d5e2b047188cfe8255ced6abcc64f7860ddbff709271f9f6d19bf2ec3f",
+    "persistent_family_renderer_v18.py": "1020b7816fca8fc345c4bdc85169fb905e3ba21734bd174f500e05bc9446131a",
+    "fixture.json": "8cc6eb96ef2ce5d8b4b04e05e35ca64275fb7bfc59ea5708ff2df8b06913322e",
+    "replay.py": "46883cbbf1454e6234eafb1e387659c468976ad3a606a20d20124e2bb0675cda",
+    "README.txt": "de43a105a0b6487b79148db39702c89edcc85ff7ea0008736c3cd0b084d9bc93"
+  },
+  "verification": {
+    "mode": "smoke",
+    "source_worlds": 8,
+    "core_families": 7,
+    "packet_records": 16,
+    "packet_arrays_exact": 240,
+    "records": [
+      {
+        "world": "qualification/0/0",
+        "family": "oscillator",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/2",
+        "family": "rslds",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/3",
+        "family": "local",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/4",
+        "family": "linear",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/1",
+        "family": "oscillator",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/5",
+        "family": "switching",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/6",
+        "family": "ei",
+        "source_and_driver_noise_exact": true
+      },
+      {
+        "world": "qualification/0/7",
+        "family": "kernel",
+        "source_and_driver_noise_exact": true
+      }
+    ],
+    "cpu_s": 144.643509,
+    "training": false,
+    "scope": "Exact synthetic diagnostic replay; final recipe not adopted."
+  },
+  "full_private_comparison": "64 generated packets,128 independent HGA correlation oracles; portable smoke replays16 packets, not all64."
+}
