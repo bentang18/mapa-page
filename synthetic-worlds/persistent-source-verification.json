@@ -1,0 +1,48 @@
+{
+  "archive_sha256": "64ae72e5d245ae275a63134160cf8f6ae014beb181cc5a90703f53e795e209cc",
+  "version": "persistent-control-portable-v16",
+  "scope": "Exact four-cell replay, one switching core, no training or clinical arrays",
+  "source_hashes": {
+    "cores.py": "560cab6228f2220a7756ab0b10984c6ad0a835f267ccf6098a12e07f7444debb",
+    "frontend.py": "3f18a60510f3157a824a30965fbe835e7350100a7577d02fea769648c381c423",
+    "recipes.py": "43dd514a6edf3a892af71382c7e887158c9c7b3442c713c2cd3c7b2785459d87",
+    "candidate_sampling_identity.py": "bd603f3ca15b4f248d3b68dcb1af38ae88c914c9295c4aa25a2f53eaa832ca40",
+    "requirements.txt": "a1630c9a29dc8a7811b5632f80fe40380a789f07740fab6c79a8d09849d7003a",
+    "renderer.py": "0bef60d5e2b047188cfe8255ced6abcc64f7860ddbff709271f9f6d19bf2ec3f",
+    "persistent_world_renderer.py": "857068062ceaf64593779595bbaf09c060b79f1c962845c744bab2f61cdc5a81",
+    "fixture.json": "a52ee0c0a7fb141ea9354613671d0e9f0f3ec23a74a7dbb868ded9e8a84f008c",
+    "replay.py": "aed9818f8d47fd1d5ea80159074e10710bcb74b365455c8210bf8ce67df14acd",
+    "README.txt": "1fa700eac12a6475ce94f1ed6d69c69e3b5a32973e0f32891fa4b23448f82311"
+  },
+  "original_persistent_renderer_sha256": "ad7609035412df3763f8527985a0a768787c453e12273840e0b1b199c590cd84",
+  "original_portable_v11_renderer_sha256": "6f98b7eb54e9c25f0d84c5e0f5a26570c25d04437da35a8504bdb69d95ed2b01",
+  "precision_repair": "Explicit np.float64 spatial factor, same v11.1 scientific recipe",
+  "verification": {
+    "status": "PASS exact source/noise, all60 packet arrays and all12 preview/drive/trace arrays",
+    "records": [
+      {
+        "id": "persistent-profileA-grid125",
+        "packet_arrays_exact": 15,
+        "preview_drive_trace_exact": true
+      },
+      {
+        "id": "persistent-profileA-grid242",
+        "packet_arrays_exact": 15,
+        "preview_drive_trace_exact": true
+      },
+      {
+        "id": "persistent-profileB-grid125",
+        "packet_arrays_exact": 15,
+        "preview_drive_trace_exact": true
+      },
+      {
+        "id": "persistent-profileB-grid242",
+        "packet_arrays_exact": 15,
+        "preview_drive_trace_exact": true
+      }
+    ],
+    "cpu_s": 25.446883,
+    "training": false,
+    "scope": "Exact one-core diagnostic replay; not a qualified seven-core corpus or training manifest"
+  }
+}
