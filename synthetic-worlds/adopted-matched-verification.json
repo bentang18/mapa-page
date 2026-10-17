@@ -1,0 +1,18 @@
+{
+  "status": "All7core families/all7reference masks, adopted renderer and original controls.",
+  "source_histories": 8,
+  "new_broadband_cells": 56,
+  "original_controls_reused": 56,
+  "reference_masks": 7,
+  "display_frames": 512,
+  "all_common_hidden_fields_bitwise": true,
+  "unit_noise_realization_matches_original": true,
+  "contact_masks_and_order_exact": true,
+  "raw_voltage_public": false,
+  "full_stft_public": false,
+  "source_identifiers_omitted": true,
+  "cpu_s": 434.048987,
+  "training": false,
+  "training_sampler_changed": false,
+  "scope": "Existing larger display lattice; no realism/transfer qualification or training-distribution adoption."
+}

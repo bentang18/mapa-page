@@ -21,5 +21,16 @@
   "removed": "Added rhythmic voltage, harmonics and theta/beta modulation gates.",
   "retained": "Core dynamics, background AR/pulses, frequency-dependent spatial mixing, recording variability and the existing CAR/filter/STFT/frozen-prefix normalization frontend.",
   "limits": "No pretraining or transfer result. HGA temporal and distant-contact correlation and frequency-bin shape remain imperfect. Tile geometry is not verified cortical wiring.",
-  "config_sha256": "666e6a85e5aff1d75d6fc1fe30cc7c12cad9db94db83441597fcb493fead7981"
+  "config_sha256": "666e6a85e5aff1d75d6fc1fe30cc7c12cad9db94db83441597fcb493fead7981",
+  "viewer_extension": {
+    "source_lattice": [
+      12,
+      34
+    ],
+    "reference_masks": 7,
+    "source_histories": 8,
+    "recording_profiles_per_history": 1,
+    "display_seconds": 16,
+    "training_sampler_changed": false
+  }
 }
