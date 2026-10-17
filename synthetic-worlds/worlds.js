@@ -26,16 +26,20 @@
   function options(id,items,value){$(id).replaceChildren(...items.map(([v,label])=>{const o=document.createElement('option');o.value=v;o.textContent=label;return o;}));$(id).value=items.some(x=>x[0]===value)?value:items[0][0];}
   function configure(preferred){
     $('time').max=frames()-1;frame=Math.min(frame,frames()-1);
+    document.querySelector('.intro').textContent=isCandidate()?'Seven cores · two saved reference grids. Selecting a core chooses an available grid.':'Choose a reference grid. Click a contact to compare its time courses.';
     $('draw-control').firstChild.textContent=isCandidate()?'Renderer':'Recording';
     $('map-scale').innerHTML=isCandidate()?'−4 <i></i> +4':'−3 <i></i> +3';
     document.querySelector('.row-label').textContent=isCandidate()?'Core':'Drive';
     document.querySelector('.row-label').title=isCandidate()?'Pure spatial projection of the latent core, before added background and voltage rendering. Separate standardized units.':'Retained band-specific simulator drive, before voltage rendering. Native units.';
     if(isCandidate()){
-      $('core-control').hidden=false;$('hga-control').hidden=true;$('world-control').hidden=true;$('grid-label').textContent='Reference / grid';
-      options('grid',freshGrids.map(g=>[g.key,g.label]),preferred||$('grid').value);
-      const available=freshWorlds.filter(w=>w.geometry_key===$('grid').value);
-      options('core',available.map(w=>[w.family,names[w.family]]),family);family=$('core').value;
-      options('world-index',available.filter(w=>w.family===family).map(w=>[w.world_id,'Example']),null);
+      $('core-control').hidden=false;$('hga-control').hidden=true;$('world-control').hidden=true;$('grid-label').textContent='Saved reference / grid';
+      options('core',Object.entries(names).filter(([key])=>freshWorlds.some(w=>w.family===key)),family);family=$('core').value;
+      const available=freshWorlds.filter(w=>w.family===family);
+      const preferredGrid=preferred||$('grid').value;
+      const selectedGrid=available.some(w=>w.geometry_key===preferredGrid)?preferredGrid:available[0].geometry_key;
+      options('grid',freshGrids.map(g=>[g.key,g.label]),selectedGrid);
+      for(const option of $('grid').options)option.disabled=!available.some(w=>w.geometry_key===option.value);
+      options('world-index',available.filter(w=>w.geometry_key===selectedGrid).map(w=>[w.world_id,'Example']),null);
       options('draw',[['0','Simplified · adopted'],['1','Original · control']],String(draw));
       const ref=freshGrids.find(g=>g.key===$('grid').value).reference_key;
       options('reference',referencePool().map(r=>[r.key,r.label]),ref);$('reference-toolbar').hidden=true;return;
