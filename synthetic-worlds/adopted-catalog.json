@@ -1,0 +1,1909 @@
+{
+  "worlds": [
+    {
+      "world_id": "qualification-0",
+      "family": "kernel",
+      "geometry_key": "grid125"
+    },
+    {
+      "world_id": "qualification-1",
+      "family": "switching",
+      "geometry_key": "grid125"
+    },
+    {
+      "world_id": "qualification-2",
+      "family": "oscillator",
+      "geometry_key": "grid242"
+    },
+    {
+      "world_id": "qualification-3",
+      "family": "ei",
+      "geometry_key": "grid242"
+    },
+    {
+      "world_id": "qualification-4",
+      "family": "linear",
+      "geometry_key": "grid242"
+    },
+    {
+      "world_id": "qualification-5",
+      "family": "local",
+      "geometry_key": "grid242"
+    },
+    {
+      "world_id": "qualification-6",
+      "family": "rslds",
+      "geometry_key": "grid242"
+    },
+    {
+      "world_id": "qualification-7",
+      "family": "oscillator",
+      "geometry_key": "grid125"
+    }
+  ],
+  "records": [
+    {
+      "id": "qualification-0/broadband",
+      "world_id": "qualification-0",
+      "family": "kernel",
+      "geometry_key": "grid125",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-0.bin",
+      "preview_sha256": "2500a1d93c8f1e2ea67137cb0a756ea1e88ac5c98f4a22cb2066c22ee9bd7309",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-0/full",
+      "world_id": "qualification-0",
+      "family": "kernel",
+      "geometry_key": "grid125",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-0.bin",
+      "preview_sha256": "2500a1d93c8f1e2ea67137cb0a756ea1e88ac5c98f4a22cb2066c22ee9bd7309",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-1/broadband",
+      "world_id": "qualification-1",
+      "family": "switching",
+      "geometry_key": "grid125",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-1.bin",
+      "preview_sha256": "d4c457fc105d11bf1512a7b2fd2f136c56594a793fe2e51ddd29f6e5aa6824c1",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-1/full",
+      "world_id": "qualification-1",
+      "family": "switching",
+      "geometry_key": "grid125",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-1.bin",
+      "preview_sha256": "d4c457fc105d11bf1512a7b2fd2f136c56594a793fe2e51ddd29f6e5aa6824c1",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-2/broadband",
+      "world_id": "qualification-2",
+      "family": "oscillator",
+      "geometry_key": "grid242",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-2.bin",
+      "preview_sha256": "a9ce6f84295ffc7bbe8618034ba3177617b339996be744a05d4e88115d930b26",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-2/full",
+      "world_id": "qualification-2",
+      "family": "oscillator",
+      "geometry_key": "grid242",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-2.bin",
+      "preview_sha256": "a9ce6f84295ffc7bbe8618034ba3177617b339996be744a05d4e88115d930b26",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-3/broadband",
+      "world_id": "qualification-3",
+      "family": "ei",
+      "geometry_key": "grid242",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-3.bin",
+      "preview_sha256": "586043b8633df11e93a80527a00f5c2192522a1943302b7315fe3d090028961a",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-3/full",
+      "world_id": "qualification-3",
+      "family": "ei",
+      "geometry_key": "grid242",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-3.bin",
+      "preview_sha256": "586043b8633df11e93a80527a00f5c2192522a1943302b7315fe3d090028961a",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-4/broadband",
+      "world_id": "qualification-4",
+      "family": "linear",
+      "geometry_key": "grid242",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-4.bin",
+      "preview_sha256": "95c740f7dd28a497ca27e4ce781e07736c290bc3f48b4d2c0ae8461bff94bacf",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-4/full",
+      "world_id": "qualification-4",
+      "family": "linear",
+      "geometry_key": "grid242",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-4.bin",
+      "preview_sha256": "95c740f7dd28a497ca27e4ce781e07736c290bc3f48b4d2c0ae8461bff94bacf",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-5/broadband",
+      "world_id": "qualification-5",
+      "family": "local",
+      "geometry_key": "grid242",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-5.bin",
+      "preview_sha256": "2ecf1626456f9d33a7303febfa1b7070189c90d0f02063782c42501bc75309ac",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-5/full",
+      "world_id": "qualification-5",
+      "family": "local",
+      "geometry_key": "grid242",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-5.bin",
+      "preview_sha256": "2ecf1626456f9d33a7303febfa1b7070189c90d0f02063782c42501bc75309ac",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-6/broadband",
+      "world_id": "qualification-6",
+      "family": "rslds",
+      "geometry_key": "grid242",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-6.bin",
+      "preview_sha256": "edf76166168933818d72e10220686a039fde1233b50825a48f6d897ceb19c28c",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-6/full",
+      "world_id": "qualification-6",
+      "family": "rslds",
+      "geometry_key": "grid242",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-6.bin",
+      "preview_sha256": "edf76166168933818d72e10220686a039fde1233b50825a48f6d897ceb19c28c",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        242
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        242
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-7/broadband",
+      "world_id": "qualification-7",
+      "family": "oscillator",
+      "geometry_key": "grid125",
+      "draw": 0,
+      "profile": "broadband",
+      "preview_file": "adopted-world-7.bin",
+      "preview_sha256": "6ad5d279064ced969569c09503b62115608be745ecc3de4dfe29c25c0dfe00a8",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    },
+    {
+      "id": "qualification-7/full",
+      "world_id": "qualification-7",
+      "family": "oscillator",
+      "geometry_key": "grid125",
+      "draw": 1,
+      "profile": "full",
+      "preview_file": "adopted-world-7.bin",
+      "preview_sha256": "6ad5d279064ced969569c09503b62115608be745ecc3de4dfe29c25c0dfe00a8",
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        1024,
+        125
+      ],
+      "driving_shape": [
+        3,
+        1024,
+        125
+      ],
+      "note": "Sections: pure core projection / original input / broadband input. Display band means only."
+    }
+  ],
+  "grids": [
+    {
+      "key": "grid125",
+      "label": "Reference A \u00b7 125 contacts",
+      "reference_key": "ref-a",
+      "shape": [
+        8,
+        16
+      ],
+      "positions": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "key": "grid242",
+      "label": "Reference B \u00b7 242 contacts",
+      "reference_key": "ref-b",
+      "shape": [
+        12,
+        22
+      ],
+      "positions": [
+        [
+          3,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          11,
+          17
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          7,
+          16
+        ]
+      ]
+    }
+  ],
+  "recipe": "broadband",
+  "scope": "All eight fresh qualification worlds, not training data. One coverage/recording per world; choose a grid to see its sampled cores. Same source activity across the two renderer arms. Existing real references are independent clips with matching contact masks.",
+  "qualification_results_sha256": "00223a11f04cad9bb608d6c79ce9a30a4bcc16dc2df842b22ce780d5f8b573a6"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "Adopted first-pretraining-test candidate",
+  "version": "synthetic-seven-core-pipeline-v2",
+  "renderer": "broadband",
+  "core_weights": {
+    "linear": 0.125,
+    "kernel": 0.125,
+    "switching": 0.125,
+    "rslds": 0.125,
+    "local": 0.125,
+    "ei": 0.125,
+    "oscillator": 0.25
+  },
+  "one_recording_per_fresh_world": true,
+  "source_lattice": [
+    12,
+    23
+  ],
+  "HGA_extra_mixing_cells": 0.65,
+  "shared_HGA_gain": 0,
+  "removed": "Added rhythmic voltage, harmonics and theta/beta modulation gates.",
+  "retained": "Core dynamics, background AR/pulses, frequency-dependent spatial mixing, recording variability and the existing CAR/filter/STFT/frozen-prefix normalization frontend.",
+  "limits": "No pretraining or transfer result. HGA temporal and distant-contact correlation and frequency-bin shape remain imperfect. Tile geometry is not verified cortical wiring.",
+  "config_sha256": "666e6a85e5aff1d75d6fc1fe30cc7c12cad9db94db83441597fcb493fead7981"
+}
