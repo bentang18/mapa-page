@@ -1,49 +1,34 @@
 {
-  "status": "Prepared generator and existing reader; trainer integration and learning tests pending.",
-  "delivery": "Held; not sent.",
-  "framework": "Seven response families \u00d7 native/speech driving \u00d7 input shape \u00d7 phone-pattern sharing \u00d7 observation.",
-  "historical_eight": "Seven native presets plus speech-driven switching remain reproducible; speech now drives all seven.",
-  "qualification": {
-    "families": 7,
-    "speech_rules": 6,
-    "coverages": 7,
-    "cells": 294,
-    "full_packets": 42,
-    "reader_windows": 672,
-    "native_controls_reused": 56
+  "release": "v3-three-family",
+  "families": [
+    "linear",
+    "switching",
+    "oscillator"
+  ],
+  "excluded_families": [
+    "local",
+    "ei",
+    "kernel",
+    "rslds"
+  ],
+  "native_worlds_per_block": 4,
+  "speech_worlds_per_block": 24,
+  "conditional_family_weights": {
+    "linear": 0.25,
+    "switching": 0.25,
+    "oscillator": 0.5
   },
-  "public_display": "Quantized band means only; full20bin packets remain local.",
-  "real_reference": "Independent anonymous comparison clips, same masks; not speech-event aligned.",
-  "success_limit": "Mechanical packet qualification does not demonstrate realistic neural representations or useful pretraining.",
-  "remaining_axes": "diversity-axes.json",
-  "training": false,
-  "layout_sampling": {
-    "rule": "Random H and W; plain full rectangle, fixed per recording.",
-    "height": [
-      8,
-      24
-    ],
-    "width": [
-      8,
-      34
-    ],
-    "max_contacts": 512,
-    "source_shape": [
-      24,
-      34
-    ],
-    "frequency_matching": false,
-    "held_template_blacklist": false,
-    "display": "Four boundary examples; native and overlap/shared speech driving on all seven families. Production supports all six speech inputs."
-  },
-  "layout_qualification": {
-    "cells": 56,
-    "full_packets": 14,
-    "all20bins": true,
-    "reader_windows": 224,
-    "CAR_verified": true
-  },
-  "active_iteration": "v3 restored at Ben\u2019s instruction",
-  "archived_v4": "Broader input/network priors are not recommended; loss of core-driven temporal variation in some cases. Previous v4 view remains for inspection.",
-  "handoff_delivery": "HELD_NOT_SENT"
+  "speech_profiles": [
+    "sustained-independent",
+    "sustained-shared",
+    "onset-independent",
+    "onset-shared",
+    "overlap-independent",
+    "overlap-shared"
+  ],
+  "renderer": "Unchanged v3 broadband voltage \u2192 CAR/filter/STFT",
+  "walkthrough": "walkthrough/",
+  "source_code": "Retained frozen v3 generator; release filters selected world indices, no equation/prior changes.",
+  "status": "Generator handoff prepared; trainer dataset selection remains owner integration; no learning benefit established.",
+  "delivery": "HELD_NOT_SENT"
 }
