@@ -43,39 +43,7 @@
     "reader_windows": 224,
     "CAR_verified": true
   },
-  "active_iteration": "v4 experimental broader priors; previous v3 remains available",
-  "priors": {
-    "input_gain": [
-      0.25,
-      4
-    ],
-    "input_memory_s": [
-      0.02,
-      0.3
-    ],
-    "linear_rslds_dimensions": [
-      8,
-      32
-    ],
-    "rslds_modes": [
-      2,
-      8
-    ],
-    "rslds_routing": [
-      "cyclic",
-      "branching"
-    ],
-    "EI_inhibitory_feedback": [
-      0.8,
-      1.2
-    ]
-  },
-  "verification": {
-    "full_packets": 24,
-    "reader_windows": 384,
-    "fresh_worlds": 8,
-    "training": false
-  },
-  "limits": "Engineering qualification; no physiological/semantic or pretraining benefit demonstrated. Network resizing also resamples observation maps. Weak E/I input can make core projections mostly static; all cases retained. Earlier recipe remains selectable.",
+  "active_iteration": "v3 restored at Ben\u2019s instruction",
+  "archived_v4": "Broader input/network priors are not recommended; loss of core-driven temporal variation in some cases. Previous v4 view remains for inspection.",
   "handoff_delivery": "HELD_NOT_SENT"
 }
