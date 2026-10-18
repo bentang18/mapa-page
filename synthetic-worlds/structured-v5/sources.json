@@ -1,0 +1,132 @@
+{
+  "scope": "Primary-source research context; these engineered models are not identified cortical circuits.",
+  "sources": [
+    {
+      "title": "Chaos in Random Neural Networks",
+      "year": 1988,
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.61.259",
+      "read": "Primary abstract; theoretical stationary/chaotic transition in large random rate networks",
+      "limit": "Not empirical cortex identification; finite driven heterogeneous noisy generator is different"
+    },
+    {
+      "title": "Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks",
+      "year": 2018,
+      "url": "https://arxiv.org/pdf/1711.09672",
+      "read": "Primary full paper: model equations1/2/5, phase diagram, structured versus random dynamics; published PDF supplement rank-two oscillations",
+      "finding": "Random connectivity + low-rank component supports structured states and rich dynamics; rank-two motifs can support oscillations",
+      "limit": "Theoretical model and designed computations, not proof that speech cortex has this exact connectivity; canonical current equation differs from our rate-style equation"
+    },
+    {
+      "title": "Neural ensemble dynamics in dorsal motor cortex during speech in people with paralysis",
+      "year": 2019,
+      "url": "https://elifesciences.org/articles/46015",
+      "read": "Primary PubMed abstract/figure captions and indexed primary discussion; direct full eLife/PMC fetch challenged",
+      "finding": "Two intracortical hand-knob participants; onset transient both, reported speech rotations in better-modulated participant",
+      "limit": "Not ventral speech uECoG; small cohort, task/region dependence"
+    },
+    {
+      "title": "Latent neural dynamics encode temporal context in speech",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11182421/",
+      "read": "Primary full text theory/methods jPCA and discussion caveat; author manuscript indexed passage",
+      "finding": "ECoG STG listening, reduced-rank feature-response latents, onset/peak-rate context and cyclic geometry",
+      "limit": "Authors explicitly discuss horseshoe effect/overlapping evoked responses; not intended to distinguish dynamical versus representational coding"
+    },
+    {
+      "title": "Shared latent representations of speech production for cross-patient speech decoding",
+      "year": 2026,
+      "url": "https://doi.org/10.1038/s41467-026-75455-1",
+      "read": "Local primary full text tmp/pdfs/uecog-papers-2026-09-30/paper2026-raw.txt introduction/method overview and surrogate scope; PubMed primary page",
+      "finding": "Eight speech uECoG patients; PCA latents/CCA alignment, shared speech-related structure",
+      "limit": "Does not identify a governing ODE or prove chaos"
+    },
+    {
+      "title": "Theta and Alpha Oscillations Are Traveling Waves in the Human Neocortex",
+      "year": 2018,
+      "url": "https://jacobslab.bme.columbia.edu/sites/default/files/content/pubs/ZhangEtal18.pdf",
+      "read": "Author-hosted primary indexed introduction/summary/model relation; direct web open502",
+      "finding": "ECoG memory task,2-15Hz waves, coupled oscillator/frequency-gradient explanation",
+      "limit": "Low-frequency phase waves, not HGA amplitude waves; our magnitude frontend does not retain raw oscillatory phase"
+    },
+    {
+      "title": "Inferring collective dynamical states from widely unobserved systems",
+      "year": 2018,
+      "url": "https://www.nature.com/articles/s41467-018-04725-4",
+      "read": "Primary fullPDF https://d-nb.info/1164357689/34 results/discussion",
+      "finding": "Selected rat hippocampal/cat visual/monkey prefrontal recordings consistent with fading reverberation, not exactly critical",
+      "limit": "PAR assumptions and applicability tests; not universal law of human speech cortex"
+    },
+    {
+      "title": "Different Origins of Gamma Rhythm and High-Gamma Activity in Macaque Visual Cortex",
+      "year": 2011,
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000610",
+      "read": "Primary full text abstract/results stimulus manipulation and firing/power relation",
+      "finding": "Dissociation gamma rhythm versus broadband high gamma; high gamma correlated with local multiunit firing",
+      "limit": "Microelectrode macaque V1; not complete generative observation law for human uECoG"
+    },
+    {
+      "title": "Turbulent-like Dynamics in the Human Brain",
+      "year": 2020,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7725672/",
+      "read": "Primary indexed methods/results and study abstract; direct subsequent opens challenged",
+      "finding": "Stuart-Landau/Hopf whole-brain model and1003participant resting/task fMRI spatial statistics",
+      "limit": "fMRI0.008-0.08Hz; no direct HGA timescale or causal mechanism identification"
+    },
+    {
+      "title": "A neural architecture for imagined and overt speech motor dynamics",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41593-026-02456-0",
+      "read": "Primary full text methods, results, limitations; publishedSep29",
+      "finding": "Nine high-density ECoG participants; articulatory encoding and beta/high-gamma modality differences",
+      "limit": "Linear temporal response models/lead-lag correlations; not identification of autonomous vector field, task restricted"
+    },
+    {
+      "title": "Inferring Latent Dynamics Underlying Neural Population Activity via Neural Differential Equations",
+      "year": 2021,
+      "url": "https://proceedings.mlr.press/v139/kim21h/kim21h.pdf",
+      "read": "Primary fullPDF model/results",
+      "finding": "Latent nonlinear ODE inference with Poisson observation; synthetic attractors and rat decision task",
+      "limit": "Learned latent-coordinate models do not identify unique biological equations"
+    },
+    {
+      "title": "Optimal control of transient dynamics in balanced networks supports generation of complex movements",
+      "year": 2014,
+      "url": "https://lcnwww.epfl.ch/gerstner/PUBLICATIONS/Hennequin14.pdf",
+      "read": "Primary author PDF: abstract/introduction, equations and stability optimization, transient amplification, motor comparison, initial-state dependence; re-read October18",
+      "finding": "Optimized inhibitory structure stabilizes strong excitation while allowing large patterned transients; nonchaotic mechanism can account for selected monkey reaching population features.",
+      "limit": "Optimized E/I network, selected preparation states and input weights; not a random low-rank replication or direct speech uECoG model."
+    },
+    {
+      "title": "Balanced amplification: a new mechanism of selective amplification of neural activity patterns",
+      "year": 2009,
+      "url": "https://www.cns.nyu.edu/~dmarti/software/murphy_miller.pdf",
+      "read": "Primary PDF opened; abstract/indexed primary account reviewed. PDF text extraction sparse; not claiming full derivation checked.",
+      "finding": "Pattern-selective amplification need not require prolonging the response lifetime.",
+      "limit": "Theory of cortical network amplification; not empirical identification of speech HGA."
+    },
+    {
+      "title": "Macroscopic Description for Networks of Spiking Neurons",
+      "year": 2015,
+      "url": "https://arxiv.org/pdf/1506.06581",
+      "read": "Primary full PDF model, Lorentzian ansatz, macroscopic equations, assumptions and generalization; re-read October18",
+      "finding": "Exact macroscopic reduction in thermodynamic limit for specified QIF networks; firing rate and mean voltage can support synchronization and bursting.",
+      "limit": "All-to-all connectivity, quenched heterogeneity, Lorentzian distribution for the simple two-equation form; not a universally exact cortical generator."
+    },
+    {
+      "title": "Single-trial neural dynamics are dominated by richly varied movements",
+      "year": 2019,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31551604/",
+      "read": "Primary PubMed abstract/figure captions and indexed primary results, rechecked October18; PMID31551604, DOI10.1038/s41593-019-0502-4.",
+      "finding": "Movement-related and uninstructed behavioral variability contributes substantially to measured neural activity in the studied mouse tasks.",
+      "limit": "Mouse recordings and particular behavioral tasks; not direct evidence for a particular human speech generator or autonomous dynamics."
+    },
+    {
+      "title": "Residual dynamics resolves recurrent contributions to neural computation",
+      "year": 2023,
+      "url": "https://www.nature.com/articles/s41593-022-01230-2",
+      "read": "Primary accepted manuscript downloaded from UCL; introduction, equation1, constructed trajectory counterexamples, residual local/global distinction, multi-area simulations, methods2SLS assumptions; not claiming entire supplement read.",
+      "finding": "Different recurrent/input mechanisms can have identical condition means in the constructed examples. Residual dynamics can reveal functional recurrent contributions under assumptions, but correlated upstream input complicates localization.",
+      "limit": "MacaquePFC decision/saccade data. Estimator assumes Markov state and temporally uncorrelated observation noise; overlapping STFT magnitudes do not automatically satisfy this. Local residuals do not uniquely identify local circuitry."
+    }
+  ]
+}
