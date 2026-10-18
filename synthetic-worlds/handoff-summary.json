@@ -1,5 +1,5 @@
 {
-  "status": "Generator and reader prepared; production trainer wiring and learning test pending.",
+  "status": "All8generator options prepared at the existing pretraining data-reader boundary; trainer wiring and learning comparisons pending.",
   "selectable_systems": [
     "linear",
     "kernel",
@@ -10,12 +10,20 @@
     "oscillator",
     "event"
   ],
-  "renderer": "One adopted broadband voltage renderer -> CAR/filter/STFT -> robust normalization.",
-  "event": {
-    "mechanically_qualified": true,
-    "mixture_weight": null,
-    "description": "Real acoustic phone timings drive a random recurrent network; neural response is simulated."
+  "composition": {
+    "time_profiles": [
+      "sustained",
+      "onset",
+      "overlap"
+    ],
+    "phone_patterns": [
+      "independent",
+      "shared"
+    ],
+    "per_world": "One fixed sampled combination, network and observation; balanced6event-world blocks."
   },
+  "renderer": "One adopted broadband voltage renderer -> CAR/filter/STFT -> robust normalization.",
+  "plan": "Existing base8world blocks + explicit event6world blocks. No default event mass or real/synthetic ratio.",
   "training_launched": false,
   "transfer_benefit_tested": false
 }

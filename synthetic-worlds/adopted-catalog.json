@@ -113,7 +113,7 @@
       ]
     },
     {
-      "world_id": "event/0",
+      "world_id": "event-v2/0",
       "family": "event",
       "group": "event_driven",
       "geometry_keys": [
@@ -124,10 +124,10 @@
         12,
         23
       ],
-      "scope": "Qualification preview; random phone vectors, not fitted neural responses."
+      "scope": "Paired input-rule comparisons; one sampled composition per world in production."
     },
     {
-      "world_id": "event/1",
+      "world_id": "event-v2/1",
       "family": "event",
       "group": "event_driven",
       "geometry_keys": [
@@ -138,35 +138,7 @@
         12,
         23
       ],
-      "scope": "Qualification preview; random phone vectors, not fitted neural responses."
-    },
-    {
-      "world_id": "event/2",
-      "family": "event",
-      "group": "event_driven",
-      "geometry_keys": [
-        "ref-a",
-        "ref-b"
-      ],
-      "source_shape": [
-        12,
-        23
-      ],
-      "scope": "Qualification preview; random phone vectors, not fitted neural responses."
-    },
-    {
-      "world_id": "event/3",
-      "family": "event",
-      "group": "event_driven",
-      "geometry_keys": [
-        "ref-a",
-        "ref-b"
-      ],
-      "source_shape": [
-        12,
-        23
-      ],
-      "scope": "Qualification preview; random phone vectors, not fitted neural responses."
+      "scope": "Paired input-rule comparisons; one sampled composition per world in production."
     }
   ],
   "records": [
@@ -2635,14 +2607,21 @@
       ]
     },
     {
-      "id": "event/0/broadband/ref-a",
-      "world_id": "event/0",
+      "id": "event-v2/0/sustained-independent/ref-a",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-a",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-0-ref-a.bin",
-      "preview_sha256": "0686fe9f53704188feea33d3ba215bac75eb850a20b1780db77494d48a8f790b",
+      "input_profile": "sustained-independent",
+      "controller": {
+        "profile": "sustained-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-sustained-independent-ref-a.bin",
+      "preview_sha256": "53857603fc9351451f3389d0f806eb2bb0d4cf692ae2dcc8812f142d3102741c",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2655,17 +2634,31 @@
         3,
         512,
         125
-      ]
+      ],
+      "input_file": "event-v2-input-0-sustained-independent.bin",
+      "input_sha256": "c4ddcba61a13643954749f7e5e3d0b1d9dc1d49d45283f2c0233920199bd7d62",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/0/broadband/ref-b",
-      "world_id": "event/0",
+      "id": "event-v2/0/sustained-independent/ref-b",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-b",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-0-ref-b.bin",
-      "preview_sha256": "bd5e5ff8f13dd8fb5ad8445cc9579c4c98a234c15fc32fa03daffb8be6cc221f",
+      "input_profile": "sustained-independent",
+      "controller": {
+        "profile": "sustained-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-sustained-independent-ref-b.bin",
+      "preview_sha256": "78f5a12f161a69dc790cfe2a7afeab609a740aa661704a995a7af4ba62894f07",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2678,17 +2671,31 @@
         3,
         512,
         242
-      ]
+      ],
+      "input_file": "event-v2-input-0-sustained-independent.bin",
+      "input_sha256": "c4ddcba61a13643954749f7e5e3d0b1d9dc1d49d45283f2c0233920199bd7d62",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/1/broadband/ref-a",
-      "world_id": "event/1",
+      "id": "event-v2/0/sustained-shared/ref-a",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-a",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-1-ref-a.bin",
-      "preview_sha256": "afafc938fc08ab5abaaaac939cdb85ee2f89bccd84439842556ef63753e44837",
+      "input_profile": "sustained-shared",
+      "controller": {
+        "profile": "sustained-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-sustained-shared-ref-a.bin",
+      "preview_sha256": "ec4a555ae9ab1a14687791abee19c9f0080c79a0aeab489c18c13344cbcc1408",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2701,17 +2708,31 @@
         3,
         512,
         125
-      ]
+      ],
+      "input_file": "event-v2-input-0-sustained-shared.bin",
+      "input_sha256": "e9b69f26037026f09078bfc758e74f5c0bcb68a9ea341edb0e1f53d8b7bac1a8",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/1/broadband/ref-b",
-      "world_id": "event/1",
+      "id": "event-v2/0/sustained-shared/ref-b",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-b",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-1-ref-b.bin",
-      "preview_sha256": "5f2dc06ad3e700a9e58d72d92db4331f32348b400b84af0e884e9a376796ca60",
+      "input_profile": "sustained-shared",
+      "controller": {
+        "profile": "sustained-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-sustained-shared-ref-b.bin",
+      "preview_sha256": "cd832d5d1437e098e61ee18b76c7b5150bba4793892925a6250bdad17ff9e3ae",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2724,17 +2745,31 @@
         3,
         512,
         242
-      ]
+      ],
+      "input_file": "event-v2-input-0-sustained-shared.bin",
+      "input_sha256": "e9b69f26037026f09078bfc758e74f5c0bcb68a9ea341edb0e1f53d8b7bac1a8",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/2/broadband/ref-a",
-      "world_id": "event/2",
+      "id": "event-v2/0/onset-independent/ref-a",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-a",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-2-ref-a.bin",
-      "preview_sha256": "6d8237804e7a976a7958f7a8ae9997222ed5f308e445946777cbab4efe2b1f61",
+      "input_profile": "onset-independent",
+      "controller": {
+        "profile": "onset-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-onset-independent-ref-a.bin",
+      "preview_sha256": "95f4f90f8dbd7868337042055f7b4632f9b63453921e7417064bebd1525644ef",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2747,17 +2782,31 @@
         3,
         512,
         125
-      ]
+      ],
+      "input_file": "event-v2-input-0-onset-independent.bin",
+      "input_sha256": "a8748261360a07ede7764b4304411a1347b71cb114f6a7945e8cbe1f4c9297b2",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/2/broadband/ref-b",
-      "world_id": "event/2",
+      "id": "event-v2/0/onset-independent/ref-b",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-b",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-2-ref-b.bin",
-      "preview_sha256": "2424b63792b8471464e5a4ab623943112dc342418bce0a9e74c82b90095580fe",
+      "input_profile": "onset-independent",
+      "controller": {
+        "profile": "onset-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-onset-independent-ref-b.bin",
+      "preview_sha256": "c8ad3ae5ec8ef51db1012c5ca012d141c3ff6fe8d265bc64dccbeeba490a2a32",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2770,17 +2819,31 @@
         3,
         512,
         242
-      ]
+      ],
+      "input_file": "event-v2-input-0-onset-independent.bin",
+      "input_sha256": "a8748261360a07ede7764b4304411a1347b71cb114f6a7945e8cbe1f4c9297b2",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/3/broadband/ref-a",
-      "world_id": "event/3",
+      "id": "event-v2/0/onset-shared/ref-a",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-a",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-3-ref-a.bin",
-      "preview_sha256": "3a05d3a850a0d0b3e61e06bfde1a934c51652d1b7d2432c7fda73aa37ecd5b47",
+      "input_profile": "onset-shared",
+      "controller": {
+        "profile": "onset-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-onset-shared-ref-a.bin",
+      "preview_sha256": "27aeab4fb2fbc2d6b31dfc1aa6792fdfbafa6a147b605e1622dc36e93a379047",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2793,17 +2856,31 @@
         3,
         512,
         125
-      ]
+      ],
+      "input_file": "event-v2-input-0-onset-shared.bin",
+      "input_sha256": "01c27ebeeb714b18d17d975dfd085e290928bd028e756942383b9cdd8f95567d",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
     },
     {
-      "id": "event/3/broadband/ref-b",
-      "world_id": "event/3",
+      "id": "event-v2/0/onset-shared/ref-b",
+      "world_id": "event-v2/0",
       "family": "event",
       "geometry_key": "ref-b",
       "draw": 0,
       "profile": "broadband",
-      "preview_file": "event-3-ref-b.bin",
-      "preview_sha256": "c45d4c0a21fa1c72bc7d5d6af0a600d1d8164c64e19d4ed80a147d80fdaad65c",
+      "input_profile": "onset-shared",
+      "controller": {
+        "profile": "onset-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-onset-shared-ref-b.bin",
+      "preview_sha256": "a1982ab646ea5eb23226eb351748ba7644f1059cf3f1940ffe3aaf5aac21b0ae",
       "preview_components": 2,
       "encoding": "int8",
       "display_scale": 31.75,
@@ -2816,7 +2893,606 @@
         3,
         512,
         242
-      ]
+      ],
+      "input_file": "event-v2-input-0-onset-shared.bin",
+      "input_sha256": "01c27ebeeb714b18d17d975dfd085e290928bd028e756942383b9cdd8f95567d",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/0/overlap-independent/ref-a",
+      "world_id": "event-v2/0",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-independent",
+      "controller": {
+        "profile": "overlap-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-overlap-independent-ref-a.bin",
+      "preview_sha256": "720380c71c92858ba39e58500d9b730ffb704454e56c09f520ac8f5de006a8c9",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-0-overlap-independent.bin",
+      "input_sha256": "866a1335c3ed06807aa892d82d056167c174c87d6dd1de46aedd1556f9e78c11",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/0/overlap-independent/ref-b",
+      "world_id": "event-v2/0",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-independent",
+      "controller": {
+        "profile": "overlap-independent",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-overlap-independent-ref-b.bin",
+      "preview_sha256": "e74cb93e3f3020134bf0167e5fd2ff26f9afdaf3e83c787493b8bf32fa21c4b1",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-0-overlap-independent.bin",
+      "input_sha256": "866a1335c3ed06807aa892d82d056167c174c87d6dd1de46aedd1556f9e78c11",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/0/overlap-shared/ref-a",
+      "world_id": "event-v2/0",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-shared",
+      "controller": {
+        "profile": "overlap-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-overlap-shared-ref-a.bin",
+      "preview_sha256": "7769d7a62aba2a9b491f19a856641aed70e2b28a24652cfccc891c5cfb8e590f",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-0-overlap-shared.bin",
+      "input_sha256": "f14b70edde1f1642edeb52e4d21b23571e4665116f1d9248b79ab6ae3ccdcba1",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/0/overlap-shared/ref-b",
+      "world_id": "event-v2/0",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-shared",
+      "controller": {
+        "profile": "overlap-shared",
+        "tau_s": 0.09808915291243368,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-0-overlap-shared-ref-b.bin",
+      "preview_sha256": "69bd8a4ab163c633997e92b7d07b08b8d33c9ecf361664b8486b366926294629",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-0-overlap-shared.bin",
+      "input_sha256": "f14b70edde1f1642edeb52e4d21b23571e4665116f1d9248b79ab6ae3ccdcba1",
+      "input_shape": [
+        2048,
+        22
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/sustained-independent/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "sustained-independent",
+      "controller": {
+        "profile": "sustained-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-sustained-independent-ref-a.bin",
+      "preview_sha256": "19b597b5a1f8505566db398372ee51e8982947a876272652b57142d2fd977d32",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-sustained-independent.bin",
+      "input_sha256": "e197fc1bd6cf0bea37a7034467031a3e66db0a847cc598f47d34b083ca2654ea",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/sustained-independent/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "sustained-independent",
+      "controller": {
+        "profile": "sustained-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-sustained-independent-ref-b.bin",
+      "preview_sha256": "1038effd95b9b1d766e433b9ec898e7618682ffa928ec06c207d926cf7be19fd",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-sustained-independent.bin",
+      "input_sha256": "e197fc1bd6cf0bea37a7034467031a3e66db0a847cc598f47d34b083ca2654ea",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/sustained-shared/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "sustained-shared",
+      "controller": {
+        "profile": "sustained-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-sustained-shared-ref-a.bin",
+      "preview_sha256": "4a34dd295f2e2964682a35eec61afcb69ac7657cf7b06a9695d74bbced67db3e",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-sustained-shared.bin",
+      "input_sha256": "d3b5386059f0bb03d8a1ea0cad492bae80b9377404b488cb206c48dda3e9d21c",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/sustained-shared/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "sustained-shared",
+      "controller": {
+        "profile": "sustained-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-sustained-shared-ref-b.bin",
+      "preview_sha256": "aef4c73da1c3477299535a49063e396feb9f307e6d73e5e838f0b2c695f4c61b",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-sustained-shared.bin",
+      "input_sha256": "d3b5386059f0bb03d8a1ea0cad492bae80b9377404b488cb206c48dda3e9d21c",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/onset-independent/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "onset-independent",
+      "controller": {
+        "profile": "onset-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-onset-independent-ref-a.bin",
+      "preview_sha256": "896d2b2bb45eb16205785ec019a09e5b2f406371a7bffe9a7c9a0bd650a978a5",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-onset-independent.bin",
+      "input_sha256": "b40d80d90649ed6323c4c791c1c8e5e8f55b75b9e64faf10ef2f22f7cf7568e8",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/onset-independent/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "onset-independent",
+      "controller": {
+        "profile": "onset-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-onset-independent-ref-b.bin",
+      "preview_sha256": "b624128c88e02dec60d1faa2bcc2d608951b7ce5410ecda687b5fa975e2c2d5b",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-onset-independent.bin",
+      "input_sha256": "b40d80d90649ed6323c4c791c1c8e5e8f55b75b9e64faf10ef2f22f7cf7568e8",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/onset-shared/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "onset-shared",
+      "controller": {
+        "profile": "onset-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-onset-shared-ref-a.bin",
+      "preview_sha256": "360f132203aef8914c99d73d8d33b0563cabfaa37dc93f39f606a94bff4d3d51",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-onset-shared.bin",
+      "input_sha256": "6620bcecd4a9aafdf3328a78ac8e137cb3f4bfcf4a82c03f401ec1d346d1830f",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/onset-shared/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "onset-shared",
+      "controller": {
+        "profile": "onset-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-onset-shared-ref-b.bin",
+      "preview_sha256": "c5d6a91cfefa9f650f952acc0e055ae9984759996db0740198a5cb1e3ba893e4",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-onset-shared.bin",
+      "input_sha256": "6620bcecd4a9aafdf3328a78ac8e137cb3f4bfcf4a82c03f401ec1d346d1830f",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/overlap-independent/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-independent",
+      "controller": {
+        "profile": "overlap-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-overlap-independent-ref-a.bin",
+      "preview_sha256": "646cf728280f6dc8ed4f68ebf9c01ff0aa136ceed0c106b63e898075f5cda357",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-overlap-independent.bin",
+      "input_sha256": "fda02b626482b6da6013fa2d6ced38afd29887db7e2dd49ff1d8da18fbeddbde",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/overlap-independent/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-independent",
+      "controller": {
+        "profile": "overlap-independent",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-overlap-independent-ref-b.bin",
+      "preview_sha256": "4005a1d52eee8b50e1c5a14c71d65c8ce70400230869a12ec8f431d7b7dc03b4",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-overlap-independent.bin",
+      "input_sha256": "fda02b626482b6da6013fa2d6ced38afd29887db7e2dd49ff1d8da18fbeddbde",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/overlap-shared/ref-a",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-a",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-shared",
+      "controller": {
+        "profile": "overlap-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-overlap-shared-ref-a.bin",
+      "preview_sha256": "08eb9a14cf8dfe5d0b7ac4c5746444561974e84752f65a0458b67e33e49d87bb",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        125
+      ],
+      "driving_shape": [
+        3,
+        512,
+        125
+      ],
+      "input_file": "event-v2-input-1-overlap-shared.bin",
+      "input_sha256": "924e0a85905fed73b48f66b6d1c9f6dfa372b2c098fb17e0c3cfd22ff14fd951",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
+    },
+    {
+      "id": "event-v2/1/overlap-shared/ref-b",
+      "world_id": "event-v2/1",
+      "family": "event",
+      "geometry_key": "ref-b",
+      "draw": 0,
+      "profile": "broadband",
+      "input_profile": "overlap-shared",
+      "controller": {
+        "profile": "overlap-shared",
+        "tau_s": 0.03238326608110586,
+        "shared_rank": 4,
+        "shared_variance_fraction": 0.5
+      },
+      "preview_file": "event-v2-1-overlap-shared-ref-b.bin",
+      "preview_sha256": "83fad9cafe8f1d38307ad2bae3c5c23071bc1894a25a59f1f360c20c79e50917",
+      "preview_components": 2,
+      "encoding": "int8",
+      "display_scale": 31.75,
+      "preview_shape": [
+        3,
+        512,
+        242
+      ],
+      "driving_shape": [
+        3,
+        512,
+        242
+      ],
+      "input_file": "event-v2-input-1-overlap-shared.bin",
+      "input_sha256": "924e0a85905fed73b48f66b6d1c9f6dfa372b2c098fb17e0c3cfd22ff14fd951",
+      "input_shape": [
+        2048,
+        18
+      ],
+      "input_rate_hz": 128
     }
   ],
   "grids": [
@@ -8920,6 +9596,6 @@
     34
   ],
   "display_frames": 512,
-  "scope": "Seven generic systems on seven display masks; event-driven system on the two training masks. Full-frequency training packets remain private; viewer shows band means.",
+  "scope": "Eight selectable systems; speech-driven option composes3temporal rules x2pattern rules. Other7families retain existing parameter sampling. Display band means only; paired previews are not independent training worlds.",
   "results_sha256": "2b91c6352b708a57911820f9876e900037a340a0e9c98456be9083c436106888"
 }

@@ -3,3 +3,5 @@
 canvas[id$="-map"]{cursor:crosshair}
 
 #event-raster{height:55px;aspect-ratio:auto}#events{margin:0 0 22px 60px}.event-label{display:flex;align-items:center;justify-content:space-between;color:#777;font-size:11px;margin-bottom:5px}.event-label output{color:#333;font-size:12px}#events .quiet{margin:6px 0 0}@media(max-width:650px){#events{margin-left:39px}}
+
+#event-input{height:88px;aspect-ratio:auto;margin:6px 0 0}.event-label{gap:10px}#input-description{font-variant-numeric:tabular-nums}
