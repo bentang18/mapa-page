@@ -1,34 +1,26 @@
 {
-  "release": "v3-three-family",
+  "release": "v3-native-three-family",
   "families": [
     "linear",
     "switching",
     "oscillator"
   ],
+  "driving": "native",
   "excluded_families": [
     "local",
     "ei",
     "kernel",
     "rslds"
   ],
+  "speech": "Archived; excluded from handoff",
   "native_worlds_per_block": 4,
-  "speech_worlds_per_block": 24,
   "conditional_family_weights": {
     "linear": 0.25,
     "switching": 0.25,
     "oscillator": 0.5
   },
-  "speech_profiles": [
-    "sustained-independent",
-    "sustained-shared",
-    "onset-independent",
-    "onset-shared",
-    "overlap-independent",
-    "overlap-shared"
-  ],
   "renderer": "Unchanged v3 broadband voltage \u2192 CAR/filter/STFT",
   "walkthrough": "walkthrough/",
-  "source_code": "Retained frozen v3 generator; release filters selected world indices, no equation/prior changes.",
-  "status": "Generator handoff prepared; trainer dataset selection remains owner integration; no learning benefit established.",
+  "status": "Generator ready; owner still binds dataset at existing trainer input boundary; learning benefit untested",
   "delivery": "HELD_NOT_SENT"
 }

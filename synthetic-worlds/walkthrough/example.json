@@ -3,25 +3,25 @@
     "file": "core.f32",
     "shape": [
       512,
-      448
+      432
     ],
-    "sha256": "64ee62e0667fe7fa3dd9b2dcf1a93d4a37a9e6f36196bc9b85f94a54b2836354"
+    "sha256": "60ad4046a3970e9ebd08bed53f6e10660e70428520c880af6e7d9d46f3cb83d8"
   },
   "hga": {
     "file": "hga.f32",
     "shape": [
       512,
-      448
+      432
     ],
-    "sha256": "58741584fd62371a6bae0a264e933275f92f929e005bcb810e8d796d1c1ea8c9"
+    "sha256": "b04011cfa5dd530c2e661b34ede7b3c2ac04a0d91da29dd72620a67797c77322"
   },
   "drive": {
     "file": "drive.f32",
     "shape": [
       512,
-      16
+      23
     ],
-    "sha256": "f14cd6972f42500e4e2bc6e8cd7b22a09b1c23b5ffc9b32d12425644665b2aae"
+    "sha256": "9ad95c02046039ed61d74cc871139575339358d9afda5545009f214ca4ec3dac"
   },
   "state": {
     "file": "state.f32",
@@ -29,7 +29,7 @@
       512,
       6
     ],
-    "sha256": "a1a16bc7e33a7add4beeeb509d6e2c0d3699867bfff379e019f22d7e0559e841"
+    "sha256": "af7b6ed43717a70798c99651a40d1fbf5497e25fc92da65c5a76d1f96476c14e"
   },
   "bins": {
     "file": "bins.f32",
@@ -37,24 +37,24 @@
       20,
       512
     ],
-    "sha256": "16abb63c5dbf6f0e4b9803c4b1b334fae01bbf69ae9e3e41bf50f3ad13407170"
+    "sha256": "dfccee1e4aeb7d62a4a88b2279c45af0ad46acc7b3834dbe7a8d4042fd044e5b"
   },
   "voltage": {
     "file": "voltage.f32",
     "shape": [
       8192
     ],
-    "sha256": "5047e7def30f9db8a9f0a801a568bc5e1683bca8966bf5c40dcfceb4fe2a199d"
+    "sha256": "45b4149dd46c8e66b9d4cf3b2b2f3303ae4b0d76055f2ed11e6be0e2fe91aa43"
   },
   "version": "v3",
   "frames": 512,
   "fps": 32,
   "shape": [
     16,
-    28
+    27
   ],
-  "contacts": 448,
-  "profile": "onset-shared",
+  "contacts": 432,
+  "profile": "native",
   "frequencies_hz": [
     2,
     4,
@@ -77,401 +77,156 @@
     144,
     160
   ],
-  "phones": [
+  "events": [
     {
-      "phone": "j",
-      "start": 2.058628000000006,
-      "stop": 2.2486280000000036
+      "label": "Pattern 4",
+      "start": 0.0,
+      "stop": 0.9375
     },
     {
-      "phone": "\u025b",
-      "start": 2.2486280000000036,
-      "stop": 2.358628000000003
+      "label": "Pattern 2",
+      "start": 0.9375,
+      "stop": 1.53125
     },
     {
-      "phone": "t",
-      "start": 2.358628000000003,
-      "stop": 2.5186280000000068
+      "label": "Pattern 4",
+      "start": 1.53125,
+      "stop": 2.71875
     },
     {
-      "phone": "d\u032a",
-      "start": 2.808628000000006,
-      "stop": 2.9186280000000053
+      "label": "Pattern 1",
+      "start": 2.71875,
+      "stop": 2.90625
     },
     {
-      "phone": "\u025b",
-      "start": 2.9186280000000053,
-      "stop": 2.9686280000000025
+      "label": "Pattern 4",
+      "start": 2.90625,
+      "stop": 3.96875
     },
     {
-      "phone": "\u0279",
-      "start": 2.9686280000000025,
-      "stop": 3.068628000000004
+      "label": "Pattern 1",
+      "start": 3.96875,
+      "stop": 4.4375
     },
     {
-      "phone": "d",
-      "start": 3.068628000000004,
-      "stop": 3.158628
+      "label": "Pattern 4",
+      "start": 4.4375,
+      "stop": 4.8125
     },
     {
-      "phone": "aj",
-      "start": 3.158628,
-      "stop": 3.398628000000002
+      "label": "Pattern 2",
+      "start": 4.8125,
+      "stop": 5.125
     },
     {
-      "phone": "d",
-      "start": 3.398628000000002,
-      "stop": 3.648628000000002
+      "label": "Pattern 4",
+      "start": 5.125,
+      "stop": 5.25
     },
     {
-      "phone": "n",
-      "start": 3.648628000000002,
-      "stop": 3.7586280000000016
+      "label": "Pattern 3",
+      "start": 5.25,
+      "stop": 5.78125
     },
     {
-      "phone": "ow",
-      "start": 3.7586280000000016,
-      "stop": 3.9186280000000053
+      "label": "Pattern 1",
+      "start": 5.78125,
+      "stop": 6.6875
     },
     {
-      "phone": "m",
-      "start": 3.9186280000000053,
-      "stop": 4.068628000000004
+      "label": "Pattern 4",
+      "start": 6.6875,
+      "stop": 7.09375
     },
     {
-      "phone": "\u0252\u02d0",
-      "start": 4.068628000000004,
-      "stop": 4.1986280000000065
+      "label": "Pattern 2",
+      "start": 7.09375,
+      "stop": 8.125
     },
     {
-      "phone": "\u0279",
-      "start": 4.1986280000000065,
-      "stop": 4.348628000000005
+      "label": "Pattern 4",
+      "start": 8.125,
+      "stop": 8.75
     },
     {
-      "phone": "\u0259",
-      "start": 4.378628000000006,
-      "stop": 4.4686280000000025
+      "label": "Pattern 2",
+      "start": 8.75,
+      "stop": 9.125
     },
     {
-      "phone": "v",
-      "start": 4.4686280000000025,
-      "stop": 4.538628000000003
+      "label": "Pattern 1",
+      "start": 9.125,
+      "stop": 10.46875
     },
     {
-      "phone": "d\u032a",
-      "start": 4.538628000000003,
-      "stop": 4.588628
+      "label": "Pattern 4",
+      "start": 10.46875,
+      "stop": 10.75
     },
     {
-      "phone": "\u0259",
-      "start": 4.588628,
-      "stop": 4.618628000000001
+      "label": "Pattern 1",
+      "start": 10.75,
+      "stop": 11.15625
     },
     {
-      "phone": "p",
-      "start": 4.618628000000001,
-      "stop": 4.758628000000002
+      "label": "Pattern 4",
+      "start": 11.15625,
+      "stop": 11.53125
     },
     {
-      "phone": "l",
-      "start": 4.758628000000002,
-      "stop": 4.808628000000006
+      "label": "Pattern 1",
+      "start": 11.53125,
+      "stop": 11.875
     },
     {
-      "phone": "ej",
-      "start": 4.808628000000006,
-      "stop": 4.9586280000000045
+      "label": "Pattern 4",
+      "start": 11.875,
+      "stop": 12.0
     },
     {
-      "phone": "\u0261",
-      "start": 4.9586280000000045,
-      "stop": 5.098628000000005
+      "label": "Pattern 1",
+      "start": 12.0,
+      "stop": 12.34375
     },
     {
-      "phone": "\u0252",
-      "start": 5.598628000000005,
-      "stop": 5.738628000000006
+      "label": "Pattern 4",
+      "start": 12.34375,
+      "stop": 12.59375
     },
     {
-      "phone": "n",
-      "start": 5.738628000000006,
-      "stop": 5.838628
+      "label": "Pattern 1",
+      "start": 12.59375,
+      "stop": 13.5625
     },
     {
-      "phone": "d\u032a",
-      "start": 5.838628,
-      "stop": 5.878628000000006
+      "label": "Pattern 4",
+      "start": 13.5625,
+      "stop": 14.0625
     },
     {
-      "phone": "\u0259",
-      "start": 5.878628000000006,
-      "stop": 5.918628000000005
+      "label": "Pattern 1",
+      "start": 14.0625,
+      "stop": 14.875
     },
     {
-      "phone": "h",
-      "start": 5.918628000000005,
-      "stop": 6.028628000000005
+      "label": "Pattern 4",
+      "start": 14.875,
+      "stop": 15.375
     },
     {
-      "phone": "ow",
-      "start": 6.028628000000005,
-      "stop": 6.068628000000004
+      "label": "Pattern 1",
+      "start": 15.375,
+      "stop": 15.96875
     },
     {
-      "phone": "\u026b",
-      "start": 6.068628000000004,
-      "stop": 6.2286280000000005
-    },
-    {
-      "phone": "s",
-      "start": 6.2286280000000005,
-      "stop": 6.408628000000007
-    },
-    {
-      "phone": "\u0250",
-      "start": 6.408628000000007,
-      "stop": 6.508628000000002
-    },
-    {
-      "phone": "\u00f0",
-      "start": 6.508628000000002,
-      "stop": 6.658628000000007
-    },
-    {
-      "phone": "\u025a",
-      "start": 6.658628000000007,
-      "stop": 6.7086280000000045
-    },
-    {
-      "phone": "k",
-      "start": 6.7086280000000045,
-      "stop": 6.818628000000004
-    },
-    {
-      "phone": "s",
-      "start": 6.818628000000004,
-      "stop": 6.908628000000007
-    },
-    {
-      "phone": "aj",
-      "start": 6.908628000000007,
-      "stop": 7.058628000000006
-    },
-    {
-      "phone": "d",
-      "start": 7.058628000000006,
-      "stop": 7.128628000000006
-    },
-    {
-      "phone": "\u0259",
-      "start": 7.128628000000006,
-      "stop": 7.158628000000007
-    },
-    {
-      "phone": "v",
-      "start": 7.158628000000007,
-      "stop": 7.198627999999999
-    },
-    {
-      "phone": "d\u032a",
-      "start": 7.198627999999999,
-      "stop": 7.248628000000004
-    },
-    {
-      "phone": "\u0259",
-      "start": 7.248628000000004,
-      "stop": 7.278628000000005
-    },
-    {
-      "phone": "w",
-      "start": 7.278628000000005,
-      "stop": 7.368628000000001
-    },
-    {
-      "phone": "\u0252\u02d0",
-      "start": 7.368628000000001,
-      "stop": 7.4786280000000005
-    },
-    {
-      "phone": "t",
-      "start": 7.4786280000000005,
-      "stop": 7.518628000000007
-    },
-    {
-      "phone": "\u025a",
-      "start": 7.518628000000007,
-      "stop": 7.668628000000005
-    },
-    {
-      "phone": "d\u032a",
-      "start": 8.078628000000002,
-      "stop": 8.218628000000002
-    },
-    {
-      "phone": "\u026a",
-      "start": 8.218628000000002,
-      "stop": 8.368628000000001
-    },
-    {
-      "phone": "n",
-      "start": 8.368628000000001,
-      "stop": 8.508628000000002
-    },
-    {
-      "phone": "s",
-      "start": 8.508628000000002,
-      "stop": 8.728628
-    },
-    {
-      "phone": "\u026a",
-      "start": 8.728628,
-      "stop": 8.788628000000003
-    },
-    {
-      "phone": "k",
-      "start": 8.788628000000003,
-      "stop": 8.888628000000004
-    },
-    {
-      "phone": "s",
-      "start": 8.888628000000004,
-      "stop": 9.048628
-    },
-    {
-      "phone": "t\u02b2",
-      "start": 9.048628,
-      "stop": 9.218628000000002
-    },
-    {
-      "phone": "i\u02d0",
-      "start": 9.218628000000002,
-      "stop": 9.428628000000003
-    },
-    {
-      "phone": "n",
-      "start": 9.428628000000003,
-      "stop": 9.568628000000004
-    },
-    {
-      "phone": "b",
-      "start": 10.698628,
-      "stop": 10.738628000000006
-    },
-    {
-      "phone": "\u0250",
-      "start": 10.738628000000006,
-      "stop": 10.848628000000005
-    },
-    {
-      "phone": "t",
-      "start": 10.848628000000005,
-      "stop": 10.988628000000006
-    },
-    {
-      "phone": "d\u032a",
-      "start": 11.568628000000004,
-      "stop": 11.668628000000005
-    },
-    {
-      "phone": "\u026a",
-      "start": 11.668628000000005,
-      "stop": 11.738628000000006
-    },
-    {
-      "phone": "s",
-      "start": 11.738628000000006,
-      "stop": 11.808628000000006
-    },
-    {
-      "phone": "f",
-      "start": 11.808628000000006,
-      "stop": 11.998628000000004
-    },
-    {
-      "phone": "ej",
-      "start": 11.998628000000004,
-      "stop": 12.128628000000006
-    },
-    {
-      "phone": "s",
-      "start": 12.128628000000006,
-      "stop": 12.288628000000003
-    },
-    {
-      "phone": "\u0259",
-      "start": 12.288628000000003,
-      "stop": 12.338628
-    },
-    {
-      "phone": "v",
-      "start": 12.338628,
-      "stop": 12.408628000000007
-    },
-    {
-      "phone": "\u03b8",
-      "start": 12.408628000000007,
-      "stop": 12.498628000000004
-    },
-    {
-      "phone": "\u026a",
-      "start": 12.498628000000004,
-      "stop": 12.608628000000003
-    },
-    {
-      "phone": "\u014b",
-      "start": 12.608628000000003,
-      "stop": 12.718628000000002
-    },
-    {
-      "phone": "z",
-      "start": 12.718628000000002,
-      "stop": 12.868628000000001
-    },
-    {
-      "phone": "s",
-      "start": 12.968628000000002,
-      "stop": 13.178628000000003
-    },
-    {
-      "phone": "\u0289\u02d0",
-      "start": 13.178628000000003,
-      "stop": 13.388628000000004
-    },
-    {
-      "phone": "n",
-      "start": 13.388628000000004,
-      "stop": 13.568628000000004
-    },
-    {
-      "phone": "t\u0283",
-      "start": 13.568628000000004,
-      "stop": 13.728628
-    },
-    {
-      "phone": "ej",
-      "start": 13.728628,
-      "stop": 13.948628
-    },
-    {
-      "phone": "n",
-      "start": 13.948628,
-      "stop": 14.028628000000005
-    },
-    {
-      "phone": "d\u0292",
-      "start": 14.028628000000005,
-      "stop": 14.178628000000003
-    },
-    {
-      "phone": "d",
-      "start": 14.178628000000003,
-      "stop": 14.228628
+      "label": "Pattern 4",
+      "start": 15.96875,
+      "stop": 16.0
     }
   ],
-  "core_display_scale": 3.478947877883911,
-  "drive_display_scale": 1.351346492767334,
-  "packet_sha256": "bc7b7f44062584dbd2133e3577d62524fd661bef55e131c671a330ac373a1982",
-  "provenance": "One fresh v3 switching / speech recording. Actual values, no fitted visual matching. Voltage is selected before CAR/filter; plotted in arbitrary units. Core is the broadband source projection. HGA is the mean of seven normalized input bins. The full training packet retains all20 bins at float32.",
-  "audio_source": "Independent LibriSpeech train-clean-100 alignments; acoustic timing, random phone-to-input patterns."
+  "core_display_scale": 3.895939588546753,
+  "drive_display_scale": 1.973536491394043,
+  "packet_sha256": "8c7158a0e75b37aa99aae9088ddd6cb5338774efefbb1adaccb220e6df3406fe",
+  "provenance": "One fresh v3 switching / native recording. Actual values, no fitted visual matching. Voltage is selected before CAR/filter; plotted in arbitrary units. Core is the broadband source projection. HGA is the mean of seven normalized input bins. The full training packet retains all20 bins at float32.",
+  "driving": "Original native switching patterns; no speech events."
 }
