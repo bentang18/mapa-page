@@ -21,6 +21,7 @@
   },
   "renderer": "Unchanged v3 broadband voltage \u2192 CAR/filter/STFT",
   "walkthrough": "walkthrough/",
-  "status": "Generator ready; owner still binds dataset at existing trainer input boundary; learning benefit untested",
-  "delivery": "HELD_NOT_SENT"
+  "status": "Historical v3 release, superseded for first-test selection by structured v6",
+  "delivery": "HELD_NOT_SENT",
+  "selected_first_test": "structured-v6/"
 }

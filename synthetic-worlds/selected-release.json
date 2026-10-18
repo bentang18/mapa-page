@@ -1,0 +1,15 @@
+{
+  "selected_version": "v6",
+  "status": "FROZEN_FOR_FIRST_PRETRAINING_TEST",
+  "adopted_date": "2026-10-18",
+  "driving": "native",
+  "renderer": "existing v3 broadband",
+  "recipe_version": "e7f214b4d29f3f1ad60393c9cb0e6009288844625df01a2098b3b17097833f23",
+  "viewer": "structured-v6/",
+  "generator_priors_changed": false,
+  "later_comparisons": "exploratory; not selected",
+  "handoff": "prepared privately; HELD_NOT_SENT",
+  "native_rate_frontend_qualification": "pending in learner implementation",
+  "transfer_benefit": "untested",
+  "training_launched": false
+}
