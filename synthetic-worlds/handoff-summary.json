@@ -1,0 +1,21 @@
+{
+  "status": "Generator and reader prepared; production trainer wiring and learning test pending.",
+  "selectable_systems": [
+    "linear",
+    "kernel",
+    "switching",
+    "rslds",
+    "local",
+    "ei",
+    "oscillator",
+    "event"
+  ],
+  "renderer": "One adopted broadband voltage renderer -> CAR/filter/STFT -> robust normalization.",
+  "event": {
+    "mechanically_qualified": true,
+    "mixture_weight": null,
+    "description": "Real acoustic phone timings drive a random recurrent network; neural response is simulated."
+  },
+  "training_launched": false,
+  "transfer_benefit_tested": false
+}
