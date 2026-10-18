@@ -1,29 +1,46 @@
 {
-  "status": "All8generator options prepared at the existing pretraining data-reader boundary; trainer wiring and learning comparisons pending.",
-  "selectable_systems": [
-    "linear",
-    "kernel",
-    "switching",
-    "rslds",
-    "local",
-    "ei",
-    "oscillator",
-    "event"
-  ],
-  "composition": {
-    "time_profiles": [
-      "sustained",
-      "onset",
-      "overlap"
-    ],
-    "phone_patterns": [
-      "independent",
-      "shared"
-    ],
-    "per_world": "One fixed sampled combination, network and observation; balanced6event-world blocks."
+  "status": "Prepared generator and existing reader; trainer integration and learning tests pending.",
+  "delivery": "Held; not sent.",
+  "framework": "Seven response families \u00d7 native/speech driving \u00d7 input shape \u00d7 phone-pattern sharing \u00d7 observation.",
+  "historical_eight": "Seven native presets plus speech-driven switching remain reproducible; speech now drives all seven.",
+  "qualification": {
+    "families": 7,
+    "speech_rules": 6,
+    "coverages": 7,
+    "cells": 294,
+    "full_packets": 42,
+    "reader_windows": 672,
+    "native_controls_reused": 56
   },
-  "renderer": "One adopted broadband voltage renderer -> CAR/filter/STFT -> robust normalization.",
-  "plan": "Existing base8world blocks + explicit event6world blocks. No default event mass or real/synthetic ratio.",
-  "training_launched": false,
-  "transfer_benefit_tested": false
+  "public_display": "Quantized band means only; full20bin packets remain local.",
+  "real_reference": "Independent anonymous comparison clips, same masks; not speech-event aligned.",
+  "success_limit": "Mechanical packet qualification does not demonstrate realistic neural representations or useful pretraining.",
+  "remaining_axes": "diversity-axes.json",
+  "training": false,
+  "layout_sampling": {
+    "rule": "Random H and W; plain full rectangle, fixed per recording.",
+    "height": [
+      8,
+      24
+    ],
+    "width": [
+      8,
+      34
+    ],
+    "max_contacts": 512,
+    "source_shape": [
+      24,
+      34
+    ],
+    "frequency_matching": false,
+    "held_template_blacklist": false,
+    "display": "Four boundary examples; native and overlap/shared speech driving on all seven families. Production supports all six speech inputs."
+  },
+  "layout_qualification": {
+    "cells": 56,
+    "full_packets": 14,
+    "all20bins": true,
+    "reader_windows": 224,
+    "CAR_verified": true
+  }
 }

@@ -1,0 +1,87 @@
+{
+  "version": "synthetic-compositional-families-v3",
+  "recipe_version": "808294701391eb70687f94d6a01ff75ee57188ca3ffbc90f7cbb8ca3ac91d615",
+  "input_dimensions": 16,
+  "input_tau_s": [
+    0.03,
+    0.15
+  ],
+  "shared_rank": 4,
+  "shared_variance_fraction": 0.5,
+  "ei_input_gain": 3.125,
+  "shapes": [
+    "sustained",
+    "onset",
+    "overlap"
+  ],
+  "patterns": [
+    "independent",
+    "shared"
+  ],
+  "families": [
+    "linear",
+    "kernel",
+    "switching",
+    "rslds",
+    "local",
+    "ei",
+    "oscillator"
+  ],
+  "coverage_choices": {
+    "original-two": {
+      "source_shape": [
+        12,
+        23
+      ],
+      "contacts": [
+        125,
+        242
+      ]
+    },
+    "all-seven": {
+      "source_shape": [
+        12,
+        34
+      ],
+      "contacts": [
+        125,
+        242,
+        251,
+        249,
+        255,
+        126,
+        256
+      ]
+    },
+    "random-grid": {
+      "source_shape": [
+        24,
+        34
+      ],
+      "contacts": []
+    }
+  },
+  "native_worlds_per_block": 8,
+  "speech_worlds_per_block": 48,
+  "mixture_weight": null,
+  "training": false,
+  "random_grid": {
+    "rule": "Random H and W; plain full rectangle, fixed per recording.",
+    "height": [
+      8,
+      24
+    ],
+    "width": [
+      8,
+      34
+    ],
+    "max_contacts": 512,
+    "source_shape": [
+      24,
+      34
+    ],
+    "frequency_matching": false,
+    "held_template_blacklist": false,
+    "display": "Four boundary examples; native and overlap/shared speech driving on all seven families. Production supports all six speech inputs."
+  }
+}

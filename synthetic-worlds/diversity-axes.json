@@ -1,0 +1,175 @@
+{
+  "principle": "Increase useful diversity by composing and sampling simple rules. Keep the frontend/tensor meaning stable.",
+  "evidence_level": "Implementation audit and research judgment; no new empirical or biological validity claims.",
+  "axes": [
+    {
+      "axis": "Response equations",
+      "current": "Seven families; fresh graph, memory, coupling, mode or local parameters within existing priors.",
+      "unexplored": "Broader graph motifs, modularity, non-normal linear dynamics, state-dependent couplings. E/I feedback coefficients and several dimensions remain fixed.",
+      "priority": "Later; add only if a learning/control result motivates it."
+    },
+    {
+      "axis": "External sequence",
+      "current": "Native stochastic drives or whole public read-speech utterances; speaker/chapter/utterance order sampled, literal phone timing retained.",
+      "unexplored": "Dialogue, spontaneous speech, different languages, separate perception/production phases, task trial hierarchy and long contextual dependencies.",
+      "priority": "High scientific gap; random phone vectors do not emulate speech semantics."
+    },
+    {
+      "axis": "Event-to-input timing",
+      "current": "Sustained, onset, causal overlap; one30\u2013150ms timescale per recording.",
+      "unexplored": "Input strength, multiple timescales, anticipation, causal delays, population-specific latency, refractory or saturating inputs, slower word/syllable envelopes.",
+      "priority": "Next compact extension if current inputs matter to transfer. Do not add all at once."
+    },
+    {
+      "axis": "Event-to-population organization",
+      "current": "Independent phone patterns or four random shared factors plus independent detail; persistent16D master input and family-appropriate projection.",
+      "unexplored": "Measured/articulatory phone relationships, context-dependent phone mappings, sparse versus distributed input sites, input rank and strength.",
+      "priority": "High uncertainty; current shared factors are random, not articulatory truth."
+    },
+    {
+      "axis": "Network and memory",
+      "current": "Original family-specific recurrence, switching, propagation, oscillation and timescale priors.",
+      "unexplored": "Common behavioral characterization across families; extended hierarchy, plasticity, delayed interactions, multi-area coupling.",
+      "priority": "First assess effective responses, not just coefficient counts."
+    },
+    {
+      "axis": "Within-recording change",
+      "current": "States evolve; network/input mapping/renderer stay fixed throughout each recording.",
+      "unexplored": "Slow arousal/session drift, changing gain/noise, fatigue, habituation, event-dependent adaptation beyond the E/I rule.",
+      "priority": "Plausible next recording-level axis; preserve temporal coherence."
+    },
+    {
+      "axis": "Across-recording hierarchy",
+      "current": "Independent fresh worlds; paired same-source observation controls remain available for inspection.",
+      "unexplored": "Multiple sessions sharing a persistent subject/network/map but with new recording conditions; calibrated correlated priors.",
+      "priority": "Useful for invariance tests; not automatically learned by MAE."
+    },
+    {
+      "axis": "Spatial observation",
+      "current": "Random integer H8\u201324 and W8\u201334, up to512contacts, plain rectangles fixed per recording over24\u00d734sourcefield. Existing reference masks remain an explicit option; no frequency matching or held-template blacklist.",
+      "unexplored": "Physical electrode pitch, cortical folding/geodesic distance, anatomical coverage, hardware-specific transfer functions and simultaneous arrays.",
+      "priority": "Tile geometry is not physical geometry. Do not claim hardware realism."
+    },
+    {
+      "axis": "Signal and spectral structure",
+      "current": "One broadband voltage renderer; frequency-dependent mixing; all20bins; HGA mixing0.65 and shared HGA factor off under the adopted recipe.",
+      "unexplored": "Broader validated spectral/cross-bin covariance and coherence priors, non-Gaussian or correlated innovations, subject-specific HGA dynamics.",
+      "priority": "Retain current measured constraints; do not widen every parameter independently."
+    },
+    {
+      "axis": "Recording nuisances",
+      "current": "Existing stationary added voltage noise, contact sensitivity and observation variation.",
+      "unexplored": "Bad/missing contacts, intermittent artifacts, line noise, reference changes, filtering/hardware differences, nonstationary interference.",
+      "priority": "Separate controlled nuisances from the clean dynamics distribution; actual current availability is all-true."
+    },
+    {
+      "axis": "Mixture and effective exposure",
+      "current": "Explicit native/speech counts and geometry set; base conditional family weights preserved; no hidden real/synthetic ratio.",
+      "unexplored": "Optimal mixture weights, difficulty curriculum, post-normalization diversity, actual patch exposure versus world counts.",
+      "priority": "Measure in the first learning experiment; visual diversity is not the target metric."
+    },
+    {
+      "axis": "Learning usefulness",
+      "current": "Mechanical packet/input qualifications and native controls; no training in this work.",
+      "unexplored": "Does coordinated synthetic activity improve held-out-subject performance beyond real-only SSL and smoothing/statistical controls?",
+      "priority": "Decisive next experiment with the pretraining owner after Ben releases the held handoff."
+    }
+  ],
+  "remaining_fixed_choices": [
+    {
+      "component": "Speech input",
+      "fixed": "16master coordinates; phone-vector SD0.8; shared rank4 and50%variance; three shapes; tau30\u2013150ms; fixed coupling normalization and EI gain3.125.",
+      "implication": "Input strength and organization cover a narrower prior than the family catalogue suggests. Linear family input changes can be weak.",
+      "next": "Highest-priority candidate is one sampled input-strength scale, with timing range reviewed together. Not silently added in this release."
+    },
+    {
+      "component": "Response families",
+      "fixed": "Linear16D/symmetric OU/Gaussian innovations; rSLDS16D/four modes/stay-next structure; E/I three states with fixed feedback weights and spatial kernels.",
+      "implication": "Fresh seeds vary many actual coefficients, but do not explore every network structure or stochastic process.",
+      "next": "Keep these simple comparators. New graph motifs or dimensions are optional future prior changes, not required new family names."
+    },
+    {
+      "component": "Speech organization",
+      "fixed": "One read-speech speaker/chapter per world; random phone vectors/shared features; no explicit word/syllable or listening/production state driver; literal acoustic timing without fitted neural delays.",
+      "implication": "Sequence organization is real; neural/phonetic correspondence is speculative.",
+      "next": "A small hierarchical or delayed input extension is a separate test; no articulation/semantic claims."
+    },
+    {
+      "component": "Recording changes",
+      "fixed": "Maps/network/observation fixed within64s; stationary added-noise family; all scalar availability true; no hardware/QC dropouts.",
+      "implication": "Within-recording drift and nuisance variation are narrower than real recordings.",
+      "next": "Potential shared gain/noise drift or availability masks can be simple, but preserve current clean-data control."
+    },
+    {
+      "component": "Renderer",
+      "fixed": "One broadband voltage construction, five source projections, fixed HGA mixing0.65 and shared HGA factor0; finite spectral/spatial parameter ranges.",
+      "implication": "All cores are observed through one class of measurement process. Broader renderer diversity remains untested.",
+      "next": "Preserve the qualified renderer for the first learning comparison; do not add special cases for every mismatch."
+    },
+    {
+      "component": "Mixture",
+      "fixed": "Conditional family mass oscillator1/4, others1/8; six speech profiles in complete balanced blocks.",
+      "implication": "Diversity is present, but exposure weights are an inherited design choice, not optimized or physiologically measured.",
+      "next": "Native/speech counts and real/synthetic mass remain explicit owner decisions."
+    },
+    {
+      "component": "Practical bounds",
+      "fixed": "H8\u201324,W8\u201334,contact count\u2264512; fixed24\u00d734sourcefield;80sstate history/32sretained packets.",
+      "implication": "Finite engineering bounds, not a claim that neural recordings require these dimensions/durations.",
+      "next": "Broaden if the actual target needs it; avoid an unlimited geometry prior."
+    },
+    {
+      "component": "Keep fixed",
+      "fixed": "Physical frequency bins, CAR/filter/STFT definitions, feature axes, normalization recipe and split/identity checks.",
+      "implication": "These define what a model input means; randomizing them indiscriminately would mix incompatible inputs.",
+      "next": "Variation belongs upstream in activity/observation, with any frontend change separately declared."
+    }
+  ],
+  "effective_input_difference_evidence": {
+    "metric": "RMS difference of quantized normalized HGA band means versus sustained-independent on the same world and grid; one world/family, not transfer/SNR/population proof.",
+    "by_family": {
+      "ei": {
+        "min": 0.010608026445124,
+        "median": 0.02995155119002736,
+        "max": 0.061928804554720794
+      },
+      "kernel": {
+        "min": 0.03999959882071524,
+        "median": 0.06870438166599006,
+        "max": 0.09504241982464005
+      },
+      "linear": {
+        "min": 0.015051383798846654,
+        "median": 0.022075014002431066,
+        "max": 0.02975607626636479
+      },
+      "local": {
+        "min": 0.04207979793907514,
+        "median": 0.08431576514211105,
+        "max": 0.1142306119869472
+      },
+      "oscillator": {
+        "min": 0.07364788757360549,
+        "median": 0.12033845729274452,
+        "max": 0.2033285408563882
+      },
+      "rslds": {
+        "min": 0.11092309140077024,
+        "median": 0.13027637850847423,
+        "max": 0.23503970303120253
+      },
+      "switching": {
+        "min": 0.04180316960511346,
+        "median": 0.10990177048982566,
+        "max": 0.15637634682578058
+      }
+    }
+  },
+  "source_hashes": {
+    "src/speech_decoding/uecog/synthetic_composition.py": "c38bb7f0ac988924674c98ddbb69972ecaf31756e4aef78eff058416fbd472a2",
+    "src/speech_decoding/uecog/synthetic_drives.py": "ff4480154ebabaae4cbcc8c3c88eebd64dba32d4e6ce0e6a2d1f8595abe4b9dc",
+    "src/speech_decoding/uecog/synthetic_layouts.py": "7284b9e332e7520fb8917554a31fcbfb64c37832f94ef1183c4dc5376d996478",
+    "reports/uecog_synthetic_systems_2026-10-15/generate_worlds.py": "58c73dd6148cec706b163642a9c41e2479177c8919cf9f585fbf2ae247bb6bb3",
+    "reports/uecog_synthetic_systems_2026-10-15/exploratory_cores.py": "bf70c2718ac8627c4312697c6ddfb34b0e6b3e323fe208e305d9c4d38ce3a8e8"
+  }
+}
