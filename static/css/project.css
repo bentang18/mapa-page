@@ -8,21 +8,25 @@ button {font:inherit;cursor:pointer}
 a:focus-visible,button:focus-visible,summary:focus-visible {outline:2px solid #555;outline-offset:4px}
 .skip {position:fixed;top:-80px;left:20px;padding:12px;background:white;z-index:10}
 .skip:focus {top:10px}
-.intro {max-width:1060px;margin:auto;padding:24px 24px 10px;text-align:center}
-.title {font-size:clamp(28px,3.4vw,40px);line-height:1.2;letter-spacing:-.035em;font-weight:500;margin:0 0 14px}
-.authors {font-size:16px;line-height:1.7;margin:0 0 6px}
-.affil {font-size:14px;line-height:1.6;color:#666;margin:0}
-.venue {font-size:16px;line-height:1.6;font-weight:600;color:#262626;margin:10px 0 0}
-.venue a {text-decoration:none}
-.venue a:hover {text-decoration:underline}
-.venue + .links {margin-top:14px}
-.links {display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:24px;font-size:15px;line-height:20px}
-.links-row {display:flex;justify-content:center;gap:26px}
+.intro {max-width:1060px;margin:auto;padding:26px 24px 12px;text-align:center}
+.title {font-size:clamp(34px,3.4vw + 4px,50px);line-height:1.12;letter-spacing:-.04em;font-weight:550;margin:0 0 15px}
+.authors {font-size:15px;line-height:1.4;margin:0 0 2px}
+.affil {font-size:15px;line-height:1.4;color:#666;margin:0}
+.venue {font-size:19px;line-height:1.35;font-weight:600;color:#262626;margin:12px 0 0}
+.venue .spotlight {color:#e82f50;font-weight:500;white-space:nowrap}
+.links {display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:12px;font-size:15px;line-height:1.35}
+.links-row {display:flex;justify-content:center;gap:22px}
 .links a {color:var(--accent);font-weight:500;text-decoration-thickness:1px}
 .links a:hover {text-decoration-thickness:2px}
 .hero {max-width:968px;margin:0 auto 38px;padding:0 24px}
 .hero-live {display:block;width:100%;aspect-ratio:1400/660;height:auto;border:0;background:white}
 .hero video {width:100%}
+@media(min-width:701px) and (max-height:740px) {
+ .intro {padding-top:20px}
+ .title {font-size:clamp(34px,3.4vw + 4px,44px)}
+ /* Leave room for the header while preserving the video's aspect ratio. */
+ .hero {max-width:min(968px, calc((100svh - 306px) * 1400 / 660 + 48px))}
+}
 .chapter {max-width:968px;padding:48px 24px;margin:auto}
 .chapter-content {min-width:0}
 .chapter-content>h2,.chapter-content>p:not(.table-caption):not(.regime-description),.method-break>h3,.method-break>p {max-width:44rem;margin-left:auto;margin-right:auto}
@@ -72,10 +76,10 @@ details p {font-size:14px;line-height:1.75}
 .page-footer p {line-height:1.7;margin:0}
 .wordmark {font-size:16px;text-decoration:none;color:#333}
 @media(max-width:700px) {
- .intro {padding:24px 22px 16px}
- .title {font-size:clamp(19px,5.3vw,34px)}
- .authors {font-size:14px}
- .affil {font-size:13px}
+ .intro {padding:22px 22px 12px}
+ .title {font-size:clamp(23px,5.3vw + 4px,38px)}
+ .intro .title>span {white-space:normal}
+ .venue {font-size:clamp(15px,3.6vw,18px)}
  .hero {padding:0 22px;margin-bottom:20px}
  .hero-live {aspect-ratio:1400/660}
  .chapter {padding:32px 22px}
